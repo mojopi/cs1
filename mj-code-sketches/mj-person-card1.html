@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- This is a link to the google font "quicksand," which is what I'm currently using on the headshot and description divs. -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Your Person Card!</title>
+    <style type="text/css">
+    .container {
+        /*        background-color:red;
+*/
+        width: 15vw;
+        text-align: center;
+    }
+
+    /*Below is the styling for a div with the class name of headshot, which is the front of your card*/
+
+    .headshot {
+        backface-visibility: visible;
+        background-image: url(https://cs1-2019-20.s3-us-west-2.amazonaws.com/molly1.jpg);
+        perspective: 1000;
+        transform: rotateY(0deg);
+        background-color: rgba(245, 245, 245, 0.5);
+        width: 15vw;
+        height: 15vw;
+        position: relative;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10%;
+        top: 0%;
+        left: 0%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+        background-color: rgb(176, 176, 176);
+        border: 1px grey solid;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        /*-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;*/
+        transition: 0.5s ease-in;
+
+    }
+
+    #mollyj-headshot1:hover {
+        /*transform: rotate(720deg);*/
+        background-image: ();
+        animation-name: dance;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        transition: ease;
+
+
+    }
+
+    @keyframes dance {
+
+        0% {
+            width: 15vw;
+            height: 15vw;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            width: 22.5vw;
+            height: 22.5vw;
+            transform: rotate(45deg);
+            background-position: left;
+
+        }
+
+
+        100% {
+            width: 15vw;
+            height: 15vw;
+            transform: rotate(0deg);
+
+        }
+    }
+
+    /*Below is the styling for a div with the class name of "your-name." It's is the div containing  the text of your name, which is underneath the headshot div. This is what you'll click on to show the description on the "back" of your card.*/
+
+
+    .your-name {
+        backface-visibility: visible;
+        z-index: 10;
+        /*        width: 100%;
+*/
+        /*        text-align: center;
+*/
+        position: relative;
+        top: 0%;
+        font-size: 2.5vw;
+        font-family: Quicksand, sans-serif;
+        color: rgb(105, 105, 105);
+
+    }
+
+
+
+    /*Below is a class with the name "description-invisible." The "description" is the class name I've given to a div which is the child of the headshot div. Even though it's right on top of the headshot div, we don't see it because it has an opacity of 0 and is invisible!*/
+
+
+    .description-invisible {
+        opacity: 0;
+        transform: rotateY(0deg);
+        transition: 0.5s ease-in-out;
+        font-family: Quicksand, sans-serif;
+        font-size: 1.25vw;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+
+
+
+
+    }
+
+    /*
+Below is the class name and styling we give to the description div when we click on the divs with the class "your-name."" It makes the description div visible by giving it an opacity of 1. It also obviously has other CSS properties which make the description div look similar to the headshot div. 
+*/
+    .description-apparent {
+        text-align: left;
+        perspective: 1000;
+        /*        transition-delay: 0.5s;
+*/
+        transition: 0.1s ease-in;
+        transform: rotateY(-180deg);
+        font-family: Quicksand, sans-serif;
+        font-size: 1.25vw;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        animation-name: fadeToTransparent;
+        animation-duration: 8s;
+        background-color: rgb(176, 176, 176);
+        width: 95%;
+        height: 95%;
+        border-radius: 10%;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        padding: 2%;
+    }
+
+    /*Below are the properties of the animation that will fade divs with the "description-apparent" class back to being transparent with an opacity of 0. */
+
+    @keyframes fadeToTransparent {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        ;
+
+        90% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .headshot-flip {
+        transform: rotateY(180deg);
+        width:15vw;
+        height:15vw;
+        background-color: rgba(245, 245, 245, 0.5);
+        background-image: url();
+         margin-bottom: 10%;
+        margin-right: 2%;
+        /*backface-visibility: hidden;
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!--    below is the headshot div
+ -->
+        <div id="mollyj-headshot1" class="headshot">
+            <!--    below is the description div, which is a child of the headshot div.
+ -->
+            <div id="mollyj-description1" class="description description-invisible">
+                <br>
+                Website: <a href="http://mollyj.org">Mollyj.org</a><br>
+                <span style="font-size:0.9em;">Podcast:<a href="http://thisteenagelife.org">thisteenagelife.org</a></span>
+
+                    <br>
+                    Github: <a href="http://mojopi.github.io">mojopi.github.io</a><br><br>
+                    Listened to Billie Eilish this summer while driving in Albania;).
+                    <br>
+            </div>
+            <!--  below is the div with the class of "your-name." the "onclick=showDescription()" attribute is saying that when the "onclick" event is triggered, call the function "showDescription" (a function I wrote in the javascript). The "animationend=hideDescription()" attribute is saying that when the animationend event is triggered, to call the function "hideDescription," which I also wrote in the javascript section.
+ -->
+        </div>
+        <div onclick=showDescription() animationend=hideDescription() class="your-name">Molly J</div>
+    </div>
+    <audio id="bad-guy" src="./audio/bad-guy.m4a"></audio>
+    <script>
+    //below I'm adding an event listener so that when someone clicks on the on div with the class "your-name" div at the bottom of the headshot, a class is added to the *description* div called "description-apparent," and a class called "description-invisible" is removed. Because of the properties in the description-apparent class, when the div is assigned to this class, it becomes visible in the browser for 15 seconds. Because there is an animation property which, as I wrote it changes the opacity of the description div from 1 back to 0 — the divs with the description-apparent class become visible for 15s. //
+
+    var yourName = document.getElementsByClassName("yourName");
+    var headshot = document.getElementsByClassName("headshot");
+    var description = document.getElementsByClassName("description");
+    // var headshot:hover = document.getElementsByClassName("headshot:hover");
+
+    function showDescription() {
+        for (let item of headshot) {
+            item.classList.add("headshot-flip");
+            setTimeout(function(){item.classList.remove("headshot")},500);
+        }
+        for (let item of description) {
+            setTimeout(
+                function() {
+                    item.classList.add("description-apparent");
+                    item.classList.remove("description-invisible")
+                }, 200);
+
+        }
+
+
+    };
+    //below I'm adding an event listener so that when the animation ends, the div is re-assigned the class of"description-invisible" and the "description-apparent" class is removed//
+
+    for (let item of description) {
+        item.addEventListener("animationend",
+            function() {
+                console.log("hi");
+                item.classList.remove("description-apparent");
+                item.classList.add("description-invisible");
+            })
+    };
+
+    for (let item of headshot) {
+        item.addEventListener("animationend", function() {
+            item.classList.remove("headshot-flip");
+            item.classList.add("headshot");
+        })
+    };
+
+    var badGuy = document.getElementById("bad-guy");
+
+    var molly = document.getElementById("mollyj-headshot1")
+    molly.addEventListener("mouseenter", function() {
+        badGuy.play();
+
+    })
+
+    molly.addEventListener("mouseout", function() {
+        badGuy.pause();
+
+    })
+    </script>
+</body>
+
+</html>

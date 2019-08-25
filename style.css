@@ -1,0 +1,407 @@
+
+/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
+2. the links work on the descriptiona-apparent div*/
+
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    background-image: url(imgs/purple-background1.png);
+    /*    opacity:0.7;
+*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#bar a {
+    color: rgb(105, 105, 105);
+
+    text-decoration: none;
+}
+
+#welcome{
+    top: 0%;
+    height: 100%;
+
+}
+
+#learning-goals {
+     top: 100%;
+    height: 200%;
+    
+}
+
+#expectations{
+     top: 300%;
+    height: 250%;
+
+}
+
+#resources {
+    top: 550%;
+    height: 200%;
+
+}
+
+#resources a{
+    font-color:blue;
+}
+
+
+
+#team {
+    top: 750%;
+    height: 450%;
+
+}
+
+
+
+#bar {
+    padding-left: 2%;
+    width: 15%;
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    background-color: rgba(245, 245, 245, 0.5);
+    color: rgb(105, 105, 105);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+}
+
+
+
+
+.textbox {
+    z-index: 1;
+    width: 55%;
+    left: 25%;
+    position: absolute;
+    padding-top: 5%;
+        font-size: 1.5vw;
+
+}
+
+/*#aboutB {}*/
+
+
+
+#faces {
+    position: relative;
+    left: 17%;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+}
+
+.container {
+    width: 15vw;
+    /*    display:inline;
+
+*/
+    margin: 1%;
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+    display: inline-block;
+
+
+}
+
+/*Below is the styling for a div with the class name of headshot, which is the front of your card*/
+
+.headshot {
+    text-align: left;
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: rotateY(0deg);
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 5%;
+    /* margin-right: 2%;
+        margin-bottom: 2%;
+*/
+    background-color: rgb(176, 176, 176);
+    border: 1px grey solid;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    /*-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;*/
+    transition: 0.5s ease-in;
+
+}
+
+
+
+#mollyj-headshot1:hover {
+    /*transform: rotate(720deg);*/
+    background-image: ();
+    animation-name: mollyj1-dance;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transition: ease;
+
+
+
+}
+
+#mollyj-headshot1 {
+    background-image: url(https://cs1-2019-20.s3-us-west-2.amazonaws.com/molly1.jpg);
+}
+
+#mollyj-headshot2 {
+    background-image: url(./imgs/molly2.jpg);
+
+}
+
+#mollyj-bird {
+    height: 15vw;
+    border-radius: 10%;
+    position: absolute;
+    width: 15vw;
+    /*                background-color: Red;
+*/
+    z-index: 10;
+    backface-visibility: hidden;
+
+
+
+}
+
+
+#mollyj-bird:hover {
+    backface-visibility: hidden;
+
+    height: 15vw;
+    width: 15vw;
+    /*transform: rotate(720deg);*/
+    background-position: center;
+    animation-name: bird-dance;
+    background-size: cover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    background-color: rgba(102, 153, 0, 0.95);
+
+
+
+}
+
+@keyframes mollyj1-dance {
+
+    0% {
+        width: 15vw;
+        height: 15vw;
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        width: 22.5vw;
+        height: 22.5vw;
+        transform: rotate(45deg);
+        background-position: left;
+
+    }
+
+
+    100% {
+        width: 15vw;
+        height: 15vw;
+        transform: rotate(0deg);
+
+    }
+}
+
+@keyframes bird-dance {
+    0% {
+
+        background-image: url(./imgs/paradise4.png);
+    }
+
+    20% {
+        background-image: url(./imgs/paradise2.png);
+    }
+
+    40% {
+        background-image: url(./imgs/paradise3.png);
+    }
+
+    60% {
+        background-image: url(./imgs/paradise1.png);
+    }
+
+    100% {
+        background-image: url(./imgs/paradise4.png);
+    }
+
+}
+
+#mollyj-headshot3{
+    background-image:url(https://lafeber.com/pet-birds/wp-content/uploads/2018/07/transparent-BlueandGoldMacaw.png);
+}
+
+/*Below is the styling for a div with the class name of "your-name." It's is the div containing  the text of your name, which is underneath the headshot div. This is what you'll click on to show the description on the "back" of your card.*/
+
+
+.your-name {
+    backface-visibility: visible;
+    z-index: 10;
+    /*        width: 100%;
+*/
+    /*        text-align: center;
+*/
+    position: relative;
+    top: 0%;
+    font-size: 2.5vw;
+    font-family: Quicksand, sans-serif;
+    color: rgb(105, 105, 105);
+
+}
+
+
+
+/*Below is a class with the name "description-invisible." The "description" is the class name I've given to a div which is the child of the headshot div. Even though it's right on top of the headshot div, we don't see it because it has an opacity of 0 and is invisible!*/
+
+
+.description-invisible {
+    z-index: -10;
+    opacity: 0;
+    transform: rotateY(0deg);
+    transition: 0.5s ease-in-out;
+    font-family: Quicksand, sans-serif;
+    font-size: 1.25vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+
+
+
+}
+
+/*
+Below is the class name and styling we give to the description div when we click on the divs with the class "your-name."" It makes the description div visible by giving it an opacity of 1. It also obviously has other CSS properties which make the description div look similar to the headshot div. 
+*/
+.description-apparent {
+    z-index: 10;
+    text-align: left;
+    perspective: 1000;
+    /*        transition-delay: 0.5s;
+*/
+    transition: 0.1s ease-in;
+    transform: rotateY(-180deg);
+    font-family: Quicksand, sans-serif;
+    font-size: 1.25vw;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    animation-name: fadeToTransparent;
+    animation-duration: 8s;
+    background-color: rgb(176, 176, 176);
+    width: 95%;
+    height: 95%;
+    border-radius: 10%;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    padding: 2%;
+}
+
+
+
+/*Below are the properties of the animation that will fade divs with the "description-apparent" class back to being transparent with an opacity of 0. */
+
+@keyframes fadeToTransparent {
+    0% {
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    50% {
+        opacity: 1;
+        z-index: 1000;
+
+    }
+
+    ;
+
+    90% {
+        opacity: 1;
+        z-index: 1000;
+
+    }
+
+    100% {
+        opacity: 1;
+        z-index: 1000;
+
+    }
+}
+
+.headshot-flip {
+    transform: rotateY(180deg);
+    width: 15vw;
+    height: 15vw;
+    background-color: rgba(245, 245, 245, 0.5);
+    background-image: url();
+    margin-bottom: 10%;
+    margin-right: 2%;
+    border-radius: 10%;
+    text-align: left;
+    z-index: -10;
+}
+
+/*.container p{
+    top:50%;
+}*/
+
+
+
+
+@media (max-device-width: 667px) {
+
+
+    #about {
+        height: 100%;
+        top: 0%;
+        width: 150%;
+    }
+
+    #resources {
+        top: 100%;
+        height: 200%;
+    }
+
+
+    #squad {
+        top: 350%;
+        height: 200%;
+    }
+
+
+
+
+
+}

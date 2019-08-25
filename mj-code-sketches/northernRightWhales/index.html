@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+<head>
+    <title>Northern Right Whales</title>
+    <style type="text/css">
+    body {
+        font-family: 'Quicksand', sans-serif;
+        padding: 10%;
+
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .square {
+
+
+        width: 600px;
+        height: 200px;
+        display: inline-block;
+
+    }
+
+    #bottomright {
+        background-color: blue;
+
+    }
+
+    #topright {
+        background-color: red;
+
+    }
+
+    #intro {
+        padding: 2%;
+/*        background-image: url(1.png);
+*/        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+/*        border: dotted 2px;
+*/        opacity: 0.8;
+    }
+
+    #intro-text {
+        color: #5F9EA0;
+        opacity: 1;
+
+    }
+    </style>
+</head>
+
+<body>
+    <span style="font-size:60px;">Northern Atlantic Right Whale Death Count</span>
+    <div id="intro">
+        <div id="intro-text">
+            <p>As I watch whales this summer, I've been saddened by all the challenges that humans pose to Northern Right Whales in particular. Climate change is changing where their food (<i>e.g.</i>plankton) is going,  pushing them into Canada, where ships are hitting them. They're getting tangled in fishing gear that can cut into them and exhaust them until they die. Sound pollution by the military is stressing them out. As I've been obsessing over this issue and counting the number of whale deaths in such a small population, I decided to make this infographic.</p>
+        </div>
+    </div>
+    <h1>Estimated Northern Atlantic Right Whales remaning <u>in the world</u> as of August 2019.
+    </h1>
+    <script>
+    // var circle=document.getElementById('circle');
+    // circle.style.padding="18%";
+
+
+    function createInfoGraphic1() {
+        var whale = document.createElement("div");
+        document.body.appendChild(whale);
+        // circle.appendChild(whale);
+        whale.style.width = "10px";
+        whale.style.height = "10px";
+        // whale.style.backgroundColor="blue";
+        whale.style.display = "inline-block";
+        whale.style.margin = "5px";
+        whale.id = i;
+        // console.log("my id is " + i);
+        whale.style.backgroundImage = "url(5.png)";
+        whale.style.backgroundSize = "contain";
+        whale.style.borderRadius = "50%";
+        whale.style.backgroundPosition = "center";
+        whale.style.backgroundRepeat = "no-repeat";
+        whale.style.position = "relative";
+        whale.style.backgroundColor = "rgba(0, 0, 255, 0.5)";
+        // whale.style.left="40px";
+        // whale.style.left = Math.floor(Math.random() * 90) + "%)";
+        // whale.style.top = Math.floor(Math.random() * 90) + "%)";
+
+
+
+        // function color(i) {
+        //  if (square.id%2==0) {
+        //         square.style.backgroundColor = "red";
+        //     } else {square.style.backgroundColor = "blue" }
+        // }
+
+        // color();
+
+
+
+    };
+
+
+    for (var i = 0; i < 413; i++) {
+        createInfoGraphic1()
+    };
+
+
+
+
+
+    //question for self: try to explain why this works and why when i was passed as an argument into createCheckerboard that it didn't work. Also, try to explain why the if/else statement works when it's square.id;
+    </script>
+    <h1>413</h1>
+    <hr>
+
+    <body>
+        <h1>Number of Northern Atlantic Right Whales that we know where Killed since 2003.</i> </h1>
+        <div id="key">
+            <p>
+                <span style="color:rgba(242, 0, 0, 0.8)">Red</span> = all the whales who we know how they died.
+                <br>
+                --- = all the whales who died by being hit by ships or caught in fishing gear.
+            </p>
+        </div>
+        <script>
+        function createInfoGraphic2() {
+            let whale = document.createElement("div");
+
+            document.body.appendChild(whale);
+            // circle.appendChild(whale);
+            whale.style.width = "60px";
+            whale.style.height = "60px";
+            // whale.style.backgroundColor="blue";
+            whale.style.display = "inline-block";
+            whale.style.margin = "5px";
+            whale.id = i;
+            // console.log("my id is " + i);
+            whale.style.backgroundImage = "url(" + Math.round(Math.random() * 4) + ".png)";
+            whale.style.backgroundSize = "contain";
+            whale.style.borderRadius = "50%";
+            whale.style.backgroundPosition = "center";
+            whale.style.backgroundRepeat = "no-repeat";
+            whale.style.position = "relative";
+
+            if (whale.id >= 27) {
+                whale.style.backgroundColor =
+                    "rgba(242, 0, 0, 0.8)"
+            };
+
+
+
+            if (whale.id >= 31) {
+                whale.style.border =
+                    "dotted"
+            };
+        };
+
+        for (var i = 0; i < 70; i++) {
+            createInfoGraphic2()
+
+        };
+        </script>
+        <h1>70 whales dead in 16 years.</h1>
+        <h3>...that's a ton since they could possibly live to ~200, but rarely do because of allthe challenges they face.
+            2% of the population was killed this summer alone and the females only give birth starting at 10, depending on their health they have one baby every 3-5 years.</h3>
+        <p>Some articles worth reading:</p>
+        <ul>
+            <a href="https://www.nytimes.com/2019/05/23/science/right-whales-endangered.html?action=click&module=RelatedLinks&pgtype=Article">
+                <li>NYtimes: Where did all the right whales go?</li>
+            </a>
+            <a href="https://www.nytimes.com/2019/06/26/science/right-whale-death-endangered-species.html">
+                <li>Nytimes: Grandmother and Grandfather Among 4 Endangered Whales That Died This Month</li>
+            </a>
+            <a href="https://www.bbc.com/news/world-us-canada-48998569">
+                <li>BBC:North Atlantic right whales in crisis - and the people risking lives to save them</li>
+            </a>
+            <a href="https://www.theatlantic.com/science/archive/2019/06/1-north-atlantic-right-whales-have-died-month/592840/">
+                <li>The Atlantic: North Atlantic Right Whales Are Dying in Horrific Ways
+                </li>
+                <a href="https://www.the-scientist.com/news-opinion/seven-north-atlantic-right-whale-calves-spotted-so-far-this-year-65561">
+                    <li>The Scientist: 7 Northern Right Whale Calves Spotted</li>
+                </a>
+        </ul>
+    </body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Max</title>
+    <style type="text/css">
+    .square {
+
+
+        width: 600px;
+        height: 200px;
+        display: inline-block;
+
+    }
+
+    #bottomright {
+        background-color: blue;
+
+    }
+
+    #topright {
+        background-color: red;
+
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Sharks killed per hour</h1>
+    <!-- <div class="square" id="bottomright"> </div>
+<div class="square" id="topright"> </div>
+ -->
+    <script>
+    function createCheckerboard() {
+        var square = document.createElement("div");
+        document.body.appendChild(square);
+        square.style.width = "100px";
+        square.style.height = "100px";
+        // square.style.backgroundColor="blue";
+        square.style.display = "inline-block";
+        square.style.margin = "5px";
+        square.id=i;
+        console.log("my id is " + i);
+        square.style.backgroundImage="url(http://www.pngmart.com/files/5/Shark-PNG-Free-Download.png)";
+        square.style.backgroundSize="contain";
+        square.style.backgroundRepeat="no-repeat";
+
+    // function color(i) {
+    // 	if (square.id%2==0) {
+    //         square.style.backgroundColor = "red";
+    //     } else {square.style.backgroundColor = "blue" }
+    // }
+
+    // color();
+     
+
+
+    };
+
+
+    for (var i = 0; i < 1000; i++) {
+        createCheckerboard()
+    };
+
+    //question for self: try to explain why this works and why when i was passed as an argument into createCheckerboard that it didn't work. Also, try to explain why the if/else statement works when it's square.id;
+    </script>
+</body>
+
+</html>

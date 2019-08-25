@@ -1,0 +1,12 @@
+Notes to self:
+
+This has been extremely frustrating.
+
+click on the image and it goes away, and the description appears. You can do this by toggling it's class however IDs are more specific than classes.
+
+I also want it to re-appear and fade in after a few seconds. Another click on another card could trigger this.
+
+I've learned a bit about toggling
+I've learned a bit about the fact that with certain elements (opacity and z-index) are inherited
+
+I could _just_ make it so that when I click on the headshot, the description gets a new class, which makes it's opacity greater, and then, when click again, 

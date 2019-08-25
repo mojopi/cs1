@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Patrick+Hand" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Unlock" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Food for thought</title>
+</head>
+
+<body>
+    <div id="bar">
+
+        <br>
+        <p style="font-size:40px;"><b>stories</b></p>
+        
+        <a href="adobo.html">chicken adobo</a>
+        <br><br>
+        <!--         <a href="#section3">star☕</a>
+        <br><br>
+        <a href="#section4">thing</a>
+        <br><br>
+        <a href="#section5">thing</a>
+        <br><br>
+        <a href="#section6">thing</a>
+        <br> -->
+    </div>
+    <section id="section1">
+        <div class="horizontal-border" id="border-top"></div>
+        <div id="title"></div>
+        <div id="about-text">
+            <p>"Food For Thought" is a blog dedicated to sharing food related stories, and to understand what nourishment means to teenagers.<br> <br> This blog contains funny, traumatic, and sentimental narratives all related to what we eat. <br><br>
+            
+            To me, food has always been a connection to my heritage in the sense that it made me feel close to my grandmother who is a first generation immigrant from the Filipines.
+            <br><br>
+            
+            I wanted to invite other teenagers to share their stories with food and how they have made connections through food to identities and other people.<br><br>
+            
+            To read these stories, click the on the left side of the screen!
+            <br><br>
+
+            I hope that you enjoy (savor?) your time here, bon appetit!
+            </p>
+        </div>
+        <div class="horizontal-border" id="border-bottom"></div>
+    </section>
+    <script type="text/javascript">
+    var counter = 0;
+
+    var textCheese = document.getElementById("text-cheese");
+    var button = document.getElementById("next-button");
+    button.addEventListener("click",
+
+        function() {
+            counter = counter + 1;
+            if (counter % 2 == 0) { textCheese.style.opacity = "0"; } else if (counter % 2 == 1) { textCheese.style.opacity = "1"; }
+        }
+    )
+
+
+
+    // function makeBorder(d) {
+    //     var image = document.createElement("div");
+    //     document.body.appendChild(image);
+    //     image.id = "image" + d;
+    //     console.log(image.id);
+    //     image.classList.add("borderImage");
+    //     image.style.backgroundColor = "red";
+    //     image.style.width = "200px";
+    //     image.style.height = "200px";
+    //     image.style.margin="20px";
+    //     image.style.position="absolute";
+    //     image.style.left= Math.random()*
+
+
+
+
+
+
+    // }
+
+
+
+
+
+    // for (i = 0; i < 18; i++) { makeBorder(i) };
+    </script>
+    <script type="text/javascript" src="jquery.js"></script>
+</body>
+
+</html>

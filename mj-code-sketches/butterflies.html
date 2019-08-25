@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+    function createAnt() {
+        var ant;
+        var self = this;
+        self.ant = document.createElement('div');
+        document.body.appendChild(self.ant);
+        self.ant.id = "butterfly" + i;
+        self.ant.style.width = "100px";
+        self.ant.style.height = "100px";
+        self.ant.style.backgroundColor = "rgb(" + Math.random() * 255 + ',' + Math.random() * 255 + ',' + Math.random() * 255 + ',' + Math.random() * 255 + ")";
+        self.ant.style.position = "absolute";
+        self.ant.style.left = "50%";
+        self.ant.style.top = "40%";
+
+          console.log(createAnt.prototype);
+            // console.log("hi");
+        
+        self.ant.addEventListener("mouseenter",
+            function runAway() {
+                self.ant.style.left = Math.random() * 1000 + "px";
+                self.ant.style.top = Math.random() * 500 + "px";
+
+
+            });
+
+        // self.ant.addEventListener("mouseleave",
+        //         function runAway() {
+        //             self.ant.style.left = "50%;"
+        //             self.ant.style.top = "40%";})
+
+        //             console.log('I am ' + i)
+
+                        return createAnt;
+
+
+
+
+                }
+
+
+                var i;
+                for (i = 1; i < 101; i = i + 1) {
+                    new 
+                    createAnt();
+                };
+
+
+    </script>
+</body>
+
+</html>
