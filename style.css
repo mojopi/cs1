@@ -91,9 +91,6 @@ section {
 
 }
 
-/*#aboutB {}*/
-
-
 
 #faces {
     position: relative;
@@ -105,9 +102,6 @@ section {
 
 .container {
     width: 15vw;
-    /*    display:inline;
-
-*/
     margin: 1%;
     text-align: center;
     color: rgb(105, 105, 105);
@@ -148,20 +142,35 @@ section {
     transition: 0.5s ease-in;
 
 }
+/*
+.mollyj-headshot:hover {
+    animation-name: mollyj1-dance;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transition: ease;
+}
 
+.mollyj-headshot-nohover: hover{
 
-
+}
+*/
 #mollyj-headshot1:hover {
-    /*transform: rotate(720deg);*/
-    background-image: ();
     animation-name: mollyj1-dance;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
     transition: ease;
 
-
-
 }
+
+
+/*#mollyj-headshot1-click {
+    animation-name: mollyj1-dance;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transition: ease;
+
+}*/
+
 
 #mollyj-headshot1 {
     background-image: url(https://cs1-2019-20.s3-us-west-2.amazonaws.com/molly1.jpg);
@@ -177,22 +186,15 @@ section {
     border-radius: 10%;
     position: absolute;
     width: 15vw;
-    /*                background-color: Red;
-*/
     z-index: 10;
     backface-visibility: hidden;
-
-
-
 }
 
 
 #mollyj-bird:hover {
     backface-visibility: hidden;
-
     height: 15vw;
     width: 15vw;
-    /*transform: rotate(720deg);*/
     background-position: center;
     animation-name: bird-dance;
     background-size: cover;
@@ -265,10 +267,6 @@ section {
 .your-name {
     backface-visibility: visible;
     z-index: 10;
-    /*        width: 100%;
-*/
-    /*        text-align: center;
-*/
     position: relative;
     top: 0%;
     font-size: 2.5vw;
@@ -303,11 +301,12 @@ section {
 Below is the class name and styling we give to the description div when we click on the divs with the class "your-name."" It makes the description div visible by giving it an opacity of 1. It also obviously has other CSS properties which make the description div look similar to the headshot div. 
 */
 .description-apparent {
-    z-index: 10;
+   pointer-events: auto;
+    z-index: 12;
     text-align: left;
     perspective: 1000;
-    /*        transition-delay: 0.5s;
-*/
+         transition-delay: 0.5s;
+
     transition: 0.1s ease-in;
     transform: rotateY(-180deg);
     font-family: Quicksand, sans-serif;
@@ -362,6 +361,7 @@ Below is the class name and styling we give to the description div when we click
 
 .headshot-flip {
     transform: rotateY(180deg);
+    z-index: -5;
     width: 15vw;
     height: 15vw;
     background-color: rgba(245, 245, 245, 0.5);
@@ -371,11 +371,8 @@ Below is the class name and styling we give to the description div when we click
     border-radius: 10%;
     text-align: left;
     z-index: -10;
+    pointer-events:none;
 }
-
-/*.container p{
-    top:50%;
-}*/
 
 
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+
+    div{
+    	width:100px;
+    	height:100px;
+    	border:solid;
+    }
+
+    section{
+    	border:dotted;
+    }
+    .parent:hover > div {
+        opacity: 0.5;
+    }
+
+    .parent:hover > div:hover {
+        opacity: 1.0;
+    }
+
+
+
+    </style>
+</head>
+
+<body>
+    <section class="parent">
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+
+</html>
