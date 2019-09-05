@@ -101,6 +101,7 @@ section {
 }
 
 .container {
+
     width: 15vw;
     margin: 1%;
     text-align: center;
@@ -115,8 +116,8 @@ section {
 
 .headshot {
     text-align: left;
-    backface-visibility: visible;
-    perspective: 1000;
+/*    backface-visibility: hidden;
+*/    perspective: 1000;
     transform: rotateY(0deg);
     background-color: rgba(245, 245, 245, 0.5);
     width: 15vw;
@@ -137,44 +138,52 @@ section {
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    /*-webkit-transition: all 0.5s ease-out;
--moz-transition: all 0.5s ease-out;*/
+   
     transition: 0.5s ease-in;
 
 }
-/*
-.mollyj-headshot:hover {
-    animation-name: mollyj1-dance;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    transition: ease;
-}
 
-.mollyj-headshot-nohover: hover{
-
-}
-*/
-#mollyj-headshot1:hover {
-    animation-name: mollyj1-dance;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    transition: ease;
-
-}
-
-
-/*#mollyj-headshot1-click {
-    animation-name: mollyj1-dance;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    transition: ease;
-
-}*/
-
-
-#mollyj-headshot1 {
+.mollyk{
     background-image: url(https://cs1-2019-20.s3-us-west-2.amazonaws.com/molly1.jpg);
 }
+
+.mollyj-effect:hover {
+    animation-name: mollyj-dance;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transition: ease;
+
+}
+
+
+@keyframes mollyj-dance {
+
+    0% {
+        width: 15vw;
+        height: 15vw;
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        width: 22.5vw;
+        height: 22.5vw;
+        transform: rotate(45deg);
+        background-position: left;
+
+    }
+
+
+    100% {
+        width: 15vw;
+        height: 15vw;
+        transform: rotate(0deg);
+
+    }
+}
+
+
+
 
 #mollyj-headshot2 {
     background-image: url(./imgs/molly2.jpg);
@@ -207,31 +216,7 @@ section {
 
 }
 
-@keyframes mollyj1-dance {
 
-    0% {
-        width: 15vw;
-        height: 15vw;
-        transform: rotate(0deg);
-
-    }
-
-    50% {
-        width: 22.5vw;
-        height: 22.5vw;
-        transform: rotate(45deg);
-        background-position: left;
-
-    }
-
-
-    100% {
-        width: 15vw;
-        height: 15vw;
-        transform: rotate(0deg);
-
-    }
-}
 
 @keyframes bird-dance {
     0% {
@@ -301,6 +286,7 @@ section {
 Below is the class name and styling we give to the description div when we click on the divs with the class "your-name."" It makes the description div visible by giving it an opacity of 1. It also obviously has other CSS properties which make the description div look similar to the headshot div. 
 */
 .description-apparent {
+    backface-visibility: visible;
    pointer-events: auto;
     z-index: 12;
     text-align: left;

@@ -5,17 +5,16 @@ var description = document.getElementsByClassName("description");
 
 //this is the function I call in "onclick" which is referred to in the HTML//
 function showDescription() {
+    console.log("hi!");
     console.log(event);
     var whoAmI = event.target.id;
     var containerDivChild = event.target.children;
     var containerGrandchild = event.target.lastElementChild.lastElementChild;
    
     for (let item of containerDivChild) {
+        item.classList.remove(item.id+"-effect");
         item.classList.add("headshot-flip");
-
-        console.log(item.id);
-        item.classList.removeClass("hover");
-       
+        console.log(item.id);       
         setTimeout(function() {
             item.classList.remove("headshot")
         }, 500);
@@ -43,17 +42,18 @@ for (let item of description) {
 };
 
 for (let item of headshot) {
+     item.classList.add(item.id+"-effect");
     item.addEventListener("animationend", function() {
         item.classList.remove("headshot-flip");
         item.classList.add("headshot");
     })
 };
 
-//for mollyj1 card specific code//
+//for mollyj card specific code//
 
 var badGuy = document.getElementById("bad-guy");
 
-var molly = document.getElementById("mollyj-headshot1");
+var molly = document.getElementById("mollyj");
 molly.addEventListener("mouseenter", function() {
     badGuy.play();
 
