@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #big{
+			width:500px;
+			height:500px;
+			background-color:purple;
+            padding:20px;
+		}
+
+		#output
+		{
+			width:100px;
+			height:100px;
+			background-color:lightblue;
+		}
+
+p{
+    color:white;
+}
+		
+	</style>
+   
+</head>
+
+<body>
+   
+    <div id="big">
+
+        <p>Put a math problem in here!</p>
+        <input id="input" type="value" name="fname">
+
+        <p>See the answer below!</p>
+        <div id="output" style="border:solid"></div>
+    </div>
+    <script type="text/javascript">
+    var input = document.getElementById("input");
+    var output = document.getElementById("output");
+
+
+    document.addEventListener("keydown", function getValue(event) {
+        // console.log(event.keyCode)
+        if (event.keyCode == 13) {
+            console.log(input.value)
+            // var array = [];
+            // array.push[input.value];
+            console.log(eval(input.value));
+
+            output.innerHTML = eval(input.value)
+
+            // console.log(Number(input.value))
+
+        }
+
+    });
+
+
+    </script>
+</body>
+
+</html>

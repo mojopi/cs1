@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+    #ella {
+        width: 500px;
+        height: 500px;
+        border: solid;
+
+    }
+    </style>
+</head>
+
+<body>
+    <div id="ella"></div>
+    <script>
+    var ella = document.getElementById("ella");
+
+
+    function makePolk() {
+
+        var polk = document.createElement("div");
+        polk.style.width = "50px";
+        polk.style.height = "50px";
+        polk.style.backgroundColor = "yellow";
+        polk.style.position = "fixed";
+
+        ella.addEventListener("mousemove", function(event) {
+            console.log(event.clientX, event.clientY);
+
+        });
+
+        ella.appendChild(polk);
+
+        polk.style.left = event.clientX + "px";
+            polk.style.top = event.clientY + "px";
+
+
+    };
+
+
+
+    ella.addEventListener("click", makePolk);
+    </script>
+</body>
+
+</html>

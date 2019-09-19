@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    /*This is where I'm making all the divs have a certain width and height 
+*/
+    div {
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+        border: dotted;
+    }
+
+
+    /*An example of changing an background image on hover*/
+    #molly {
+        width: 200px;
+        height: 200px;
+        background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170212194302-beyonce-performs-grammy-exlarge-169.jpg");
+        background-size: cover;
+        background-position: center;
+        transition: ease-in-out 1s;
+    }
+
+
+    #molly:hover {
+        transition: ease-in-out 1s;
+        background-image: url("https://media1.giphy.com/media/EwwgX5Wloqabu/source.gif")
+    }
+
+
+    /*An example of changing background color  on hover*/
+    #charlie {
+
+        background-color: lightblue;
+        transition: ease-in-out 1s;
+    }
+
+    #charlie:hover {
+        transition: ease-in-out 1s;
+        background-color: orange;
+    }
+
+    /*    An example of adding a bouncy animation
+*/
+
+
+    #sloan {
+        color: red;
+        font-size: 60px;
+        background-image: url("https://heattransfervinyl4u.com/image/cache/Pattern/Checkerboard%20main1-800x800.jpg");
+        background-size: contain;
+        transition: ease .5s;
+    }
+
+    #sloan:hover {
+        transform: rotate(1000deg);
+
+    }
+
+    #tom {
+        background-color: purple;
+        transition: ease 1s;
+
+    }
+
+
+    #tom:hover {
+        transition: ease-in-out 1s;
+
+        animation-name: dance;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transition: ease-in-out 1s;
+        background-color: orange;
+    }
+
+    /*This is an animation, the one that's referred to as "dance" above*/
+
+    @keyframes dance {
+        0% {
+            width: 200px;
+        }
+
+        50% {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        100% {
+            width: 300px;
+        }
+    }
+
+    #bouncy {
+        width: 80px;
+        height: 80px;
+        background-color: orange;
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 0%;
+        transition:1s;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transition: ease-in-out 1s;
+
+    }
+
+    #bouncy:hover {
+    	transition:ease 1s;
+        animation-name: bounce;
+
+    }
+
+    @keyframes bounce {
+        0% {
+            top: 0%
+        }
+
+        50% {
+            top: 50%
+        }
+
+        100% {
+            top: -20%
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div id="molly">
+        changing background image
+    </div>
+    <div id="charlie">
+        changing color on hover
+    </div>
+    <div id="sloan">
+        spin!
+    </div>
+    <div style="color:white;" id="tom">
+        animation example
+    </div>
+    <div id="katie">
+        <div id="bouncy">
+            <br>
+            Bounce!</div>
+    </div>
+</body>
+
+</html>

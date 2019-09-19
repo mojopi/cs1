@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    #square {
+        width: 100px;
+        height: 100px;
+        			background-color:blue;
+
+    }
+    </style>
+</head>
+
+<body>
+    <div id="square"></div>
+    <script>
+    var name = "molly";
+    var square = document.getElementById("square");
+
+    square.addEventListener("click", function setColor () {
+            square.style.backgroundColor = "rgb(" + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + "," + Math.round(Math.random() * 255) + ")";
+            console.log("hello!" + name);
+        });
+
+    // function setColor () {
+    // 		square.style.backgroundColor = "rgb(" + Math.round(Math.random()*255) + ',' + Math.round(Math.random()*255) + "," + Math.round(Math.random()* 255) + ")";
+    // 	}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+    #circle {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: purple;
+        position: absolute;
+
+    }
+
+    body {
+        margin: 0;
+    }
+    </style>
+</head>
+
+<body id="body">
+    <div id="circle"></div>
+    <script type="text/javascript">
+    let circle = document.getElementById("circle");
+
+    var counter;
+
+    function drag() {
+        // counter = counter + 1;
+        document.addEventListener("mousemove", function followMouse(event)
+
+            {
+                console.log(event.clientX, event.clientY)
+                circle.style.left = event.clientX - circle.clientWidth / 2 + "px";
+                circle.style.top = event.clientY - circle.clientHeight / 2 + "px";
+
+                // if (counter%2 = 0) {
+
+
+                // }
+            });
+
+
+    };
+
+    // function drag () {circle.style.position = "absolute";};
+
+
+    circle.addEventListener("mousedown", drag);
+
+    circle.addEventListener("mouseup", function stop() {
+        console.log('hi');
+        circle.style.left = event.clientX + "px";
+        circle.style.left = event.clientY + "px";
+
+    });
+
+
+//THIS CODE BELOW IS MY ATTEMPT TO "DROP" THE CIRCLE DIV WHEN I CLICK//
+
+    // refer to this for how grabbed circle height and width. https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements
+
+    // circle.addEventListener("mousedown", moveCircle);
+
+
+
+    // let pageX = page.clientX;
+    // let pageY = page.clientY;
+
+    // console.log(pageX, pageY)
+
+    // circle.addEventListener("mousedown",
+    //     function drag(event) {
+    //         console.log(event);
+    //         circle.style.position = "absolute";
+    //         circle.style.left = (event.screenX + "px") - (circle.style.width / 2);
+    //         circle.style.top = (event.screenY + "px") - (circle.style.height / 2);
+
+    //     });
+    </script>
+</body>
+
+</html>

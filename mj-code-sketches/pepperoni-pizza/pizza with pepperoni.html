@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+    #pizza {
+        background-image: url(https://www.pngkey.com/png/full/215-2154284_cheese-pizza.png);
+        width: 400px;
+        height: 400px;
+        background-size: cover;
+
+
+    }
+    </style>
+</head>
+
+<body>
+    <div id="pizza"></div>
+    <script type="text/javascript">
+    var pizza = document.getElementById('pizza');
+
+
+    function makeDot() {
+        var pepp = document.createElement(
+            "div");
+        pepp.style.backgroundImage = "url(pepperoni.png)";
+        pepp.style.backgroundSize = "cover";
+
+        pepp.style.width = "40px";
+        pepp.style.borderRadius = "50%";
+        pepp.style.height = "40px";
+        pepp.style.position = "fixed";
+//I'm adding the event listener for "mousemove" bellow so that I can use this in assigning the left and top positions of the pepperonis//
+
+        pizza.addEventListener("mousemove", function(event) {
+            console.log(event.clientX, event.clientY);
+
+        });
+
+        pepp.style.left = event.clientX + "px";
+        pepp.style.top = event.clientY + "px";
+
+        pizza.appendChild(pepp);
+
+    }; // this is the end of the makeDot function...which is actually "make pepperoni"//
+
+    pizza.addEventListener("click",
+        makeDot);
+    </script>
+</body>
+
+</html>

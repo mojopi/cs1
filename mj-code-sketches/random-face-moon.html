@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+		
+		#moon{
+			width:400px;
+			height:300px;
+			border-radius:50%;
+			border:solid;
+			font-size:100px;
+			text-align:center;
+			padding-top:100px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="moon"></div>
+<script type="text/javascript">
+	
+var moon = document.getElementById('moon'); 
+
+moon.addEventListener("click", function(){console.log("hi");
+	// console.log(Math.round(Math.random()*9))
+moon.innerText = faces[Math.round(Math.random()*9)];
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+	var faces = [" ͡° ͜ʖ ͡°", "ಠ_ಠ", "ಥـْـِـِـِـْಥ", "‘ᴥ’", "•‿•", "°□°", "*-*", "•¿•", "◐‿◑","•̿Ĺ̯•" ];
+
+	var normalArray = ["apple", "banana", "orange"]
+</script>
+</body>
+</html>
