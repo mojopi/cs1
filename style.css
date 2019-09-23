@@ -361,6 +361,28 @@ Below is the class name and styling we give to the description div when we click
 }
 
 
+.DagmarE {
+ background-image: url(https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.DagmarE-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+
 
 
 @media (max-device-width: 667px) {
