@@ -381,6 +381,33 @@ background-image:url("https://images-na.ssl-images-amazon.com/images/I/51qAbHwoF
   
 }
 
+.rolyz {
+ background-image: url(https://drive.google.com/uc?id=1fzcgPcwlIkjKYOJtTBGnlnt-_lLLGZpR);
+  
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.rolyl-effect:hover {
+background-image:url("https://drive.google.com/uc?id=1H40fLtg8WJfigiGBjmO2AbR06GF5HWug"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform:rotate(2160deg);
+  transform:scale(1.2);
+  
+}
+
+
+#rolyl-name:hover{
+animation-name:bo; 
+  animation-duration:.5s;
+  animation-iteration-count:infinite;
+  transition:.1s ease-in-out;
+}
+
 
 
 
