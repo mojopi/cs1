@@ -1,4 +1,3 @@
-
 /*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
 2. the links work on the descriptiona-apparent div*/
 
@@ -28,20 +27,20 @@ section {
     text-decoration: none;
 }
 
-#welcome{
+#welcome {
     top: 0%;
     height: 100%;
 
 }
 
 #learning-goals {
-     top: 100%;
+    top: 100%;
     height: 200%;
-    
+
 }
 
-#expectations{
-     top: 300%;
+#expectations {
+    top: 300%;
     height: 250%;
 
 }
@@ -52,8 +51,8 @@ section {
 
 }
 
-#resources a{
-    font-color:blue;
+#resources a {
+    font-color: blue;
 }
 
 
@@ -87,7 +86,7 @@ section {
     left: 25%;
     position: absolute;
     padding-top: 5%;
-        font-size: 1.5vw;
+    font-size: 1.5vw;
 
 }
 
@@ -116,8 +115,9 @@ section {
 
 .headshot {
     text-align: left;
-/*    backface-visibility: hidden;
-*/    perspective: 1000;
+    /*    backface-visibility: hidden;
+*/
+    perspective: 1000;
     transform: rotateY(0deg);
     background-color: rgba(245, 245, 245, 0.5);
     width: 15vw;
@@ -138,12 +138,12 @@ section {
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-   
+
     transition: 0.5s ease-in;
 
 }
 
-.mollyk{
+.mollyk {
     background-image: url(https://cs1-2019-20.s3-us-west-2.amazonaws.com/molly1.jpg);
 }
 
@@ -242,8 +242,8 @@ section {
 
 }
 
-#mollyj-headshot3{
-    background-image:url(https://lafeber.com/pet-birds/wp-content/uploads/2018/07/transparent-BlueandGoldMacaw.png);
+#mollyj-headshot3 {
+    background-image: url(https://lafeber.com/pet-birds/wp-content/uploads/2018/07/transparent-BlueandGoldMacaw.png);
 }
 
 /*Below is the styling for a div with the class name of "your-name." It's is the div containing  the text of your name, which is underneath the headshot div. This is what you'll click on to show the description on the "back" of your card.*/
@@ -287,11 +287,11 @@ Below is the class name and styling we give to the description div when we click
 */
 .description-apparent {
     backface-visibility: visible;
-   pointer-events: auto;
+    pointer-events: auto;
     z-index: 12;
     text-align: left;
     perspective: 1000;
-         transition-delay: 0.5s;
+    transition-delay: 0.5s;
 
     transition: 0.1s ease-in;
     transform: rotateY(-180deg);
@@ -357,13 +357,13 @@ Below is the class name and styling we give to the description div when we click
     border-radius: 10%;
     text-align: left;
     z-index: -10;
-    pointer-events:none;
+    pointer-events: none;
 }
 
 
 .DagmarE {
- background-image: url(https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg); 
-  
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -371,20 +371,20 @@ Below is the class name and styling we give to the description div when we click
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .DagmarE-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/51qAbHwoFjL._SX425_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .rolyz {
- background-image: url(https://drive.google.com/uc?id=1fzcgPcwlIkjKYOJtTBGnlnt-_lLLGZpR);
-  
-  
+    background-image: url(https://drive.google.com/uc?id=1fzcgPcwlIkjKYOJtTBGnlnt-_lLLGZpR);
+
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -392,25 +392,368 @@ background-image:url("https://images-na.ssl-images-amazon.com/images/I/51qAbHwoF
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .rolyl-effect:hover {
-background-image:url("https://drive.google.com/uc?id=1H40fLtg8WJfigiGBjmO2AbR06GF5HWug"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(2160deg);
-  transform:scale(1.2);
+    background-image: url("https://drive.google.com/uc?id=1H40fLtg8WJfigiGBjmO2AbR06GF5HWug");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(2160deg);
+    transform: scale(1.2);
+
+}
+
+
+#rolyl-name:hover {
+    animation-name: bo;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    transition: .1s ease-in-out;
+}
+
+.vivit {
+    background-image: url(https://www.ketoresource.org/wp-content/uploads/2018/01/Smoked-Salmon-Avocado-Sushi-Roll-1024x683.jpeg);
+
+}
+
+#vivit-description {
+    background-color: lightblue;
+}
+
+.vivit-effect:hover {
+    transform: rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media.giphy.com/media/8vt1e89Xhm1BlC3N8J/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+
+}
+
+#vivit-container:hover {
+
+    background-color: #C7B6DC;
+}
+
+
+
+.ellar {
+    background-image:
+        url(https://drive.google.com/uc?id=1Lf8sZUUbvuBBYnEayGgU0mKhdRMNVeO5);
+
+}
+
+.ellag-effect:hover {
+    transform: rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://i.pinimg.com/originals/dd/ff/bd/ddffbd7284cf1e1b7865557f3e8378f9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#ellag-name:hover {
+    background-color: pink;
+    animation-name: ella-expand;
+    transform: rotate(720deg);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: 3s ease-in-out;
+}
+
+@keyframes ella-expand {
+    0% {
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    50% {
+        font-size: 300%;
+        font-weight: 800;
+    }
+
+    100% {
+        font-size: 100% font-weight:500
+    }
+}
+
+
+.alex {
+    background-image: url(https://i1.sndcdn.com/avatars-000586140387-x7f011-t500x500.jpg);
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.alex-effect:hover {
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://i1.sndcdn.com/artworks-000592626728-ef3vdj-t500x500.jpg");
+
+}
+
+#alex-name:hover {
+
+    background-color: black;
+    color: white
+}
+
+#alex-name:hover {
+    animation-name: alex-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+}
+
+@keyframes alex-expand {
+    0% {
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    50% {
+        font-size: 300%;
+        font-weight: 800;
+    }
+
+    100% {
+        font-size: 100% font-weight:500
+    }
+}
+
+
+.spencers {
+    background-image: url("https://cdn.newsday.com/polopoly_fs/1.21112683.1537337322!/httpImage/image.jpg_gen/derivatives/landscape_768/image.jpg");
+}
+
+.spencerh-effect:hover {
+    transition: ease-in;
+    background-image: url("https://media1.tenor.com/images/4a3c0e4950a4791e754c2ee5363a83de/tenor.gif?itemid=13518754");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+
+.eli_ {
+    background-image: url(https://p.luckyretail.com/Uploadfile/20160804/074116/074116.jpg);
+
+}
+
+.elik-effect:hover {
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media.giphy.com/media/1mgW1kqox2IFaWmXqO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.sarahs {
+    background-image: url(https://i.pinimg.com/originals/5e/8a/7b/5e8a7b9a944d42cf6358d96927661dbd.jpg);
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.sarahj-effect:hover {
+    animation-name: slide transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: 1.5s ease-in;
+    background-image: url("https://st2.depositphotos.com/4754361/11134/v/950/depositphotos_111340442-stock-illustration-cartoon-flying-birds-in-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#saraj-name:hover {
+
+    background-color: lightRed;
+}
+
+#sarahj-name:hover {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 1.5s ease-in-out;
+    color: purple;
+
+}
+
+#ciarab {
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+.ciarae {
+    background-image: url("https://drive.google.com/uc?id=1U-WR3DExTBuIdSbl798CjQhyLz3tWWR4");
+
+}
+
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ciarab-effect:hover {
+
+    background-image: url("https://drive.google.com/uc?id=14ZgelFOYNMJvSj_fZKZAnPVuXtYV--dV");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ciarab-description {
+    background-color: palegreen;
+    color: black;
+}
+
+
+#ciarab-name:hover {
+    background-color: lightblue;
+   /* animation-name: dissolve;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;*/
+}
+
+
+
+
+
+/*@keyframes wobble-diagonal {
+    0% {
+        top: -4%;
+        left: +$%;
+    }
+
+    10% {
+        top: 50%;
+        left: 75%;
+    }
+
+    15% {
+        top: 48%;
+        left: 77%;
+    }
+
+    20% {
+        top: 50%;
+        left: 75%;
+    }
+
+
+
+    30% {
+        top: 46%;
+        left: 71%;
+    }
+
+    40% {
+        top: 50%;
+        left: 75%;
+    }
+
+    45% {
+        top: 48%;
+        left: 73%;
+    }
+
+    50% {
+        top: 50%;
+        left: 75%;
+    }
+
+
+
+    60% {
+        top: 54%;
+        left: 71%
+    }
+
+    70% {
+        top: 50%;
+        left: 75%;
+    }
+
+    75% {
+        top: 52%;
+        left: 73%
+    }
+
+    80% {
+        top: 50%;
+        left: 75%;
+    }
+
+
+
+    90% {
+        top: 54%;
+        left: 79%
+    }
+
+    95% {
+        top: 50%;
+        left: 75%;
+    }
+
+    100% {
+        top: 52%;
+        left: 77%
+    }
+
+}*/
+
+
+.leela {
+ background-image: url(https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg); 
   
 }
 
+/*FOR YOU TO DO: add some hover effects!
 
-#rolyl-name:hover{
-animation-name:bo; 
-  animation-duration:.5s;
-  animation-iteration-count:infinite;
-  transition:.1s ease-in-out;
+1. First change leelam to your name and last initial (it should be the sam as your ID without the #)*/
+
+.leelam-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
 }
 
-
-
-
+#leelam-name{
+    font-family:Arial;
+    font-style: italic;
+}
+#leelam-description{
+    background-color:rgb(247, 214, 73);
+}
+#water {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+#water:hover{
+  background-image:url(https://media1.giphy.com/media/UTkht9eZ4Ot68/source.gif);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
 
 @media (max-device-width: 667px) {
 
@@ -431,9 +774,6 @@ animation-name:bo;
         top: 350%;
         height: 200%;
     }
-
-
-
 
 
 }

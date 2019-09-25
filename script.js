@@ -1,4 +1,25 @@
+
+
+//this is the code for ciara's wobble diagonal animation//
+// var ciarab = document.getElementById('ciarab');
+
+//     ciarab.addEventListener("click", function(){
+//         // ciarab.style.animationName ="wobble-diagonal"
+
+//         // console.log(box6.style);
+
+//     })
+
+    // var leftSide = eval(ciarab.style.left);
+    // var rightSide = eval(ciarab.style.left + 100);
+
+
+    // function () {
+    //     ciarab.x = ci
+    // }
+
 //below I'm adding an event listener so that when someone clicks on the on div with the class "your-name" div at the bottom of the headshot, a class is added to the *description* div called "description-apparent," and a class called "description-invisible" is removed. Because of the properties in the description-apparent class, when the div is assigned to this class, it becomes visible in the browser for 15 seconds. Because there is an animation property which, as I wrote it changes the opacity of the description div from 1 back to 0 — the divs with the description-apparent class become visible for 15s. //
+
 
 var headshot = document.getElementsByClassName("headshot");
 var description = document.getElementsByClassName("description");
