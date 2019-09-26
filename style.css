@@ -540,7 +540,7 @@ Below is the class name and styling we give to the description div when we click
 }
 
 
-#elik {
+.elik-effect {
     background-image: url("imgs/eli-tennis.png");
 
 }
@@ -606,7 +606,7 @@ Below is the class name and styling we give to the description div when we click
 
 .ciarab-effect:hover {
 
-    background-image: url("https://drive.google.com/uc?id=14ZgelFOYNMJvSj_fZKZAnPVuXtYV--dV");
+    background-image: url("./imgs/ciara.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
