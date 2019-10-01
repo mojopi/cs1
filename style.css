@@ -1335,6 +1335,32 @@ animation-name:arik-expand;
 }
 
 
+.alanam {
+ background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.alanat-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+#alanat-name:hover{
+  
+  background-color:#c4ccc6;
+  border-radius:10%;
+}
+
+
 
 
 /*@keyframes jasmine-expand{
