@@ -1041,10 +1041,13 @@ animation-name:kai-expand;
 }
 
 
+
 .mattr {
- background-image: url(IMG_5814.jpg); 
-  
-}
+ background-image: url(https://timedotcom.files.wordpress.com/2018/09/jacob-degrom-cy-young.jpg);  
+}  
+
+
+
 
 /*FOR YOU TO DO: add some hover effects!
 
@@ -1150,6 +1153,104 @@ background-image:url("https://media2.giphy.com/media/l3q2tvaYp4KseN22A/giphy.gif
   
   background-color:#FDE2F9;
 }
+
+
+.ryanm {
+ background-image: url(https://trello-attachments.s3.amazonaws.com/5d7eedcc703eaa3a653d6398/5d7f7e309b6871728074944c/7122d02109a0630559143b70deff407b/image.png); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ryank-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("data:image/png;base64,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"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+/* .container:hover{
+  
+  background-color:magenta;
+}
+ */
+#ryank-name:hover{
+/* animation-name:expand;  */
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+
+.rhiaa {
+ background-image: url("https://pics.me.me/shifts-into-maximum-over-doggo-36406253.png"); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.rhiag-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media3.giphy.com/media/ZO8upuwNKfpm0/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.dannys-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media1.tenor.com/images/557a33b21a0b5cea778583e18f64f627/tenor.gif?itemid=8447262"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+#dannys-name:hover{
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+
+
+#katieh {
+ background-image: url(https://images.prod.meredith.com/product/38b36683b6a0d073e9f04b1e912033fb/1536209660331/l/harry-potter-slytherin-crest-12-inch-square-die-cut-wall-art);
+background-size:contain;
+  background-repeat:no-repeat;
+  background-color:white;
+
+}
+
+
+#katieh-description {
+  background-color:rgb(29, 114, 83);
+  color: white;
+  
+}
+#katieh:hover {
+  transform: rotate(1440deg) ;
+            border-radius:50%;
+            transition:2s;
+            background-color:white;
+background-image:url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAGdWsu4R_92YenxH6jsw.jpg?auto=webp&s=173c1387be8f961f0e6286ed6324f7549cc25e7f"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 
 
 /*@keyframes jasmine-expand{
