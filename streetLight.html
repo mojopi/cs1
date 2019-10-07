@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>street light</title>
+    <style>
+        #traffic {
+    width: 400px;
+    height: 800px;
+    border-radius: 10%;
+    background-color: gold;
+    position: absolute;
+    left: 30%;
+    opacity: 0.8;
+
+}
+
+.light {
+    border-radius: 50%;
+    border: solid 1px;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 75px;
+    z-index:5;
+
+}
+
+#container {
+    /*		border:solid 3px;
+*/
+    position: relative;
+    top: 2%;
+}
+
+#first {
+    background-color: tomato;
+}
+#second{
+	background-color:yellow;
+}
+
+#third{
+	background-color:green;
+}
+
+.flash{
+	animation-name:tomato-red;
+	animation-duration:0.4s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes tomato-red{
+	from {background-color:tomato;}
+		to {background-color:red;}
+
+}
+</style>
+</head>
+
+<body>
+    <div id="traffic">
+        <div id="container">
+            <div class="light" id="first"></div>
+            <div class="light" id="second"></div>
+            <div class="light" id="third"></div>
+        </div>
+    </div>
+
+<img src="./images-of-hands/vedant-hands.png">
+
+
+        <a href="test.html">the matrix</a>
+
+    <script type="text/javascript">
+    var red = document.getElementById("first");
+
+
+// below we are adding an event listener to the element with the id of "first" so that when we click on the div, we add a class called "flash" and that class has an animation that changes the color back and forth between tomato and red. There are so many other ways we could do this. We could instead of adding an event listener, actually go into the style of the div with the id of "first" and changed the background color from red to tomato and go back and forth.//
+
+// Julia this is a really tricky quesiton but since our event listener is with click, how could we possibly un-add the "flash" class when we click another time. It's tricky because in this case, everything is happening with the event of a "click". It's totally do-able...just a bit tricky:)
+
+    red.addEventListener("click", function() {
+        // console.log(red.style);
+        red.classList.add("flash");
+
+
+    })
+    </script>
+</body>
+
+</html>

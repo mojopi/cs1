@@ -1131,8 +1131,7 @@ animation-name:miller-expand;
 }
 
 .juliah {
-/*  background-image: url(https://i.pinimg.com/originals/2f/01/b2/2f01b2a59995b7d3fff56339f3bd7f1a.jpg);  */
-  
+background-image:url(https://media0.giphy.com/media/d1FL4zXfIQZMWFQQ/giphy.gif);  
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1360,6 +1359,81 @@ background-image:url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif
   border-radius:10%;
 }
 
+.henryc-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://www.nbcsports.com/bayarea/sites/csnbayarea/files/styles/article_hero_image/public/2019/09/10/091019kevindurantwallstreetjournalquotes.jpg?itok=-CzUmfxq"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+#henryc-name:hover{
+
+  transition:.5s ease-in-out;
+}
+
+
+.henryr {
+ background-image: url(./imgs/henryc.png); 
+  
+}
+
+
+.carolineg {
+ background-image: url(https://global.hurtigruten.com/globalassets/photos/destinations/antarctica/placesdestinations/passageschannelssea/lemaire-channel-antarctica-genna-roland2.jpg?width=900&height=450&transform=DownFill); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.carolinek-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:10s;
+  transition:ease-in; 
+  transform: rotate(360deg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+#carolinek-name:hover{
+  
+  background-color:blue;
+}
+
+.alanam {
+ background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.alanat-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+#alanat-name:hover{
+  
+  background-color:#c4ccc6;
+}
+
+#alanat-name:hover {
+  transition:.5s ease-in-out;
+}
 
 
 
