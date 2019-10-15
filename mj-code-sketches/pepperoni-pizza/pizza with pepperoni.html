@@ -11,10 +11,26 @@
 
 
     }
+
+    .menu{
+        height:50px;
+        width:50px;
+        border:5px solid;
+        position:relative;
+        display:inline-block;
+    }
+
+    #broc{
+        background-image:url("https://i.dlpng.com/static/png/4027815_preview.png");
+    }
     </style>
 </head>
 
 <body>
+    <div id="broc" class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div>
     <div id="pizza"></div>
     <script type="text/javascript">
     var pizza = document.getElementById('pizza');
@@ -30,7 +46,7 @@
         pepp.style.borderRadius = "50%";
         pepp.style.height = "40px";
         pepp.style.position = "fixed";
-//I'm adding the event listener for "mousemove" bellow so that I can use this in assigning the left and top positions of the pepperonis//
+        //I'm adding the event listener for "mousemove" bellow so that I can use this in assigning the left and top positions of the pepperonis//
 
         pizza.addEventListener("mousemove", function(event) {
             console.log(event.clientX, event.clientY);

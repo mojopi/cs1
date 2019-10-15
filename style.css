@@ -619,7 +619,7 @@ Below is the class name and styling we give to the description div when we click
 
 #ciarab-name:hover {
     background-color: lightblue;
-   /* animation-name: dissolve;
+    /* animation-name: dissolve;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     transition: .5s ease-in-out;*/
@@ -715,8 +715,8 @@ Below is the class name and styling we give to the description div when we click
 
 
 .leela {
- background-image: url(https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg); 
-  
+    background-image: url(https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -724,62 +724,66 @@ Below is the class name and styling we give to the description div when we click
 1. First change leelam to your name and last initial (it should be the sam as your ID without the #)*/
 
 .leelam-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx2UCdHxDU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XTFDAULACJHIBF42V2KAIC6OHE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-#leelam-name{
-    font-family:Arial;
+#leelam-name {
+    font-family: Arial;
     font-style: italic;
 }
-#leelam-description{
-    background-color:rgb(247, 214, 73);
+
+#leelam-description {
+    background-color: rgb(247, 214, 73);
 }
+
 #water {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
 }
 
 
-#water:hover{
-  background-image:url(https://media1.giphy.com/media/UTkht9eZ4Ot68/source.gif);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
+#water:hover {
+    background-image: url(https://media1.giphy.com/media/UTkht9eZ4Ot68/source.gif);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
 }
 
 .elil {
- background-image: url(https://pictures.reuters.com/Doc/RTR/Media/TR3/f/8/7/d/RTX6XIEJ.jpg); 
-  
+    background-image: url(https://pictures.reuters.com/Doc/RTR/Media/TR3/f/8/7/d/RTX6XIEJ.jpg);
+
 }
 
 
 #elic:hover {
-/*  transform:rotateZ(100rad);
-*/  transition-duration:3s;
-  transition:ease-in;
-  background-image:url("https://media.giphy.com/media/ihMK6y2L9IhdmFav04/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    /*  transform:rotateZ(100rad);
+*/
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media.giphy.com/media/ihMK6y2L9IhdmFav04/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 /*#elic-name:hover{
   
   background-color:red;
 }*/
 
 .elizabethg {
- background-image: url("./imgs/elizabeth.jpg"); 
-  
+    background-image: url("./imgs/elizabeth.jpg");
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -788,28 +792,29 @@ background-image:url("https://www.washingtonpost.com/resizer/1oTlxNfpPxRL1Y-uQGx
 
 .elizabeths-effect:hover {
 
-transition-duration:3s;
-  transition:ease-in;
-background-image:url("./imgs/pizza.png"); 
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-color:white;
-  
-}
-#elizabethg-name:hover{
-  background-color:magenta;
-  border-radius:10%;
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("./imgs/pizza.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+
 }
 
-#elizabethg-name:hover{
-animation-name:elizabeth-expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#elizabethg-name:hover {
+    background-color: magenta;
+    border-radius: 10%;
 }
 
-#elizabethg-description{
-    background-color:lightpink;
+#elizabethg-name:hover {
+    animation-name: elizabeth-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+}
+
+#elizabethg-description {
+    background-color: lightpink;
 }
 
 
@@ -844,7 +849,7 @@ animation-name:elizabeth-expand;
         height: 100%;
     }
 
-     #expectations {
+    #expectations {
         top: 150%;
         height: 100%;
     }
@@ -865,7 +870,7 @@ animation-name:elizabeth-expand;
 
 
 .jasminen {
- background-color:green;
+    background-color: green;
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -873,31 +878,32 @@ animation-name:elizabeth-expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .jasminew-effect:hover {
-  animation-name:spin;
-  transform:rotateZ(100rad);
-  transition-duration:13s;
-  transition:ease-in;
-  background-color:orange; 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
-#jasminew-name:hover{
-  background-color:blue;
+    animation-name: spin;
+    transform: rotateZ(100rad);
+    transition-duration: 13s;
+    transition: ease-in;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-#jasminew-name:hover{
-/*  animation-name:expand; 
+#jasminew-name:hover {
+    background-color: blue;
+}
+
+#jasminew-name:hover {
+    /*  animation-name:expand; 
   animation-duration:10s;*/
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 .penelopel {
- background-image: url(https://i.etsystatic.com/8204508/r/il/aa145a/765659607/il_794xN.765659607_h8rf.jpg); 
-  background-size: cover;
-  background-repeat:no-repeat;
-  
+    background-image: url(https://i.etsystatic.com/8204508/r/il/aa145a/765659607/il_794xN.765659607_h8rf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -905,45 +911,49 @@ animation-name:elizabeth-expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .penelopew-effect:hover {
-  animation-name:
-  transform:rotationA(100rad);
-  transition-duration:10s;
-  transition:ease-out;
-background-image:url("https://media2.giphy.com/media/dI0uc0eA20YNi/source.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
+    animation-name:
+        transform:rotationA(100rad);
+    transition-duration: 10s;
+    transition: ease-out;
+    background-image: url("https://media2.giphy.com/media/dI0uc0eA20YNi/source.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  
+
 }
 
 
 
-#penelopew-name:hover{
-    background-color:pink;
-  padding-left: 8px;
-  padding-right: 8px;
-animation-name:horizontal-movement; 
-  background-color: pink;
-  animation-duration:1s;
-  animation-iteration-count:3;
-  transition:..75s ease-in-out;
-  animation-name: 
-   transform: rotate(45dg);
-   transform:RotationZ(40rad)
-   transition-duration: 3secs
+#penelopew-name:hover {
+    background-color: pink;
+    padding-left: 8px;
+    padding-right: 8px;
+    animation-name: horizontal-movement;
+    background-color: pink;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    transition: ..75s ease-in-out;
+    animation-name:
+        transform: rotate(45dg);
+    transform: RotationZ(40rad) transition-duration: 3secs
 }
 
-@keyframes horizontal-movement{
-  from{text-align: left;}
-  to{text-align: right;}
-  
-  
+@keyframes horizontal-movement {
+    from {
+        text-align: left;
+    }
+
+    to {
+        text-align: right;
+    }
+
+
 }
 
 
 .DylanW {
- background-image: url(https://lastwordonbaseball.com/wp-content/uploads/sites/7/2017/08/Resurgence-of-Luis-Severino.jpg); 
-  
+    background-image: url(https://lastwordonbaseball.com/wp-content/uploads/sites/7/2017/08/Resurgence-of-Luis-Severino.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -951,33 +961,34 @@ animation-name:horizontal-movement;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 #DylanC:hover {
-  animation-name:
-  transform:rotateZ(1080deg);
-  transition-duration:5s;
-  transition:ease-in;
-background-image:url(https://media.giphy.com/media/9xxciSRg2Ugwt76OQB/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
-#DylanW-name:hover{
-  
-  background-color:navy;
-  transition:1s;
-  border-radius:10%;  
+    animation-name:
+        transform:rotateZ(1080deg);
+    transition-duration: 5s;
+    transition: ease-in;
+    background-image: url(https://media.giphy.com/media/9xxciSRg2Ugwt76OQB/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-#DylanC-name:hover{
-animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#DylanW-name:hover {
+
+    background-color: navy;
+    transition: 1s;
+    border-radius: 10%;
+
+}
+
+#DylanC-name:hover {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 
 .kaiK {
- background-image: url(https://images-na.ssl-images-amazon.com/images/I/61OHZivMu1L._SY550_.jpg); 
-  
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61OHZivMu1L._SY550_.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -985,66 +996,73 @@ animation-duration:1s;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .kaiM-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media1.giphy.com/media/Vz1cEfM0VFpII/source.gif"); 
-  background-repeat:no-repeat;
-  background-size:200px 200;
-  
-}
-.kaiM-name:hover{
-  color:white;
-  background-color:cyan;
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media1.giphy.com/media/Vz1cEfM0VFpII/source.gif");
+    background-repeat: no-repeat;
+    background-size: 200px 200;
+
 }
 
-#kaiM-name:hover{
-animation-name:kai-expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+.kaiM-name:hover {
+    color: white;
+    background-color: cyan;
 }
 
-@keyframes kai-expand{
-    0%{
-    font-size:100%;
-    background-color:red;
-    color:green;
-  }
-    17%{
-    background-color:orange;
-    color:blue;
-  }
-    34%{
-    background-color:yellow;
-    color:purple;
-  }
-   50%{
-    font-size:200%;
-    background-color:green;
-    color:red;
-  }
-    67%{
-    background-color:blue;
-    color:orange;
-  }
-    84%{
-    background-color:purple;
-    color:yellow;
-  }
-  100%{
-    font-size:100%;
-    background-color:red;
-    color:green;
-  }
+#kaiM-name:hover {
+    animation-name: kai-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+}
+
+@keyframes kai-expand {
+    0% {
+        font-size: 100%;
+        background-color: red;
+        color: green;
+    }
+
+    17% {
+        background-color: orange;
+        color: blue;
+    }
+
+    34% {
+        background-color: yellow;
+        color: purple;
+    }
+
+    50% {
+        font-size: 200%;
+        background-color: green;
+        color: red;
+    }
+
+    67% {
+        background-color: blue;
+        color: orange;
+    }
+
+    84% {
+        background-color: purple;
+        color: yellow;
+    }
+
+    100% {
+        font-size: 100%;
+        background-color: red;
+        color: green;
+    }
 }
 
 
 
 .mattr {
- background-image: url(https://timedotcom.files.wordpress.com/2018/09/jacob-degrom-cy-young.jpg);  
-}  
+    background-image: url(https://timedotcom.files.wordpress.com/2018/09/jacob-degrom-cy-young.jpg);
+}
 
 
 
@@ -1054,40 +1072,41 @@ animation-name:kai-expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .mattg-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://static01.nyt.com/images/2019/08/28/sports/28score-top/merlin_159811824_94582bfb-9779-423e-8bb3-2ee9e1b27114-articleLarge.jpg?quality=75&auto=webp&disable=upscale"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://static01.nyt.com/images/2019/08/28/sports/28score-top/merlin_159811824_94582bfb-9779-423e-8bb3-2ee9e1b27114-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-#mattg-name:hover{
-animation-name:matt-expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#mattg-name:hover {
+    animation-name: matt-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
-@keyframes matt-expand{
-    0%{
-    font-size:100%;
-  }
-   50%{
-    font-size:300%;
-  }
-  
-  100%{
-    font-size:100%
-  }
+@keyframes matt-expand {
+    0% {
+        font-size: 100%;
+    }
+
+    50% {
+        font-size: 300%;
+    }
+
+    100% {
+        font-size: 100%
+    }
 }
 
 
 .millers {
- background-image: url(https://cdn.freebiesupply.com/logos/large/2x/miller-6-logo-png-transparent.png); 
-  
+    background-image: url(https://cdn.freebiesupply.com/logos/large/2x/miller-6-logo-png-transparent.png);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1095,43 +1114,45 @@ animation-name:matt-expand;
 1. First change millerg to your name and last initial (it should be the sam as your ID without the #)*/
 
 .millerg-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media2.giphy.com/media/3iAeKHiGYDpHgVd6lE/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
-#millerg-name:hover{
-  
-  background-color:orange;
-  border-radius:10%;
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media2.giphy.com/media/3iAeKHiGYDpHgVd6lE/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-#millerg-name:hover{
-animation-name:miller-expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition: .5s ease-in-out;
+#millerg-name:hover {
+
+    background-color: orange;
+    border-radius: 10%;
 }
 
-@keyframes miller-expand{
-    0%{
-    font-size:100%;
-  }
-   50%{
-    font-size:200%;
-  }
-  
-  100%{
-    font-size:100%
-  }
+#millerg-name:hover {
+    animation-name: miller-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+}
+
+@keyframes miller-expand {
+    0% {
+        font-size: 100%;
+    }
+
+    50% {
+        font-size: 200%;
+    }
+
+    100% {
+        font-size: 100%
+    }
 }
 
 .juliah {
-background-image:url(https://media0.giphy.com/media/d1FL4zXfIQZMWFQQ/giphy.gif);  
+    background-image: url(https://media0.giphy.com/media/d1FL4zXfIQZMWFQQ/giphy.gif);
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1139,24 +1160,25 @@ background-image:url(https://media0.giphy.com/media/d1FL4zXfIQZMWFQQ/giphy.gif);
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .juliag-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media2.giphy.com/media/l3q2tvaYp4KseN22A/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media2.giphy.com/media/l3q2tvaYp4KseN22A/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-#juliag-name:hover{
-  
-  background-color:#FDE2F9;
+
+#juliag-name:hover {
+
+    background-color: #FDE2F9;
 }
 
 
 .ryanm {
- background-image: url(https://trello-attachments.s3.amazonaws.com/5d7eedcc703eaa3a653d6398/5d7f7e309b6871728074944c/7122d02109a0630559143b70deff407b/image.png); 
-  
+    background-image: url(https://trello-attachments.s3.amazonaws.com/5d7eedcc703eaa3a653d6398/5d7f7e309b6871728074944c/7122d02109a0630559143b70deff407b/image.png);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1164,30 +1186,31 @@ background-image:url("https://media2.giphy.com/media/l3q2tvaYp4KseN22A/giphy.gif
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .ryank-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("data:image/png;base64,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"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAclBMVEUAAACmpqb///88PDzT09NRUVHZ2dlOTk4/Pz+7u7s3NzdnZ2dYWFirq6tISEiWl5b39/efn5/v7++0tLQhISHBwcHf398SEhJzc3ODg4OTk5N5eXkODg4YGBjs7OwcHBxlZWUwMDDLy8t/f39dXV0sLCyrA2yGAAAFYUlEQVR4nO2cbXOqPBCG7fqGVTSCIIhStfr//+IDJAFq3879xeWZ3tfMMTHSaXpNst0s9IxeRuQfeRlR1j9DWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFoCcrOPre29339hc/1F62yrJ51UyLLCvqf3VzftYcH9CTVca+l6S+t4lsuxU/ckxFrlU7kR7midPsoyfrJfK9yPgFNXECU1m1100WTfN2Op1G8WxUNd2yezJ6sm6ys525yLvt3eXctCuRpL1uFndfU8nSRDHAS27bMCqdmsycmjaeZe0+pKyG69W20SaP9k0vsSN7k4/8YvsoazF53vS+QFFWblfPRaaBTOveMbJrLZP7KGnXEGXV7GyE2lTOom3dm8pr88HkWoetsbuMshrSRsOsClhxkzy82BQikGX1Gvl5UVbDtkkepLAbr5IX2uGyfvUpF2VZ1lLl5kvZ1zuyqIPXrRkuZ/nhkOUujaAsR3TwO3BS7cV3mzjcJDIVkU+1KMtS/+xl8/0Ppk0cFrPjrmL/LvbISFmWQnbjeivWOzIYGZs4+Fz15N5TlqWKUi7ZqjLTwCYLhfhqhN2glOWZJTMXmcI0Lu3Qwn84lXUzQFmWg0hmezeRZiK7Xr3BphKdvT8uay6+9DAyNnGwSZbl0NStuLIc+6it+01sRc9suk8v9bILjT0LNSR/tupQs8l9L2v23P566X0aVrLiyaSTVfRUKsAbFgCUBUBZALqyjuuOY2/89Dp93X+6MFC7U+HQlbXt3d8q2tHb1dT3uxZdxjXK7TWhwhx76MoK09Vqbjn7lbRPZJJP57dNKV2GtY2C9Xx1kL+cZ4Wf86Zdas6uW0ibhblcNTCqEVZ7ZX0aKtMuMt3bnNXXTXOjGbeGJisxHwK9j1Je1lSCJ0zrOwYma+5Ky56l2Izeyzq7G0A6DEzWInoYKO0BZ+PO18nnfftEBiYrepyN+xXgAnze3CVTQ1lWOV3V3Pzm6mVbltwWIzYmjsPwKvlIE2VZPiN1GdXe1wJb3k2Tf20kTVNj6/V6aG/Dy2tNe5Axj0vnYINYE7PW3dMiOmjLehhI44eBxObs9rfhQuuRP8fAZG0edBxdlHKpg+iWSAYm6/QQwkMnz8k6qKZZQ5NV6egH8aX/7eiT0vL6hFl9y+AO0kkvhy/amoyXtfSPi6gwOFmVrdAecYKkC1HtA0hXzRReV1b81Y+eG0kXcVJK2aXrbeBfa+alurKKr795tkjTWdw/2SzbWLVVnC9vWABQFgBlAejKOq1Wq+agfAyCcUXzMtYshv6IrqxMxFaoCvfnXrbRLcR8j/I2XLrHsU7Lmlzem3b3y1dpoSxr+uGwN5fLt1cOAXVZ4w/vVM/Jv0JZAJQFQFkAlAVAWQDqsvrp+lz1SYbfoSwAygKgLIBByVpT1k9QFsCPsrr/dKbNKO73kSLKsuYPVYe+rLMxLglL/P3Ds5i/+5jkbiPbXvHqY4oaitg/cXoTcX/vGoscnje7T+jKWsqHZ67GZX+XjcvUvd2agx+aaVa8tG9Y7H+/ZDhoy/pfQVkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBUBZAJQFQFkAlAVAWQCUBfDyHyPiNDqv/pmzAAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 /* .container:hover{
   
   background-color:magenta;
 }
  */
-#ryank-name:hover{
-/* animation-name:expand;  */
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#ryank-name:hover {
+    /* animation-name:expand;  */
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 .rhiaa {
- background-image: url("https://pics.me.me/shifts-into-maximum-over-doggo-36406253.png"); 
-  
+    background-image: url("https://pics.me.me/shifts-into-maximum-over-doggo-36406253.png");
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1195,74 +1218,76 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMA
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .rhiag-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media3.giphy.com/media/ZO8upuwNKfpm0/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media3.giphy.com/media/ZO8upuwNKfpm0/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .dannyh {
- background-image: url(data:image/jpeg;base64,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); 
-  
+    background-image: url(data:image/jpeg;base64,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);
+
 }
 
 
 .dannys-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media1.tenor.com/images/557a33b21a0b5cea778583e18f64f627/tenor.gif?itemid=8447262"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media1.tenor.com/images/557a33b21a0b5cea778583e18f64f627/tenor.gif?itemid=8447262");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#dannys-name:hover{
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#dannys-name:hover {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 
 #katieh {
- background-image: url(https://images.prod.meredith.com/product/38b36683b6a0d073e9f04b1e912033fb/1536209660331/l/harry-potter-slytherin-crest-12-inch-square-die-cut-wall-art);
-background-size:contain;
-  background-repeat:no-repeat;
-  background-color:white;
+    background-image: url(https://images.prod.meredith.com/product/38b36683b6a0d073e9f04b1e912033fb/1536209660331/l/harry-potter-slytherin-crest-12-inch-square-die-cut-wall-art);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 
 }
 
 
 #katieh-description {
-  background-color:rgb(29, 114, 83);
-  color: white;
-  
-}
-#katieh:hover {
-  transform: rotate(1440deg) ;
-            border-radius:50%;
-            transition:2s;
-            background-color:white;
-background-image:url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAGdWsu4R_92YenxH6jsw.jpg?auto=webp&s=173c1387be8f961f0e6286ed6324f7549cc25e7f"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-color: rgb(29, 114, 83);
+    color: white;
+
 }
 
-#text{
-  font-size:14px;
-  color:pink;
-  
+#katieh:hover {
+    transform: rotate(1440deg);
+    border-radius: 50%;
+    transition: 2s;
+    background-color: white;
+    background-image: url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAGdWsu4R_92YenxH6jsw.jpg?auto=webp&s=173c1387be8f961f0e6286ed6324f7549cc25e7f");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+#text {
+    font-size: 14px;
+    color: pink;
+
+}
+
 .hannahc {
- background-image: url(https://www.thelabradorsite.com/wp-content/uploads/2017/04/english-black-lab-puppy.jpg); 
-  
+    background-image: url(https://www.thelabradorsite.com/wp-content/uploads/2017/04/english-black-lab-puppy.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1270,27 +1295,27 @@ background-image:url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAG
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .hannahs-effect:hover {
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2017/07/06/931/524/694940094001_5494315258001_5494244680001-vs.jpg?ve=1&tl=1); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    transform: rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2017/07/06/931/524/694940094001_5494315258001_5494244680001-vs.jpg?ve=1&tl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#Hannahs-name:hover{
-animation-name:expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#Hannahs-name:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 
 .arikj {
- background-image: url(https://www.telegraph.co.uk/content/dam/Travel/ski/skier-big-mountain.jpg?imwidth=1400); 
-  
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/ski/skier-big-mountain.jpg?imwidth=1400);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1298,45 +1323,47 @@ animation-name:expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .arikg-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("http://www.teetimes.info/wp-content/uploads/2019/05/giphy-3.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
-#arikg-name:hover{
-  
-  background-color: #32cd32;
-  border-radius:10%;
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("http://www.teetimes.info/wp-content/uploads/2019/05/giphy-3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-#arikg-name:hover{
-animation-name:arik-expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#arikg-name:hover {
+
+    background-color: #32cd32;
+    border-radius: 10%;
 }
 
-@keyframes arik-expand{
-    0%{
-    font-size:100%;
-  }
-   50%{
-    font-size:250%;
-  }
-  
-  100%{
-    font-size:100%
-  }
+#arikg-name:hover {
+    animation-name: arik-expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+}
+
+@keyframes arik-expand {
+    0% {
+        font-size: 100%;
+    }
+
+    50% {
+        font-size: 250%;
+    }
+
+    100% {
+        font-size: 100%
+    }
 }
 
 
 .alanam {
- background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png); 
-  
+    background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1344,48 +1371,49 @@ animation-name:arik-expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .alanat-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-#alanat-name:hover{
-  
-  background-color:#c4ccc6;
-  border-radius:10%;
+
+#alanat-name:hover {
+
+    background-color: #c4ccc6;
+    border-radius: 10%;
 }
 
 .henryc-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://www.nbcsports.com/bayarea/sites/csnbayarea/files/styles/article_hero_image/public/2019/09/10/091019kevindurantwallstreetjournalquotes.jpg?itok=-CzUmfxq"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://www.nbcsports.com/bayarea/sites/csnbayarea/files/styles/article_hero_image/public/2019/09/10/091019kevindurantwallstreetjournalquotes.jpg?itok=-CzUmfxq");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#henryc-name:hover{
+#henryc-name:hover {
 
-  transition:.5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 
 .henryr {
- background-image: url(./imgs/henryc.png); 
-  
+    background-image: url(./imgs/henryc.png);
+
 }
 
 
 .carolineg {
- background-image: url(https://global.hurtigruten.com/globalassets/photos/destinations/antarctica/placesdestinations/passageschannelssea/lemaire-channel-antarctica-genna-roland2.jpg?width=900&height=450&transform=DownFill); 
-  
+    background-image: url(https://global.hurtigruten.com/globalassets/photos/destinations/antarctica/placesdestinations/passageschannelssea/lemaire-channel-antarctica-genna-roland2.jpg?width=900&height=450&transform=DownFill);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1393,23 +1421,24 @@ background-image:url("https://www.nbcsports.com/bayarea/sites/csnbayarea/files/s
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .carolinek-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:10s;
-  transition:ease-in; 
-  transform: rotate(360deg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 10s;
+    transition: ease-in;
+    transform: rotate(360deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-#carolinek-name:hover{
-  
-  background-color:blue;
+
+#carolinek-name:hover {
+
+    background-color: blue;
 }
 
 .alanam {
- background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png); 
-  
+    background-image: url(http://40.media.tumblr.com/31e92ae1d5f1df745f3a6d2b236dc7cd/tumblr_mtp298Siwl1rgam01o1_1280.png);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1417,24 +1446,109 @@ background-image:url("https://www.nbcsports.com/bayarea/sites/csnbayarea/files/s
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .alanat-effect:hover {
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#alanat-name:hover {
+
+    background-color: #c4ccc6;
+}
+
+#alanat-name:hover {
+    transition: .5s ease-in-out;
+}
+
+
+.michaelp {
+    background-image: url(https://static.boredpanda.com/blog/wp-content/uploads/2015/05/dog-sleeping-bed-funny-animal-photos-13__605.jpg);
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.michaelj-effect:hover {
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ellist {
+    background-image: url(https://cdn.britannica.com/22/7922-004-E6D87AB4/Miles-Davis-1969.jpg);
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ellisc-effect:hover {
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://www.wrti.org/sites/wrti/files/styles/x_large/public/201608/Thelonious_Monk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#ellisc-name:hover {
+    background-color: blue;
+
+    animation-name: ellis-expand;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: .50s ease-in-out;
+}
+
+@keyframes ellis-expand {
+    0% {
+        font-size: 100%;
+    }
+
+    50% {
+        font-size: 300%;
+    }
+
+    100% {
+        font-size: 100%
+    }
+}
+
+.JackW {
+ background-image: url(http://drive.google.com/uc?id=1wnQ_FQMHVJeMsCmLRmOgerZlu-9zmGAd); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.JackM-effect:hover {
   animation-name:
   transform:rotateZ(100rad);
   transition-duration:3s;
   transition:ease-in;
-background-image:url("https://media.giphy.com/media/Lr3Q0sDBbtltw6p2oa/giphy.gif"); 
+background-image:url("http://drive.google.com/uc?id=1NINTdL93MuK3iW9fWMFOzeaUMgCEooVm"); 
   background-repeat:no-repeat;
   background-size:cover;
   
 }
-#alanat-name:hover{
-  
-  background-color:#c4ccc6;
-}
-
-#alanat-name:hover {
-  transition:.5s ease-in-out;
-}
-
 
 
 /*@keyframes jasmine-expand{
