@@ -1550,6 +1550,32 @@ background-image:url("http://drive.google.com/uc?id=1NINTdL93MuK3iW9fWMFOzeaUMgC
   
 }
 
+#katieh {
+ background-image: url(https://images.prod.meredith.com/product/38b36683b6a0d073e9f04b1e912033fb/1536209660331/l/harry-potter-slytherin-crest-12-inch-square-die-cut-wall-art);
+background-size:contain;
+  background-repeat:no-repeat;
+  background-color:white;
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+#katieh-description {
+  background-color:rgb(29, 114, 83);
+  color: white;
+  
+}
+#katieh:hover {
+  transform: rotate(1440deg) ;
+            border-radius:50%;
+            transition:2s;
+            background-color:white;
+background-image:url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAGdWsu4R_92YenxH6jsw.jpg?auto=webp&s=173c1387be8f961f0e6286ed6324f7549cc25e7f"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+
 
 /*@keyframes jasmine-expand{
     0%{
