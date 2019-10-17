@@ -1574,7 +1574,60 @@ background-size:contain;
 background-image:url("https://external-preview.redd.it/WG24otPnSCG1tUeLCHTfLdsAGdWsu4R_92YenxH6jsw.jpg?auto=webp&s=173c1387be8f961f0e6286ed6324f7549cc25e7f"); 
   background-repeat:no-repeat;
   background-size:cover;
+  }
+
+  .rhiaa {
+ background-image: url("https://pics.me.me/shifts-into-maximum-over-doggo-36406253.png"); 
   
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.rhiag-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media3.giphy.com/media/ZO8upuwNKfpm0/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.natalieg {
+ background-image: url(https://vignette.wikia.nocookie.net/umbrellaacademy/images/2/2c/Number_Five.jpg/revision/latest?cb=20190103162707); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change  to your name and last initial (it should be the sam as your ID without the #)*/
+
+.nataliew-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://images.unsplash.com/photo-1531398574919-7ebcf655bb4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+#nataliew:hover{
+  
+  background-color:#70cacc;
+}
+
+#nataliew:hover{
+animation-name:expand; 
+  animation-duration:1.5s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+
 
 
 /*@keyframes jasmine-expand{
