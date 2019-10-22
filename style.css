@@ -1695,11 +1695,11 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMA
   background-size:cover;
   
 }
-.container:hover{
+/*.container:hover{
   
   background-color:magenta;
 }
-
+*/
 #ryank-name:hover{
 animation-name:ryan-expand; 
   animation-duration:1s;
@@ -1719,6 +1719,25 @@ animation-name:ryan-expand;
     font-size:100%
   }
 }
+
+.nathaniel {
+ background-image: url(https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.nathanielC-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+background-image:url("https://cdn.hswstatic.com/gif/pug.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 
 
 
