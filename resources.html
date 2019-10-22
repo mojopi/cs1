@@ -3,10 +3,21 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Barriecito|Barrio|Bungee+Shade|Love+Ya+Like+A+Sister|Slackey&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
     <title>resources</title>
     <style>
     body {
         margin: 0;
+
+    }
+
+    p {
+        font-family: 'Mansalva', cursive;
+        font-size: 18px;
+
 
     }
 
@@ -24,7 +35,8 @@
         margin-bottom: 0px;
         width: 100%;
         border-bottom: 1px solid black;
-        z-index: -1;
+        /*        z-index: -1;
+*/
         position: relative;
         background-image: url(imgs/purple-background1.png);
         /*    opacity:0.7;
@@ -33,30 +45,28 @@
 */
         background-size: cover;
         background-repeat: no-repeat;
-        font-family: 'Quicksand', sans-serif;
 
 
     }
 
     .container {
+        padding-top: 20px;
         margin-left: 20%;
-        top: 0%;
-        /*        margin-bottom: 10px;
-*/
+        top: 0px;
         position: relative;
-        /*        padding: 0px;
-*/
         width: 640px;
         height: 800px;
-        /*        display: block;
-*/
-        /*border-bottom:1px solid black;*/
+
+    }
+
+    h1 {
+        font-family: 'Bungee Shade', cursive;
+        font-size: 50px;
+        text-align: center;
     }
 
     h2 {
         font-family: 'Bungee Shade', cursive;
-        font-size: 40px;
-        ]
     }
 
 
@@ -66,28 +76,102 @@
         ]
     }
 
-    p {
-        font-family: 'Love Ya Like A Sister', cursive;
+    ul {
+        font-family: 'Quicksand', sans-serif;
+
 
 
     }
 
     #bar {
-        width: 200px;
+/*        padding-left: 10px;
+*/        padding-top: 20px;
+        width: 18%;
         height: 100%;
         position: fixed;
         top: 0%;
-        background-color: white;
-        opacity: 0.5;
+        background-color: rgba(255, 255, 255, 0.5);
+        z-index: 2;
+    }
+
+    #bar a {
+        font-family: "Permanent Marker", cursive;
+        color: purple;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .item{
+    	position:relative;
+    	width:100%;
+    	height:60px;
+    	text-align:center;
+
+
+    }
+    .item:hover{
+    	background-color:rgba(255, 255, 255, 1);
     }
     </style>
 </head>
 
 <body>
     <div id="bar">
-        <a href="#one">Hover</a>
+        <div class="item"><a href="#one">All Vimeo & Gists</a></div>
+        <div class="item"><a href="#two">Github Push</a>
+        </div>
+        <div class="item"><a href="#three">Hover Effects</a>
+        </div>
+        <div class="item">
+            <a href="#four">code journal setup</a>
+        </div>
+
+        <div class="item">
+            <a href="#five">Div with style</a>
+        </div>
+
+        <div class="item">
+            <a href="#six">Positioning</a>
+        </div>
+
+        <div class="item">
+            <a href="#seven">Curved corners</a>
+        </div>
+
+        <div class="item">
+            <a href="#eight">Event Listener: Click Color Change</a>
+        </div>
+
+        <div class="item">
+            <a href="#nine">Event Listeners: click disappear</a>
+        </div>
     </div>
     <section id="one">
+        <div class="container">
+            <h1>Gists & Screencasts</h1>
+            <hr>
+            <p style="font-size:30px;">Scroll below or click on links in the menu bar on the right to get to screencasts (videos of me coding) about approaches/techniques you want to use in your projects. Most videos, if you click and go to the link, in their descriptions is a link to the gists (the code) that is made int he video itself. You can download this code and use it to learn from!
+                <br><br>
+                <a href="https://vimeo.com/user67455093">Here</a> are <u>all</u> my CS1 vidoes on vimeo
+                <br><br>
+                My gists (code-sketches coded in Labs and in screencasts) be found <a href="https://gist.github.com/mojopi?direction=desc&sort=created">here</a></p>
+        </div>
+    </section>
+    <section id="two">
+        <div class="container">
+            <h2>Adding your stuff to github</h2>
+            <p>Since is something so many ask for, belowis a screencast about how to push something onto github and here is what you should type into your terminal</p>
+            <ul>
+                <li>Navigate to your github repository from top level folder: cd ./desktop/repositories/____.github.io</li>
+                <li>Add your changes: git add .</li>
+                <li>Commit your changes: git commit "write a message to yourself"</li>
+                <li>push your changes online: git push</li>
+            </ul>
+            <iframe src="https://player.vimeo.com/video/367916838" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <p>Link to vimeo <a href="https://vimeo.com/367916838">here</a></p>
+        </div>
+    </section>
+    <section id="three">
         <div class="container">
             <h2>Hover Screen Cast</h2>
             <p>It's all about how to create some cool hover effects! Useful for your people cards and first code sketches!</p>
@@ -95,7 +179,7 @@
             <p><a href="https://player.vimeo.com/video/358822239">Here's</a> the link to vimeo. Scroll down below for more!</p>
         </div>
     </section>
-    <section>
+    <section id="four">
         <div class="container">
             <h2>Setting up your code journal screencast!</h2>
             <p>it's mostly about setting up a menu bar using divs and positioning.</p>
@@ -103,43 +187,49 @@
             <p><a href="https://player.vimeo.com/video/359877561">Here's</a> the link to vimeo. Scroll down below for more!</p>
         </div>
     </section>
-    <section>
+    <section id="five">
         <div class="container">
-            <h2>Class that's intro to HTML and CSS — making a div with Jack M.</h2>
+            <h2>Intro to HTML and CSS — making a div with style</h2>
             <iframe src="https://player.vimeo.com/video/359881947" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             <p><a href="https://player.vimeo.com/video/359881947">Here's</a> the link!
         </div>
     </section>
-    <section>
+    <section id="six">
         <div class="container">
             <h2>All about positioning — fixed, relative, absolute</h2>
             <iframe src="https://player.vimeo.com/video/367789961" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             <p><a>Here's</a> a link to it on vimeo.</p>
         </div>
     </section>
-    <section>
+    <section id="seven">
         <div class="container">
-
-        	<h2>Curved corners Screncast!</h2>
+            <h2>Curved corners Screncast!</h2>
             <iframe src="https://player.vimeo.com/video/367790132" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
             <p><a href="https://vimeo.com/367790132">Here's</a> the link on vimeo and <a href="https://gist.github.com/mojopi/b9df306c13b86a6a212f03930e36af37">here's</a> the gist</p>
         </div>
     </section>
-    <section>
+    <section id="eight">
         <div class="container">
+        	<h2>Make divs change color when move mouse around screen</h2>
             <iframe src="https://player.vimeo.com/video/367789487" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
             <p><a href="https://vimeo.com/367789487">Here's</a> a link to it on vimeo and <a href="https://gist.github.com/mojopi/4d91aa7a9199091c525f6979edbbfab3">here's</a> the link to the gist on github.</p>
         </div>
     </section>
-    <section>
+    <section id="nine">
         <div class="container">
             <h2>Make divs "disappear" and "reappear" on click of another div</h2>
             <iframe src="https://player.vimeo.com/video/367790244" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             <p><a href="https://vimeo.com/367790244">Here's</a> the link to it on Vimeo and <a href='https://gist.github.com/mojopi/91414b6a4890195c98331e58de0dbe5e'>here's</a> the related gist</p>
+            <p><a href="https://gist.github.com/mojopi/0418c7e97321d94bfc6f1c315a87abcf">Here's</a> a gist about changing the color of one div on click of another div</p>
         </div>
     </section>
+
+
+
 </body>
+
+ <script type="text/javascript" src="jquery.js"></script>
+
 
 </html>
