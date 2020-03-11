@@ -45,7 +45,7 @@ section {
 
 }
 
-#resources {
+/*#resources {
     top: 550%;
     height: 200%;
 
@@ -53,13 +53,19 @@ section {
 
 #resources a {
     font-color: blue;
-}
+}*/
 
 
 
 #team {
-    top: 750%;
-    height: 450%;
+    top: 550%;
+    height: 400%;
+
+}
+
+#projects {
+    top: 950%;
+    height: 800%;
 
 }
 
@@ -84,7 +90,7 @@ section {
     z-index: 1;
     width: 55%;
     left: 25%;
-    position: absolute;
+    position: relative;
     padding-top: 5%;
     font-size: 1.5vw;
 
@@ -855,15 +861,20 @@ Below is the class name and styling we give to the description div when we click
         height: 100%;
     }
 
-    #resources {
+   /* #resources {
         top: 250%;
         height: 50%;
-    }
+    }*/
 
 
     #team {
-        top: 300%;
+        top: 250%;
         height: 200%;
+    }
+
+    #projects {
+        top: 450%;
+        height: 400%;
     }
 
 
