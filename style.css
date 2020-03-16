@@ -59,12 +59,12 @@ section {
 
 #team {
     top: 550%;
-    height: 400%;
+    height: 450%;
 
 }
 
 #projects {
-    top: 950%;
+    top: 1000%;
     height: 800%;
 
 }
@@ -1981,6 +1981,158 @@ animation-name:expand;
   transition-duration:3s;
   transition:ease-in;
 background-image:url("https://media3.giphy.com/media/Vd3IRPEFWIaYcyJle4/giphy.gif?cid=790b76116214c08f882cf67e3fa2bc8fb6d286be90106909&rid=giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.claudiap {
+ background-image: url(https://i.pinimg.com/originals/22/6e/54/226e5424ff02438a985928e1a71e9a7f.jpg); 
+  
+}
+
+.claudial-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/tG6ZDOfW5Xeo/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+#claudiaL-name:hover{
+animation-name:expand; 
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+
+
+
+.paytonj {
+ background-image: url(https://m.media-amazon.com/images/M/MV5BMjI4MjgyODMzNF5BMl5BanBnXkFtZTgwNjY2MjEzMjE@._V1_.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.paytonh-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media2.giphy.com/media/nNxT5qXR02FOM/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+
+.stellaT {
+ background-image: url(data:image/jpeg;base64,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); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.stellaA-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://vignette.wikia.nocookie.net/lesmiserables/images/7/75/C2.jpg/revision/latest/top-crop/width/220/height/220?cb=20120531110750"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+#stellaA-name:hover{
+      background-color:lightblue;
+
+animation-name:stella-expand; 
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+
+@keyframes stella-expand{
+    0%{
+    font-size:100%;
+  }
+   50%{
+    font-size:300%;
+  }
+  
+  100%{
+    font-size:100%
+  }
+}
+
+
+.alexandra {
+    background-image:url("https://media3.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif?cid=790b7611bf2c0ee548a0201913f4e2ce63ed929ea53516c4&rid=giphy.gif"); 
+
+/* background-image: url(https://dalton.myschoolapp.com/ftpimages/98/user/large_user2864954_1417612_442.jpeg?resize=200,200); 
+*/  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.alexandrag-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media3.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif?cid=790b7611bf2c0ee548a0201913f4e2ce63ed929ea53516c4&rid=giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.tyler {
+ background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/barbie-logo-pink-daughter-flynn-hilder.jpg"); 
+  
+}
+
+.tylerp-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media0.giphy.com/media/12qZzOj2MkY26A/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.melinan {
+ background-image: url(https://s.yimg.com/uu/api/res/1.2/DdytqdFTgtQuxVrHLDdmjQ--~B/aD03MTY7dz0xMDgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-11/7b5b5330-112b-11ea-a77f-7c019be7ecae); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.melinap-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:1s;
+  transition:ease-in;
+background-image:url(https://i.pinimg.com/originals/ce/bd/76/cebd7631fca508e1c3806e4154316baa.jpg); 
   background-repeat:no-repeat;
   background-size:cover;
   
