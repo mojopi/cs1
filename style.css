@@ -65,10 +65,19 @@ section {
 
 #projects {
     top: 1000%;
+    height: 500%;
+
+}
+#remote {
+    top: 1500%;
     height: 800%;
 
 }
 
+table tr td{
+    width:33%;
+    border:1px solid black;
+}
 
 
 #bar {
@@ -92,7 +101,7 @@ section {
     left: 25%;
     position: relative;
     padding-top: 5%;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 
 }
 
@@ -115,6 +124,10 @@ section {
     display: inline-block;
 
 
+}
+
+h2 {
+    font-size:25px;
 }
 
 /*Below is the styling for a div with the class name of headshot, which is the front of your card*/
@@ -1528,8 +1541,10 @@ Below is the class name and styling we give to the description div when we click
 }
 
 .JackW {
-    background-image: url(http://drive.google.com/uc?id=1wnQ_FQMHVJeMsCmLRmOgerZlu-9zmGAd);
+        background-image: url("http://drive.google.com/uc?id=1NINTdL93MuK3iW9fWMFOzeaUMgCEooVm");
 
+/*    background-image: url(http://drive.google.com/uc?id=1wnQ_FQMHVJeMsCmLRmOgerZlu-9zmGAd);
+*/
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -1541,7 +1556,6 @@ Below is the class name and styling we give to the description div when we click
         transform:rotateZ(100rad);
     transition-duration: 3s;
     transition: ease-in;
-    background-image: url("http://drive.google.com/uc?id=1NINTdL93MuK3iW9fWMFOzeaUMgCEooVm");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1663,7 +1677,7 @@ Below is the class name and styling we give to the description div when we click
 
 
 .ryanm {
-    background-image: url(https://trello-attachments.s3.amazonaws.com/5d7eedcc703eaa3a653d6398/5d7f7e309b6871728074944c/7122d02109a0630559143b70deff407b/image.png);
+ background-image: url("data:image/png;base64,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");
 
 }
 
@@ -1676,8 +1690,8 @@ Below is the class name and styling we give to the description div when we click
         transform:rotateZ(100rad);
     transition-duration: 3s;
     transition: ease-in;
-    background-image: url("data:image/png;base64,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");
-    background-repeat: no-repeat;
+/*    background-image: url("data:image/png;base64,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");
+*/    background-repeat: no-repeat;
     background-size: cover;
 
 }
