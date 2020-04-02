@@ -65,17 +65,23 @@ section {
 
 #projects {
     top: 1000%;
-    height: 500%;
+    height: 600%;
 
 }
 #remote {
-    top: 1500%;
-    height: 800%;
+    top: 1600%;
+    height: 1200%;
 
 }
 
-table tr td{
-    width:33%;
+table{
+    position:relative;
+    width:100%;
+}
+
+td{
+    width:30%;
+    padding:2%;
     border:1px solid black;
 }
 
@@ -101,7 +107,7 @@ table tr td{
     left: 25%;
     position: relative;
     padding-top: 5%;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 
 }
 
