@@ -65,11 +65,11 @@ section {
 
 #projects {
     top: 1000%;
-    height: 600%;
+    height: 1000%;
 
 }
 #remote {
-    top: 1600%;
+    top: 2000%;
     height: 2500%;
 
 }
@@ -893,8 +893,14 @@ Below is the class name and styling we give to the description div when we click
 
     #projects {
         top: 450%;
-        height: 400%;
+        height: 300%;
     }
+
+    #remote {
+    top: 750%;
+    height: 500%;
+
+}
 
 
 }
