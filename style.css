@@ -2164,3 +2164,23 @@ background-image:url(https://i.pinimg.com/originals/ce/bd/76/cebd7631fca508e1c38
   
 }
 
+.JamesS {
+ background-image: url(https://images-na.ssl-images-amazon.com/images/I/71InSo6p2GL._AC_SL1024_.jpg); 
+  
+}
+
+.JamesW-effect:hover {
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/ESLBiLPNRPjk4/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+
+
+
+
