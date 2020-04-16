@@ -943,16 +943,16 @@ background-image:url("https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif");
 
     #team {
         top: 250%;
-        height: 200%;
+        height: 300%;
     }
 
     #projects {
-        top: 450%;
+        top: 550%;
         height: 300%;
     }
 
     #remote {
-    top: 750%;
+    top: 850%;
     height: 500%;
 
 }
