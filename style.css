@@ -651,6 +651,61 @@ Below is the class name and styling we give to the description div when we click
     transition: .5s ease-in-out;*/
 }
 
+.jakea {
+ background-image: url(http://rekkerd.org/img/201409/xfer_serum.png); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.jakes-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/3w8oXxEKjDapi/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.jaie {
+ background-image: url(https://www.midwestsports.com/images/xxl/wrt73731u_1.jpg); 
+  
+}
+
+.jaig-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/myWd3Omj7KToQ/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.Nicco {
+ background-image: url(https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/7479145/1820/1214/m1/fpnw/wm1/rick-morty-.png?1576669533&s=f24e8287ad46f3bf8f9ea6b7a4b5bd6b); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.NiccoS-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 
 
 
