@@ -21,6 +21,7 @@ section {
 
 }
 
+
 #bar a {
     color: rgb(105, 105, 105);
 
@@ -63,7 +64,7 @@ section {
 
 }
 
-#projects {
+#work {
     top: 1400%;
     height: 1000%;
 
@@ -107,7 +108,7 @@ td{
     left: 25%;
     position: relative;
     padding-top: 5%;
-    font-size: 1.5vw;
+    font-size:1.5vw;
 
 }
 
@@ -130,6 +131,14 @@ td{
     display: inline-block;
 
 
+}
+
+#githubSection{
+    height:1000%;
+}
+
+#projectsSection{
+    height:1000%;
 }
 
 h2 {
@@ -946,7 +955,7 @@ background-image:url("https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif");
         height: 300%;
     }
 
-    #projects {
+    #work {
         top: 600%;
         height: 300%;
     }

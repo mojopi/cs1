@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<section id="week2">
+                <section>
+                    <h1>Day 3</h1>
+                    <hr>
+                    <h3>People Cards and Personal Websites</h3>
+                </section>
+                <section>
+                    <h3>What is happening🤮?!!!?</h3>
+                    <p>Constructing mental models of what you're doing!</p>
+                    <hr>
+                    <p>What do you think a website is?</p>
+                </section>
+                <section>
+                    <h3>MJ Live coding — join along!</h3>
+                    <hr>
+                    <ul>
+                        <li>HTML </li>
+                        <li>CSS </li>
+                        <li>
+                            Sublime Text, browser and console
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <p>What's your favorite website?</p>
+                    <hr>
+                    <p>Let's look at it's HTML structure</p>
+                </section>
+                <section>
+                    <h3>Day 3 Homework due Friday</h3>
+                    <hr>
+                    <ul>
+                        <li>add some cool stuff to your people card — make back of card yours!, put in <a href="https://docs.google.com/spreadsheets/d/1zW695e7jq-2JxDeV6VKLwqE3ldZrdikgSyu6OwaArEM/edit#gid=0">google doc!</a></li>
+                        <li>Email me a link to your favorite digital thing (app? website?) and a few sentences about why you like it!</li>
+                        <li>With the code we made today, make "your first webpage — something like this: <a href="https://mojopi.github.io/anaiya/">https://mojopi.github.io/anaiya/!?"</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Day 4</h1>
+                    <hr>
+                    <p>Debugging, googling, HTML/CSS syntax, JS</p>
+                </section>
+                <section>
+                    <h3>Some "tricks" to make life easier</h3>
+                    <hr>
+                    <ul>
+                        <li>saving sublime textwith "command+S"</li>
+                        <li>refreshing browder with "command+R"</li>
+                        <li>open HTML files with ✌️-click</li>
+                        <li>using ✌️-click in browser to "inspect" and open console</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Making Explicit HTML, CSS structure</h3>
+                    <hr>
+                    <ol>
+                        <li>tags: <> and
+                                < />
+                        </li>
+                        <li>CSS: {}</li>
+                        <li>Attributes & referring to them: ( id="" and #), (class="" and .)
+                            <br><br>*make sure to put attributes IN the opening tags</li>
+                    </ol>
+                </section>
+            </section>
+            <section id="week3">
+                <section>
+                    <h1>Day 5</h1>
+                    <hr>
+                    <h3>Finishing People Cards, pushing website</h3>
+                </section>
+                <section>
+                    <p>Open this site and keep it on 1 side of your screen.</p>
+                    <hr>
+                    <a href="https://mojopi.github.io/cs1/sessions/reveal/index.html#/5">
+                        <p style="font-size:50px;">bit.ly/day5-websites</p>
+                    </a>
+                    <hr>
+                    <p>Navigate slides with the DOWN arrow</p>
+                </section>
+                <section>
+                    <p>In another window go to github.com. MAKE SURE TO REMEMBER YOUR PASSWORD!</p>
+                </section>
+                <section>
+                    <h4>Making folders on your computer</h4>
+                    <hr>
+                    <ul>
+                        <li>Create folder on your desktop called <i style="color:purple">repositories</i></li>
+                        <li>Within that folder, create another folder called: <b style="color:red;">username</b>.github.io</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Make Repository Online</h4>
+                    <hr>
+                    <ul>
+                        <li>Go to github and sign in</li>
+                        <li>create a repository (press the button create repository) and name it <b style="color:red;">username</b>.github.io</li>
+                    </ul>
+                    <img src="./imgs/create-repo.png">
+                </section>
+                <section>
+                    <h4>Terminal Navigation</h4>
+                    <ul>
+                        <li>Open your terminal</li>
+                        <li>Type: <br>cd./desktop/repositories/<b style="color:red">username</b>.github.io</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Online >> Terminal</h4>
+                    <hr>
+                    <img src="./imgs/init-repo.png">
+                    <p>Copy this text and paste it into your terminal.</p>
+                </section>
+                <section>
+                    <h4>What we're typing</h4>
+                    <hr>
+                    <ul>
+                        <li>echo "# first" >> README.md</li>
+                        <li>git init</li>
+                        <li>git add README.md</li>
+                        <li>git commit -m "first commit"</li>
+                        <li>git remote add origin <b style="color:red;">username.</b>github.io</li>
+                        <li>git push -u origin master</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Setting your commit email as git email!</p>
+                    <hr>
+                    <ul style="font-size:0.7em">
+                        <li>git config --global user.email "MY-NAME@example.com"</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Adding in an actual webpage</h4>
+                    <hr>
+                    <ul>
+                        <li>Save a Sublime Text HTML file into you're folder and call it <b>index.html</b></li><br>
+                        <li>Add the tags and some stuff in the body</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Pushing the changes</h4>
+                    <hr>
+                    <ul>
+                        <li>In your terminal make sure you're in the right folder: <b style="color:red">username</b>.github.io</li>
+                        <li>type: git status</li>
+                        <li>type: git add .</li>
+                        <li>type: git commit -m "adding index.html file"</li>
+                        <li>type:git push</li>
+                    </ul>
+                </section>
+                <section>
+                    <p style="font-size:50px;">Making your repo a publishing source</p>
+                    <hr>
+                    <ul>
+                        <li>go back to the github webpage</li>
+                        <li>Scroll to "Github Pages"</li>
+                        <li>For source: under dropdown menu select "master"</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Put your codepen in the google doc!</h4>
+                    This google doc:
+                    <a href="https://docs.google.com/spreadsheets/d/1zW695e7jq-2JxDeV6VKLwqE3ldZrdikgSyu6OwaArEM/edit#gid=0">http://bit.ly/your-accounts</a>
+                    <hr>
+                    <ul>
+                        <li>Today is 9/23 or 24</li>
+                        <li>By 9/25 person card must be "finished" — your own images, your own text on back, link to github account, trello, favorite quote etc.</li>
+                        <li>Finish code diddy and "push it" online</li>
+                        <hr>
+                        <!--  <li>[I period] On Friday: <b>bring headphones</b>. You'll work to finish your code diddy. There will be a screencast for you to follow to put your first code-diddy online. Who can volunteer to help with this and have Lab with me beforehand?</li> -->
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Day 6</h1>
+                    <hr>
+                    <h3>Designing your personal websites</h3>
+                </section>
+                <section style="font-size:24px;text-align:left;">
+                    <p>Hi humans!</p>
+                    <p>Sorry I'm not there!</p>
+                    <p>For today, each of you is going to design and possibly start coding your digital portfolio/personal website/coding journal! The point of this website is that it's going to be a place where you keep all your programming work. The point of it is to look awesome, give a sense of who you are and what you've made, and it has to work well on computers and phones (we'll go into this next time)</p>
+                    <p><b>You should make at least 2 mock ups</b> (i.e. hand-drawn blueprints like you did for your people cards) and hand them in! When you finish these, start coding a sample site or start working on mocking up a few specific ideas for longer-term individual projects! (e.g. an interactive story, a cool data representation, etc.)</p>
+                    <p>Necessary supplies: Each of you needs blank paper and a ✍️ for mockups!</p>
+                </section>
+                <section>
+                    <h4>Things your website must include</h4>
+                    <hr>
+                    <div style="text-align:left;">
+                        <ol>
+                            <li><b>links</b> to code "snippets and diddies" that you make.</li>
+                            <li>Some <b>commentary and reflection</b> about the things you're making!</li>
+                            <li>A <b>cohesive aesthetic</b></li>
+                        </ol>
+                    </div>
+                </section>
+                <section style="font-size:26px;text-align:left;">
+                    <p>Check out example websites...</p>
+                    <p>For the following slides, go to the sites and "inspect the pages" to see the different parts of the sites and how they're made... (<i>e.g.</i>a menu bar is often just a div with links in it — on <a href="http://thisteenagelife.org/">this site</a> inspect the menu bar on the left in your console!)</p>
+                    <p>Really <i>look</i> at the sites. Think about:
+                        <ul style="color:purple;">
+                            <li>What is their structure (i.e. the divs/link/etc that they use.?</li>
+                            <li>What is the information flow like?</li>
+                            <li>Does moving through the site feel good to you? Does it match your aesthetic? Is it easy to navigate?</li>
+                            <li>Does it showcase the projects well?</li>
+                </section>
+                <section>
+                    <h3>Example 1: My coding journal — Just Text & Links</h3>
+                    <a href="http://mojopi.github.io">
+                        <p style="font-size:20px;">here's the link to the site
+                    </a>or you can explore in the iframe below</p>
+                    <hr>
+                    <iframe style="border:solid 5px;" src="http://mojopi.github.io" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <h4>2. My Project Portfolio: Image-based</h4>
+                    <a href="http://mollyj.org">
+                        <p>here's the link</p>
+                    </a>
+                    <hr>
+                    <iframe src="http://mollyj.org" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <h4>Homemade aesthetic w/image links</h4>
+                    <a href="http://shaunalynn.org/">here's the link</a>
+                    <hr>
+                    <iframe src="                    http://shaunalynn.org/" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <h4>Playful Aesthetic + ALL ON 1 SCROLL</h4>
+                    <a href="http://thisteenagelife.org">here's the link</a>
+                    <hr>
+                    <iframe src="                    http://thisteenagelife.org" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <h4>Text appears onclick of images</h4>
+                    <a href="https://mojopi.github.io/seeds2018/">here's the link</a>
+                    <hr>
+                    <iframe src="         https://mojopi.github.io/seeds2018/
+" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <a href="https://jenniferdewalt.com/">
+                        <h4>All links!</h4>
+                    </a>
+                    <hr>
+                    <iframe src="https://jenniferdewalt.com/" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <h4>Using gifs as links & on hover as descriptions</h4>
+                    <a href="https://connieye.com">link here</a>
+                    <iframe src="https://connieye.com" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+                </section>
+                <section>
+                    <p>This is the best project I've ever seen. I made a <a href="https://vimeo.com/292866705">short film</a> about it. Deryk documented it very well. It's not code documentation but I think it's a great example of documentation of a project.<a href="http://goerkederyk.weebly.com/creating-a-flying-machine.html"> Here it is</a> </p>
+                </section>
+                <section>
+                    <p>Before you start making your mockups, look carefully at the few below for the level of detail you'll want to incorporate!</p>
+                </section>
+                <section>
+                    <p>Example website mock ups — mock up 1</p>
+                    <p><a href="https://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/">Link</a> to blog of web designer</p>
+                    <hr>
+                    <img style="width:350px; height:550px;" src="./imgs/website-mockup1.png">
+                </section>
+                <section>
+                    <p>Example website mock ups — mock up 2</p>
+                    <p><a href="https://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/">Link</a> to blog of web designer</p>
+                    <hr>
+                    <img style="width:350px; height:550px;" src="./imgs/website-mockup2.png">
+                </section>
+                <section>
+                    <div>
+                        <p>Example website being made</p>
+                        <p><a href="https://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/">Link</a> to blog of web designer</p>
+                        <hr>
+                        <img style="width:350px; height:550px;" src="./imgs/website-layout.png">
+                </section>
+                <section style="text-align:left;">
+                    <p>Now you start designing your personal website (make 2 mock ups) and perhaps start coding it in sublime text! </p>
+                    <p>Your mock up should feature:</p>
+                    <ul>
+                        <li>The layout of the site</li>
+                        <li>arrows that describe how it works (i.e. where people click/mouseover etc. and what happens)</li>
+                        <li>Sketches of colors/pictures, wacky things on the site that make it special and fun that you want to inlcude </li>
+                    </ul>
+                    <p>After making your 2 mock ups, make a beginning sketch/some notes about your individual project!</p>
+                </section>
+            </section>
+            <section id="week4">
+                <h1>Day 7</h1>
+                <hr>
+                <p>Reviewing HTML, CSS</p>
+                <p>studio time: personal websites, people cards, personal projects </p>
+            </section>
+            <section>
+                <section id="week5">
+                    <h1>Day 8</h1>
+                    <hr>
+                    <h4>Intro to project journaling</h4>
+                    <h5>studio time: personal websites, link to journal </h5>
+                </section>
+                <section>
+                    <h3>HW due Friday — ~2-3 hours</h3>
+                    <hr>
+                    <ul>
+                        <li>Personal website published so that if someone goes to it they can actually use it</li>
+                        <li>Link to first code sketch with <i>description</i></li>
+                        <li>journal link created and first journal entry actually made</li>
+                        <li>everything published to github</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Adding and pushing changes to github!</h4>
+                    <hr>
+                    <ul style="font-size:0.6em">
+                        <li>make sure you're in your repository (<i>e.g.</i> cd./desktop/YOUR-REPO)</li>
+                        <li>git add .</li>
+                        <li>git commit -m "defining the changes"</li>
+                        <li>git commit push</li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>What does it mean to have a project journal? Why is it important?</h5>
+                    <hr>
+                    <iframe src="https://player.vimeo.com/video/292866705" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <hr>
+                    <a href="http://goerkederyk.weebly.com/creating-a-flying-machine.html">Journal</a>
+                </section>
+                <section>
+                    <iframe src="https://player.vimeo.com/video/122502930" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/122502930">Most Likely to Succeed Trailer</a> from <a href="https://vimeo.com/user10578118">One Potato Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </section>
+                <section>
+                    <h4>Most Likely to Succeed Teaser</h4>
+                    <hr>
+                    <iframe src="https://player.vimeo.com/video/117345678" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/117345678">MLTS Teaser: Vince</a> from <a href="https://vimeo.com/user10578118">One Potato Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </section>
+                <section>
+                    <h4>Community Service Hours & CS Lab</h4>
+                    <hr>
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/D1Lo-o3gRHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h4>Community Service Hours & CS Lab</h4>
+                    <hr>
+                    <iframe width="607" height="341" src="https://www.youtube.com/embed/SByymar3bds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h4>Youtube algorithm: Reply All #145</h4>
+                    <hr>
+                    <p>Start at 16m</p>
+                    <iframe scrolling="no" allow="autoplay" frameborder="no" width="100%" height="130" style="border-radius: 3px; height: 130px; width: 100%; box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);" src="https://player.gimletmedia.com/rnhzlo"></iframe>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Day 9</h1>
+                    <hr>
+                    <ul>
+                        <li>Journals/people cards — if not on website, problem!</li>
+                        <li>Mocking up individual projects by hand</li>
+                        <li>Putting into individual <a href="https://drive.google.com/drive/folders/1e1IdydyOtAaR7vFyYvXiMrs1gQqsP7Uv">gdocs</a></li>
+                </section>
+                <section>
+                    <h4>Personal Websites</h4>
+                    <hr>
+                    <ul>
+                        <a href="https://ciarabb.github.io/">
+                            <li>Ciara</li>
+                        </a>
+                        <a href="https://c23eg1.github.io/">
+                            <li>Ella</li>
+                        </a>
+                        <li><a href="https://c23sh.github.io/">Spencer</a>and <a href="https://dboss74.github.io/">Dylan</a></li>
+                        <a href="https://vivi-tonin.github.io/">
+                            <li>Vivi</li>
+                        </a>
+                        </a>
+                    </ul>
+                </section>
+                <section>
+                    <h2>To Do Today</h2>
+                    <hr>
+                    <ul>
+                        <li>Mock ups of projects (e.g. makey makey piano for 13-14 stairs, dj in room, projected subway map) — start in scratch</li>
+                        <li>Put description in google doc: BIT.LY/AMAZING-ROOM</li>
+                        <li>Break project into tasks that you put in your personal trello and make sure to share with me!</li>
+                        <li>Ask me for screencasts that I make for you (e.g. how do I make make something happen when I click on it?!)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>C period — interactive Ocean Stories (with makey makeys? On screen?)</h4>
+                    <hr>
+                    <img src="./imgs/H14b.JPG">
+                </section>
+                <section>
+                    <img src="./imgs/H14.JPG">
+                </section>
+                <section>
+                    <video controls src="./imgs/H14.mov"></video>
+                </section>
+                <section>
+                    <h4>Interactive stories</h4>
+                    <ul>
+                        <li><a href="https://twinery.org/">Twine</a> Story by <a href="https://mojopi.github.io/fringehead">Molly</a></li>
+                        <li><a href="https://mojopi.github.io/anaiyaStory/anaiyaStory.html">Anaiya's fairy</a></li>
+                        <li>my <a href="https://mojopi.github.io/story_in_pictures/">school story</a></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Ocean Inspirations</h4>
+                    <hr>
+                    <ul>
+                        <li>Blue Planet — One (e.g. <a href="https://www.youtube.com/watch?v=Or9NUEroVcE">mud skipper</a>) and <a href="https://www.youtube.com/watch?v=2f9SItUEtJ8">Two</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section id="week6">
+                <section>
+                    <h1>Day 10</h1>
+                    <hr>
+                    <h4>Intro to javascript, finally</h4>
+                </section>
+                <section>
+                    <h4>Variables, Functions, Event Listeners, Console.log</h4>
+                    <hr>
+                    <ul>
+                        <li>Console.log/event listener <a href="https://gist.github.com/mojopi/c93043f002f11264f26c39b2d3c2f6b5">example</a></li>
+                        <li>Event Listeners & color change <a href="https://gist.github.com/mojopi/795e6701365ae00b6c79305ebaf0078c">example</a></li>
+                        <li>Pizza <a href="https://gist.github.com/mojopi/5732d3d08e7134f8d51469833f9fa098">example</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Day 11</h1>
+                    <hr>
+                    <h4>Room code sketches</h4>
+                </section>
+                <section>
+                    <h4>Digital Project Room</h4>
+                    <hr>
+                    <ul>
+                        <li>Example room mock up code sketche <a href="https://ciarabb.github.io/#two">Ciara website</a></li>
+                        <li>Here is the gist for it<a href="">example</a></li>
+                        <li>Pizza <a href="https://gist.github.com/mojopi/5732d3d08e7134f8d51469833f9fa098">example</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section id="week7">
+                <section>
+                    <h1>Day 12</h1>
+                    <hr>
+                    <p>Intro to javascript, finally</p>
+                </section>
+                <section>
+                    <h3>Things to finish</h3>
+                    <hr>
+                    <ul>
+                        <li>Person cards, personal websites, link to code journals</li>
+                        <li>Room code sketches — <a href="http://ciarabb.github.io">ciara</a></li>
+                        <li>project google docs: bit.ly/AMAZING-ROOM</li>
+                        <li>starting your first code sketches for those projects!</li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>Example code sketches for:</h5>
+                    <ul>
+                        <li>Jasmine's outfit change project</li>
+                        <li>Micheal's "light's out" inspired project</li>
+                        <li>First step of Vivi's coloring book</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Variables, Functions, Event Listeners, Console.log</h4>
+                    <hr>
+                    <ul>
+                        <li>Console.log/event listener <a href="https://gist.github.com/mojopi/c93043f002f11264f26c39b2d3c2f6b5">example</a></li>
+                        <li>Event Listeners & color change <a href="https://gist.github.com/mojopi/795e6701365ae00b6c79305ebaf0078c">example</a></li>
+                        <li>Pizza <a href="https://gist.github.com/mojopi/5732d3d08e7134f8d51469833f9fa098">example</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section id="week8">
+                <section>
+                    <h1>Day 13/14</h1>
+                    <hr>
+                    <p>Feedback from peers & self assessment, plan out first part of project, intro to javascript and scratch</p>
+                </section>
+                <section>
+                    <h3>Things for you to do:</h3>
+                    <hr>
+                    <ul>
+                        <li>Partner feedback: feedback that's useful, specific, kind</li>
+                        <li>HW: Self assessment of your work (person card, personal website, first code sketch, journal) Drop off on my desk by <b>Wednesday 10/30/19</b></li>
+                        <li><b>Projects:</b>:In your google doc at bit.ly/AMAZING-ROOM <b>write out in detail</b> what the 1st part of your project is (i.e. which tool you'll use, what exactly you'll make) and by when will you make it and self-assign HW that's due on <b>Friday.</b></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h4>Open House: Mon Nov. 4th</h3>
+                            <hr>
+                            <li>Who is coming on Monday night, November 4th to demo their work?</li>
+                            <li>In <a href="https://drive.google.com/drive/folders/1e1IdydyOtAaR7vFyYvXiMrs1gQqsP7Uv">this folder:</a> Put me with a high quality photograph of yourself with a digital project you've made this semester and a well-written, detailed description of a the project. Include why you like it, why you think it's cool, and how you made it.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Class Model Now through Winter Break</h4>
+                    <h4>Working on projects</h4>
+                    <ul>
+                        <li>Expected to code and work on your projects 3 hours per week outside of class until their done! (Winter break)</li>
+                        <li>Come to class with bugs and problems</li>
+                        <li>Writing in journal 2X per week (tracking projects) and pushing to github</li>
+                    </ul>
+                    <h4>Seminars</h4>
+                    <ul>
+                        <li>I'll send out <i>short</i> and really interesting articles based around CS/big ideas that you'll read and we'll discuss!</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Play with Javascript: Variables, Functions, Event Listeners, Console.log</h4>
+                    <hr>
+                    <ul>
+                        <li>Console.log/event listener <a href="https://gist.github.com/mojopi/c93043f002f11264f26c39b2d3c2f6b5">example</a></li>
+                        <li>Event Listeners & color change <a href="https://gist.github.com/mojopi/795e6701365ae00b6c79305ebaf0078c">example</a></li>
+                        <li>Pizza <a href="https://gist.github.com/mojopi/5732d3d08e7134f8d51469833f9fa098">example</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section id="week9">
+                <section>
+                    <h1>Day 15</h1>
+                    <hr>
+                    <h4>writing your own functions/recipes</h4>
+                </section>
+                <section>
+                    <h3>What is a function @ code.org?</h3>
+                    <hr>
+                    <iframe width="852" height="479" src="https://www.youtube.com/embed/yPWQfa4CHbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <a href='https://scratch.mit.edu'>
+                        <h3>scratch.mit.edu
+                        </h3>
+                    </a>
+                    <hr>
+                    <p>make a new block that does something in scratch</p>
+                </section>
+                <section>
+                    <h4>Make a funciton in JS... <b>and call it</b></h4>
+                </section>
+                <section>
+                    <p>Say something in your console</p>
+                    <hr>
+                    <p>function sayHi (x)
+                        {<br>
+                        console.log("Hi" + x + <br>
+                        "how are you?");<br>
+                        }</p>
+                </section>
+                <section>
+                    <div style="text-align:left">
+                        <p><b>Recipe: Make a Square</b></p>
+                        <hr>
+                        function makeSquare {<br>
+                        var square = <br>document.createElement("div");<br>
+                        square.style.width="100px";<br>
+                        square.style.height="100px";<br>
+                        square.style.backgroundColor="blue";<br>
+                        }
+                    </div>
+                    </p>
+                </section>
+                <section>
+                    <b>Calling the function...100 times</b>
+                    <hr>
+                    <p>for (var i=0; i<100; i=i+1)</p> <p>{makeSquare()};</p>
+                </section>
+                <section>
+                    <h3>Functions do 3 things</h3>
+                    <hr>
+                    <ol>
+                        <li>Take an argument</li>
+                        <li>Return something</li>
+                        <li>Run</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Make your own functions that do something cool</h3>
+                </section>
+            </section>
+            <section id="week10">
+                <section>
+                    <h1>Week 10</h1>
+                    <hr>
+                    <p>Working on projects, Fizzbuzz, seminar</p>
+                </section>
+                <section>
+                    <img src="./imgs/fizzbuzz.png">
+                </section>
+                <section>
+                    <h3>Doing and Documenting FizzBuzz</h3>
+                    <hr>
+                    <ul>
+                        <li>complete the fizzbuzz challenge in Scratch (or javascript)</li>
+                        <li>Take a photo of your code and put the image with an explanation of your code in your own words on your personal website</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Seminar about Youtube and TikTok Recommendation Algorithms</p>
+                </section>
+                <section>
+                    <a href="http://www.pbs.org/wnet/amanpour-and-company/video/caleb-cain-and-kevin-roose-on-radicalization-and-youtube/">
+                        <p>Making of a Youtube radical</p>
+                    </a>
+                </section>
+                <section>
+                    <p>New Yorker: <a href="https://www.newyorker.com/magazine/2019/09/30/how-tiktok-holds-our-attention">How Tik Tok Holds Our Attention</a></p>
+                </section>
+            </section>
+            <section>
+                <section id="week11">
+                    <h1>Week 11</h1>
+                    <hr>
+                    <p>getting better at writing and calling functions in javascript</p>
+                </section>
+                <section>
+                    <h3>Writing functions in javascript</h3>
+                    <hr>
+                    <p>Make a code sketch using a function<p>
+                            <ul>
+                                <li>function name () {}</li>
+                                <li>console.log()</li>
+                                <li>element.addEventListener()</li>
+                                <li>element.innerText=""</li>
+                                <li>
+                                    for (i=0; i<100; i=i+1) {}; </li> <li>use <a href="https://gist.github.com/mojopi">mojopi gists</a> for inspiration</li>
+                            </ul>
+                </section>
+                <section>
+                    <p>Codesketch: <a href="https://gist.github.com/mojopi/50fe45bfc6511bb44b2f7be2fd855ea8">Cookie Maker</a> that uses "recipe funciton"</p>
+                </section>
+                <section>
+                    <p>Codesketch: <a href="https://gist.github.com/mojopi/3abc859eec8ed47c40d8750c86f592b1">Egg Scrambler</a> (with arrays)
+                </section>
+                <section>
+                    <h3>FOR MONDAY/FRIDAY</h3>
+                    <hr>
+                    <p>Monday: What does it mean to give good critique</p>
+                    <p>Friday: present projects to class (what has your progress been?</p>
+                </section>
+            </section>
+            <section id="week12">
+                <section>
+                    <h1>Week 12</h1>
+                    <hr>
+                    <h3>Presentations on Friday Dec. 6th</h3>
+                </section>
+                <section>
+                    <h3>Great documentation of work</h3>
+                    <p>(feels more like a story NOT like showing off code with technical jargon):</p>
+                    <ul>
+                        <li>Deryk Georke: <a href="http://goerkederyk.weebly.com/creating-a-flying-machine.html">website</a>, <a href="https://vimeo.com/292866705">video</a></li>
+                        <li>Jennifer Dwalt: <a href="https://jenniferdewalt.com/">website</a>, <a href="https://blog.jenniferdewalt.com/">blog</a></li>
+                        <li>Connie Ye's <a href="href=" https://connieye.com"">Projects </a> </li> </ul> </section> <section>
+                                <p>Final project should either be in javascript or should look great/professional in scratch.</p>
+                </section>
+                <section>
+                    <h2>For Presentations...</h2>
+                    <hr>
+                    <p>You'll have 2-3 minutes speak specifically about:</p>
+                    <ul>
+                        <li>What you made and why</li>
+                        <li>How it works</li>
+                        <li>What you learned</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>People will write feedback on index cards that's</p>
+                    <ul>
+                        <li>kind</li>
+                        <li>specific</li>
+                        <li>helpful</li>
+                    </ul>
+                </section>
+                <section>
+                    <iframe width="781" height="439" src="https://www.youtube.com/embed/E_6PskE3zfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </section>
+            <section id="week13">
+                <section>
+                    <h1>Week 13</h1>
+                    <hr>
+                    <h3>Combining functions, for loops, to make representations of <i>something</i></h3>
+                </section>
+                <section>
+                    <h3>Make Something...</h3>
+                    <ul>
+                        <li>That makes a bunch (hundreds) of divs</li>
+                        <li>With random color or random position OR who's color or position <i>correlates</i> with something (<i>e.g.</i>mouse location</li>
+                    </ul>
+                    <hr>
+                    <p>Here is the cheat sheet:<a href="http://bit.ly/js-cheatsheet">http://bit.ly/js-cheatsheet</a></p>
+                </section>
+                <section>
+                    <h3>
+                        What is my problem here?:
+                    </h3>
+                    <hr>
+                    <p>I want to make a swarm of bees or school of fish that swarm around my mouse. Can I do that? Thoughts?</p>
+                </section>
+                <section>
+                    <p>A <a href="https://gist.github.com/mojopi/95dc9b985d9ff87f7b12771f359c6fec">gist I made</a> of dancing squares</p>
+                </section>
+            </section>
+            <section id="week14">
+                <section>
+                    <h1>Week 14</h1>
+                    <hr>
+                    <h3>Presents</h3>
+                </section>
+                <section>
+                    <h3>Housekeeping</h3>
+                    <hr>
+                    <p>Linked to website and journal entries about: fizzbuzz, array, funcitons codesketches.</p>
+                </section>
+                <section>
+                    <h3>My Gift</h3>
+                    <hr>
+                    <a href="http://thisteenagelife.org/blog/web-art/index.html">
+                        <p>TTL drawings & music</p>
+                    </a>
+                </section>
+                <section>
+                    <h4>Using sound and movement</h4>
+                </section>
+                <section>
+                    <iframe src="https://player.vimeo.com/video/249041013" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <iframe src="https://player.vimeo.com/video/249040823" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Sharing Mock Ups</h3>
+                    <hr>
+                    <p>...and make sure to upload pictures and descriptions of them onto your website/journal</p>
+                </section>
+                <section>
+                    <p>With partner, write out STEPS in <i>English</i> breaking down how you'll make project into parts<i> e.g.:</i></p>
+                    <hr>
+                    <ol>
+                        <li>make a function that make divs with background images</li>
+                        <li>Make functions that set random position, size, opacity</li>
+                        <li>run those functions every 30s (using setInterval)</li>
+                    </ol>
+                </section>
+            </section>
+            <section id="week15">
+                <section>
+                    <h1>Week 15</h1>
+                    <hr>
+                    <p>long term project planning, code sketch, journal entry of the week</p>
+                </section>
+                <section>
+                    <h3>Planning</h3>
+                    <ul>
+                        <li>What <b>project</b> (<i>e.g</i> gift, story) do you want to work on this semester?</li>
+                        <li>What do you want to make? </li>
+                        <li>Examples of children's books: <a href="https://mojopi.github.io/jamie/#/">Jamie</a>, <a href="http://mojopi.github.io/sasha">Sasha</a>, <a href="https://mojopi.github.io/will/">Will</a>, <a href="https://mojopi.github.io/hillary/#/">Hillary</a>, <a href="https://mojopi.github.io/dylan/#/">Dylan</a></li>
+                        <li>photos of "exhibition of work"</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Magic Trick/Disappearing Code Sketch:</h4>
+                    <hr>
+                    <p style="text-align:left;">Make something:</p>
+                    <ul>
+                        <li>With thousands of divs of different sizes</li>
+                        <li>Swarming randomly</li>
+                        <li>So that when you clicked on something on the page</li>
+                        <li>They all disappeared</li>
+                    </ul>
+                    <p style="font-size:30px;text-align:left;">Work with a partner to map it out <i>on paper</i> and then begin to code it. Finish it, link it to your website, and write a journal entry about what you made, why you made it, and how it works?</p>
+                </section>
+            </section>
+            <section>
+                <section id='week16'>
+                    <h2>Week 16</h2>
+                    <hr>
+                    <p>Making you're own Thinking/Feeling Code Sketch<p>
+                </section>
+                <section>
+                    <p>How do you think <a href="https://mojopi.github.io/eating-animals/">this</a> works?</p>
+                    <hr>
+                    <iframe width="600" height="400" src="https://mojopi.github.io/eating-animals/"></iframe>
+                    <p>make your own, link to your website, and journal about it:)</p>
+                </section>
+                <section>
+                    <b>3 project ideas that you write in your gdoc</b>
+                    <p>
+                        <a href="http://bit.ly/dalton-cs1">bit.ly/dalton-cs1</a>
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>In your doc, insert page break so all old stuff on next page</li>
+                        <li>On first page, write three project ideas</li>
+                        <ol>
+                            <li>A gift</li>
+                            <li>A simulation</li>
+                            <li>A digital children's book</li>
+                            <li>OTHER</li>
+                        </ol>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Week 16: H period</h3>
+                    <hr>
+                    <p>Making People Cards, Making Personal Websites</p>
+                </section>
+                <section>
+                    <a href="https://codepen.io/mojopi/pen/wvwPjpL">
+                        <p>Person Card: bit.ly/cs1-person-card</p>
+                    </a>
+                    <hr>
+                    <p>There is an option on the bottom to <b>fork</b> the pen. Once you've finished <b>and saved</b> your card (with a LINK to your PUBLISHED WEBSITE ON GITHUB), send it to me;)</p>
+                </section>
+                <section>
+                    <h4>Personal Websites</h4>
+                    <hr>
+                    <p>Download one of the following templates & mess around with it to make it your own.</p>
+                    <p>Must have links to projects and a journal</p>
+                    <ul>
+                        <li><a href="https://mojopi.github.io/scroll-template/">Scroll Template</a></li>
+                        <li><a href="https://mojopi.github.io/menu-template/">Menu Template</a></li>
+                        <li><a href="https://mojopi.github.io/image-template/">Image Template</a></li>
+                        <li>Feel free to look at other sites:<a href="http://mollyj.org/">mollyj.org</a>, <a href="https://mojopi.github.io/cs1/">cs1 team</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Homework this week</h4>
+                    <hr>
+                    <ul>
+                        <li>make person card and email me the link</li>
+                        <li>make personal website, and journal entry, and include link to <b>website</b> on your person card</li>
+                    </ul>
+                </section>
+            </section>
+            <!-- <section>
+                     <section id="week17">
+                    <h2>Week 17</h2>
+                    <hr>
+                    <h3>Simulations, children's books</h3>
+                </section>
+                <section>
+                    <h3>Cool Animal Stuff — Real and Modelled</h3>
+                    <hr>
+                    <ul>
+                        <li>Starlings: <a href="https://theconversation.com/starling-murmurations-the-science-behind-one-of-natures-greatest-displays-110951">modelling murmurations</a>, Xavi <a href="http://www.xavibou.com/index.php/project/ornitographies/">Bou</a> and <a href="https://www.wired.com/story/starlings-murmurations/">Wired</a>
+                            
+                        <li><a href="https://auz.github.io/Bug/">bugs crawling on your website</a></li>
+                    </ul>
+                </section> -->
+            <section id="week17">
+                <section>
+                    <h3>Objects: Cars</h3>
+                    <hr>
+                    <p>
+                    </p>
+                </section>
+            </section>
+            <section id="week18">
+                <section>
+                    <h1>Week 18</h1>
+                    <hr>
+                    <p>cool things...physically represented</p>
+                </section>
+                <section>
+                    <h3>What we're doing</h3>
+                    <hr>
+                    <ul>
+                        <li>Drawing something based on rules</li>
+                        <li>Making a video of it</li>
+                        <li>Turn it into a gif that we put on personal website and talk about</li>
+                        <li>Code phenomena we're making in scratch</li>
+                        <li>Then code with Axi Draw</li>
+                    </ul>
+                </section>
+                <section>
+                    <a href="https://www.reddit.com/r/generative/">
+                        <p>generative art</p>
+                    </a>
+                </section>
+                <section>
+                    <h3>Plants Part 1</h3>
+                    <hr>
+                    <iframe width="607" height="455" src="https://www.youtube.com/embed/ahXIMUkSXX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Plants Part 2</h3>
+                    <hr>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lOIP_Z_-0Hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Plants part 2</h3>
+                    <hr>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/14-NdQwKz9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Dragons</h3>
+                    <hr>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EdyociU35u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Dragon and Dungeons</h3>
+                    <hr>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dsvLLKQCxeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <h3>Dragon Scales</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Oc8sWN_jNF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </section>
+
+</body>
+</html>

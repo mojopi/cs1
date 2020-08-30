@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Github</title>
+
+
+</head>
+
+<body>
+	<section id="githubSection">
+	<div class="textbox">
+    <center><h1 style="font-size:5vw;">Creating your 1st Github Repository 👾</h1></center>
+    <ol>
+        <li><span style="font-size:2.5vw;">Create a Github Account</span>:<br><br> To store our code and to have it be displayed as a website on the internet, we use a tool called Github. <br><br>Github is a collaboration tool for software engineers. It's kind of like the coding version of Google Docs which programmers can use to collaboratively to edit code. <a href="https://www.youtube.com/watch?v=w3jLJU7DT5E">Here</a> is a video that describes how software engineers use Github. <br><br>
+            You can think of github kind of like icloud. You're going to have a folder on your computer that connects to Github the website so that you can "push" stuff to the internet. This will allow you to make changes to your code on your computer (i.e. locally) and then "push" it online so the new code shows up on your website on the internet.<br><br>
+            To set up a Github account go to <a href="https://github.com/">github.com</a> and create an account. For your username, please use your Dalton username (<i>e.g.</i> C24mj). <br><br>Create a password <b>and write it down in the notes app on your computer like this: <br><br>
+                github username: c22mj
+                <br>
+                github password: whateverYourPasswordIs
+                <br><br>
+                The reason we're doing this is so that when you forget your password, we can search your notes for "github password" and look it up. If you forget your password you can get locked out of your account.<br><br>
+                When you're creating a github account, there's an annoying part that involves flipping around a figure until it's in it's correct orientation. That's just to validate that you're not a robot. It's weird but you just have to do it¯\_(ツ)_/¯.<br><br>
+        </li>
+        <br><br>
+        <li><span style="font-size:2vw;">Create A Repositories Folder:</span><br><br>Create a folder on your desktop called "repositories". A repository is a place where you store stuff. In this folder, we're going to store other folders. Each of them will store the code for the websites you make. <br><br>To make a "repositories" folder on your desktop, go to your the "file" option in your menu bar, select "new folder". When it shows up on your desktop as "untitled" click on the world untitled once and it'll allow you to rename it, "repositories"<br><br>
+            Within the "repositories" folder, create another folder that is named yourUsername.github.io (i.e. If you're usename is c24mj it'll look something like c24mj.github.io). This is the folder that we are going to connect to github. <br><br><br><br>
+        <li>
+
+            <span style="font-size:2vw;">Create a Github Repository Online:</span><br><br>
+            We are now going to connect your Username.github.io folder and the internet so that your future code will appear as your personal website at a URL that you can visit. If you haven't done this before, it might feel like going into a hidden world on your computer.<br><br>
+            <ol>
+                <li> Download <a href="https://share.getcloudapp.com/xQuLOpZ6">this file</a> and put it in your Username.github.io folder. </li><br>
+                <li>On the github website, once signed into your account, press the "+" button in the upper right and select "create new repository"</li><br><br>
+                <img src="./imgs/repo1.png"  style="height:250px; width:470px;" >
+                <br><br>
+                <li>Name your repository by after theslash putting "yourUsername.github.io" (<i>e.g.</i> c24mj.github.io) an then press "Create Repository</li><br><br>
+                <img src="./imgs/repo2.png" style="width:350px; height:400px;"><br><br>
+            </ol>
+<li> <span style="font-size:2vw;">Connect your online github repository folder to a local one:</span></li><br><br>
+                <ol>
+
+                <li>
+                    <b>Open your Terminal:</b><br>
+                    On your computer go to the 🔍 in the upper right corner. Search for the "terminal". The terminal is a way to navigate your computer from the "back end" For instance, all of the folders on your desktop which are made to look like folders...they are an illusion that Apple made in order to help it easier to navigate you navigate your computer. They're called a graphical interface. In your terminal, you're going to navigate your folders without the graphical interface.
+                </li>
+                <br>
+                <li>
+                    <b>In your terminal navigate to your Username.github.io folder:</b><br>
+                    The way we "go down a level" from your top folder is by typing "cd" which means "change directory." Following it, we type "./" which means "go down a level into a folder in this folder." to get to your username.github.io folder on your computer, you first have to go into your desktop folder, than into your repositories folder, and then into your username.github folder. It'll look something like this except with <i>your</i> username. <br><br>
+                    cd ./desktop/repositories/yourUserName.github.io
+                    <br><br>
+                    Press the return key AND MAKE SURE that you're actually <i>IN</i> your username.github.io folder. You'll know this because before the curser and your username in your terminal will be the name of the folder username.github.io
+                </li><br><br>
+                <li><b>Connect your folder to the internet:</b><br> Paste in this code, which will connect your folder to your online repository by putting in the folder an invisible "git" file which will track all the changes so that every time you make changes to your future code, it will know that you made those changes. It is the text under the heading: <br> <i>…or push an existing repository from the command line</i><br><br>
+                   
+                </li>
+                 <img src="./imgs/repo3.png" style="width:400px; height:70px;">
+
+                 <br><br>
+                <li><b>Push your first website so that it actually shows up!:</b><br> In class, you wil have made your first codesketch called index.html. Drag that file into your username.github.io folder. Make sure you have this "makefile" file also downloaded and put in your username.github.io folder. In your terminal type the following and press "return"</li>
+
+                <br><br>
+
+                make git m="message that describes what you've changed in the folder"
+              <br><br>
+              <li>You might need to go into the settings of the repository and set "github pages" to master. (This will display your masterbranch).</li>
+                
+            </ol>
+
+        </div>
+    </section>
+</body>
+
+</html>
