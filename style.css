@@ -951,17 +951,17 @@ background-image:url("https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif");
 
 
     #team {
-        top: 300%;
+        top: 250%;
         height: 300%;
     }
 
     #work {
-        top: 600%;
+        top: 550%;
         height: 300%;
     }
 
     #remote {
-    top: 900%;
+    top: 850%;
     height: 500%;
 
 }
