@@ -35,13 +35,13 @@ section {
 }
 
 #learning-goals {
-    top: 100%;
+    top: 50%;
     height: 250%;
 
 }
 
 #expectations {
-    top: 350%;
+    top: 300%;
     height: 250%;
 
 }
@@ -59,18 +59,18 @@ section {
 
 
 #team {
-    top: 650%;
+    top: 550%;
     height: 850%;
 
 }
 
 #work {
-    top: 1450%;
+    top: 1400%;
     height: 1000%;
 
 }
 #remote {
-    top: 2450%;
+    top: 2400%;
     height: 2500%;
 
 }
