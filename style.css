@@ -2809,3 +2809,43 @@ Below is the class name and styling we give to the description div when we click
     background-size: cover;
 
 }
+
+.sachi {
+ background-image: url(https://media1.giphy.com/media/3oz8xK0liGg1yTgcZq/giphy.gif); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyoncek to your name and last initial (it should be the sam as your ID without the #)*/
+
+.sachir-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url(https://media1.tenor.com/images/467d353f7e2d43563ce13fddbb213709/tenor.gif?itemid=12136175); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.adiak {
+ background-image: url(https://i.pinimg.com/originals/4d/cd/1d/4dcd1d1a29c27986516cbe3d25279e52.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.adiac-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d27697445a4.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
