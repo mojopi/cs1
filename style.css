@@ -2810,6 +2810,26 @@ Below is the class name and styling we give to the description div when we click
 
 }
 
+.willL {
+  transition:1s;
+ background-image: url(https://escapetheroom.com/south-park/wp-content/uploads/sites/24/2019/05/cartman.png); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.willL-effect:hover {
+  transform:rotateZ(360deg);
+  transition-duration:2s;
+  transition:ease-in-out;
+background-image:url(https://media1.giphy.com/media/3NtY188QaxDdC/giphy-downsized.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .sachi {
  background-image: url(https://media1.giphy.com/media/3oz8xK0liGg1yTgcZq/giphy.gif); 
   
