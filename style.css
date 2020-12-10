@@ -2869,3 +2869,24 @@ background-image:url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d2
   background-size:cover;
   
 }
+
+
+.ellam{
+ background-image: url(https://i.ytimg.com/vi/jKMh7Gueh1g/maxresdefault.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ellad-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url(https://media.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
