@@ -2876,10 +2876,6 @@ background-image:url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d2
   
 }
 
-/*FOR YOU TO DO: add some hover effects!
-
-1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
-
 .ellad-effect:hover {
   animation-name:
   transform:rotateZ(100rad);
@@ -2888,5 +2884,25 @@ background-image:url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d2
 background-image:url(https://media.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif); 
   background-repeat:no-repeat;
   background-size:cover;
+  
+}
+
+
+.samk {
+ background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2014/10/GettyImages-521375354-a04d423.jpg?quality=45&resize=768,574); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.samw-effect:hover {
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url(https://media1.giphy.com/media/1FZqAOn4hzGO4/giphy.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform: rotate(360deg);
   
 }
