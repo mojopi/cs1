@@ -2466,6 +2466,23 @@ Below is the class name and styling we give to the description div when we click
 
 }
 
+.SashaRB {
+ background-image: url(https://media0.giphy.com/media/5WJ09Mca4SzernO9ZV/giphy.gif); 
+  
+}
+
+
+.SashaRB-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://images-na.ssl-images-amazon.com/images/I/61Jigwd1kKL._AC_SL1500_.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .williams-effect:hover {
     animation-name: ease-in-out transform:skew(-10deg);
     transition-duration: 2s;
@@ -2492,6 +2509,26 @@ Below is the class name and styling we give to the description div when we click
     animation-iteration-count: infinite;
     transition: 1s ease-in-out;
     transform: skew(-10deg)
+}
+
+.jasonc {
+ background-image: url(https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.jasont-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
 }
 
 .haeon {
