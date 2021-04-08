@@ -567,7 +567,22 @@ background-image:url(https://steamuserimages-a.akamaihd.net/ugc/1028454670712574
   
 }
 
+.kareenak {
+ background-image: url(https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif); 
+  
+}
 
+
+.kareenab-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url(https://media.tenor.com/images/34dfb55f51d006decda504cb49dbcbb1/tenor.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 .emmettr-effect:hover {
   animation-name:
   transform:rotateZ(100rad);
