@@ -544,6 +544,24 @@ background-image:url(https://i.pinimg.com/originals/98/96/10/98961053d37cab760e9
   background-position:right;
 }
 
+
+.jaimiej {
+ background-image: url(https://pbs.twimg.com/profile_images/944165979625611264/bhW_ocy5.jpg); 
+  
+}
+
+
+.jaimiel-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url(https://steamuserimages-a.akamaihd.net/ugc/1028454670712574028/62F5CBF8EEF6BD43CC30BE0E35018BE9C90F3381/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
