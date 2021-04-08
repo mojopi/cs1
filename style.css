@@ -562,6 +562,23 @@ background-image:url(https://steamuserimages-a.akamaihd.net/ugc/1028454670712574
   
 }
 
+.emmettz {
+ background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Louisville_Cardinals_logo.svg/250px-Louisville_Cardinals_logo.svg.png); 
+  
+}
+
+
+.emmettr-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+background-image:url("https://thumbs.gfycat.com/PolishedWideGadwall-max-14mb.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
