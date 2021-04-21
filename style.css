@@ -281,6 +281,48 @@ animation-name:expand;
 }
 
 
+.cameronh {
+ background-image: url(https://i.pinimg.com/474x/4a/c8/7c/4ac87c0d293fc749bc81b0c747175aec.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.cameronl-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:4s;
+  transition:ease-in-out 2s;
+background-image:url("https://i.pinimg.com/474x/0d/6b/13/0d6b13dc7014598561bf5790bd1ffa6b.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform:rotate(360deg);
+  
+}
+
+
+.anyae {
+ background-image: url(https://cdn.britannica.com/88/188088-050-B2B457A0/dolphins-blue-sea-mammal-sky.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.anyal-effect:hover {
+  animation-name:
+  transform:rotateZ(100rad);
+  transition-duration:2s;
+  transition:ease-in;
+background-image:url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDIyNTU1OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYzMDczODQ0Nn0.nXfT94uNilHWYgf8XijGLV8OWndidOyaNIfFMnEcRjo/img.jpg?width=1245&quality=85&coordinates=0%2C0%2C0%2C0&height=700); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .talyaj {
  background-image: url("https://media3.giphy.com/media/9Jcw7ESF7uk7cQwUjO/giphy.gif"); 
   
