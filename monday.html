@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <!-- Ideas trying to keep straight:
+
+arrays — random dalton grads
+
+an array is a list. 
+
+
+
+for loops — 10K cookies
+setInterval — cookie counter
+
+
+
+
+problem: could you make a codesketch where you click once and one thing happens and you click again and another thing happens -->
+    <div id="etien"></div>
+    <script type="text/javascript">
+    function hello() {
+
+        console.log("hi daisy!")
+    }
+
+    var etien = document.getElementById('etien');
+
+
+    var breakfasts = ["sky", "car", "hatti's jeans", "woman's shirt", "eggplants", "violets", "lavender", "grapes"];
+
+
+    // etien.innerText = breakfasts;
+
+
+
+    var life = Math.round(Math.random() * 7);
+
+    console.log(life)
+
+
+    console.log(breakfasts[life]);
+
+    // console.log(breakfasts[0]);
+
+    if (life > 3) {
+        document.body.innerText = "purple";
+
+    } else if (life < 3) {
+        document.body.innerText = "lightblue";
+
+    }
+
+     else if (life == 3) {
+        document.body.innerText = "blue";
+
+    }
+    </script>
+</body>
+
+</html>
