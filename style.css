@@ -346,6 +346,28 @@ background-image:url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6Ik
   
 }
 
+.hattiej{
+background-image: url(https://static.wikia.nocookie.net/powerpuff/images/8/8b/Bubbles_15.png/revision/latest?cb=20160523095343);
+  background-color:lightblue;
+  background-position:center;
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.hatties-effect:hover{
+  transform:rotateZ(100rad);
+  transition-duration:3s;
+  transition:ease-in;
+/*  background-color:lightpink;
+*/background-image:url(https://images.gr-assets.com/hostedimages/1380747939ra/3118887.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .theoe {
  background-image: url(https://steamregister.com/wp-content/uploads/2015/07/panda-istock-35316428.jpg); 
   
