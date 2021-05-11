@@ -742,10 +742,21 @@ background-image:url(https://i.pinimg.com/originals/98/96/10/98961053d37cab760e9
 }
 
 
-.gush {
+.gusH {
  background-image: url(https://www.nps.gov/acad/images/Beaver-sits-in-water.jpg?maxwidth=1200&autorotate=false); 
-  background-position:right;
+background-position:right;
+
 }
+
+.gus-effect:hover{
+  transform:rotate(720deg);
+  transition:1s;
+ background-image: url(https://sports.cbsimg.net/images/visual/whatshot/Clayton-Kershaw-Giants-Dodgers-2012-hammer.gif); 
+  background-position:center;
+}
+
+
+
 
 
 .jaimiej {
