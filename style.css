@@ -5,8 +5,8 @@ body {
     margin: 0;
 }
 
-h1{
-  font-family: 'Eater', cursive;
+h1 {
+    font-family: 'Eater', cursive;
 }
 
 section {
@@ -229,14 +229,14 @@ h2 {
 
 
 .cooperE {
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJXNM2mUr2No3sL7i9WHaNOaUfpkDvCJW6Q&usqp=CAU"); 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJXNM2mUr2No3sL7i9WHaNOaUfpkDvCJW6Q&usqp=CAU");
 
-  
+
 }
 
 .josiec {
- background-image: 
-  url(./imgs/josieheart1.jpg); 
+    background-image:
+        url(./imgs/josieheart1.jpg);
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -244,13 +244,12 @@ h2 {
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .josieh-effect:hover {
-  animation-name: heart
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in-out 1s;
-background-image:url(./imgs/josieheart2.jpg); 
- 
-  
+    animation-name: heart transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in-out 1s;
+    background-image: url(./imgs/josieheart2.jpg);
+
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -258,55 +257,123 @@ background-image:url(./imgs/josieheart2.jpg);
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .CooperH-effect:hover {
-    animation: shake 1.5s;;
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media1.tenor.com/images/a571468a40e40d4c6e081b8ccc02e88c/tenor.gif?itemid=5220700"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation: shake 1.5s;
+    ;
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media1.tenor.com/images/a571468a40e40d4c6e081b8ccc02e88c/tenor.gif?itemid=5220700");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-    @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-      0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
+
 /* .container:hover{
   
   background-color:magenta;
 } */
 
-#CooperH-name:hover{
-animation-name:expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
-  backroud-size:cover;
+#CooperH-name:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
+    backroud-size: cover;
 }
 
 
 .cameronh {
- background-image: url(https://i.pinimg.com/474x/4a/c8/7c/4ac87c0d293fc749bc81b0c747175aec.jpg); 
-  
+    background-image: url(https://i.pinimg.com/474x/4a/c8/7c/4ac87c0d293fc749bc81b0c747175aec.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -314,21 +381,21 @@ animation-name:expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .cameronl-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:4s;
-  transition:ease-in-out 2s;
-background-image:url("https://i.pinimg.com/474x/0d/6b/13/0d6b13dc7014598561bf5790bd1ffa6b.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(360deg);
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 4s;
+    transition: ease-in-out 2s;
+    background-image: url("https://i.pinimg.com/474x/0d/6b/13/0d6b13dc7014598561bf5790bd1ffa6b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(360deg);
+
 }
 
 
 .anyae {
- background-image: url(https://cdn.britannica.com/88/188088-050-B2B457A0/dolphins-blue-sea-mammal-sky.jpg); 
-  
+    background-image: url(https://cdn.britannica.com/88/188088-050-B2B457A0/dolphins-blue-sea-mammal-sky.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -336,42 +403,43 @@ background-image:url("https://i.pinimg.com/474x/0d/6b/13/0d6b13dc7014598561bf579
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .anyal-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:2s;
-  transition:ease-in;
-background-image:url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDIyNTU1OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYzMDczODQ0Nn0.nXfT94uNilHWYgf8XijGLV8OWndidOyaNIfFMnEcRjo/img.jpg?width=1245&quality=85&coordinates=0%2C0%2C0%2C0&height=700); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 2s;
+    transition: ease-in;
+    background-image: url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDIyNTU1OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYzMDczODQ0Nn0.nXfT94uNilHWYgf8XijGLV8OWndidOyaNIfFMnEcRjo/img.jpg?width=1245&quality=85&coordinates=0%2C0%2C0%2C0&height=700);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.hattiej{
-background-image: url(https://static.wikia.nocookie.net/powerpuff/images/8/8b/Bubbles_15.png/revision/latest?cb=20160523095343);
-  background-color:lightblue;
-  background-position:center;
-  
+.hattiej {
+    background-image: url(https://static.wikia.nocookie.net/powerpuff/images/8/8b/Bubbles_15.png/revision/latest?cb=20160523095343);
+    background-color: lightblue;
+    background-position: center;
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
-.hatties-effect:hover{
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-/*  background-color:lightpink;
-*/background-image:url(https://images.gr-assets.com/hostedimages/1380747939ra/3118887.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+.hatties-effect:hover {
+    transform: rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    /*  background-color:lightpink;
+*/
+    background-image: url(https://images.gr-assets.com/hostedimages/1380747939ra/3118887.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .kareenak {
- background-image: url(https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif); 
-  
+    background-image: url(https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -379,61 +447,61 @@ background-image: url(https://static.wikia.nocookie.net/powerpuff/images/8/8b/Bu
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .kareenab-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media.tenor.com/images/34dfb55f51d006decda504cb49dbcbb1/tenor.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media.tenor.com/images/34dfb55f51d006decda504cb49dbcbb1/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .theoe {
- background-image: url(https://steamregister.com/wp-content/uploads/2015/07/panda-istock-35316428.jpg); 
-  
+    background-image: url(https://steamregister.com/wp-content/uploads/2015/07/panda-istock-35316428.jpg);
+
 }
 
 
 .theoz-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media4.giphy.com/media/7XsgQ0fmpLM8HJjbk2/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media4.giphy.com/media/7XsgQ0fmpLM8HJjbk2/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .talyaj {
- background-image: url("https://media3.giphy.com/media/9Jcw7ESF7uk7cQwUjO/giphy.gif"); 
-  
+    background-image: url("https://media3.giphy.com/media/9Jcw7ESF7uk7cQwUjO/giphy.gif");
+
 }
 
 .talyaj-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:4s;
-  transition:ease-in;
-background-image:url("https://cammimola.files.wordpress.com/2015/06/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 4s;
+    transition: ease-in;
+    background-image: url("https://cammimola.files.wordpress.com/2015/06/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#talyaj-name:hover{
-animation-name:expand; 
-  animation-duration:2s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#talyaj-name:hover {
+    animation-name: expand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 .jordanm {
- background-image: url(http://stmaryfc.org/wp-content/uploads/2018/02/Sports-Balls.jpg); 
-  
+    background-image: url(http://stmaryfc.org/wp-content/uploads/2018/02/Sports-Balls.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -441,72 +509,73 @@ animation-name:expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .jordanM-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media.tenor.com/images/2b92e1490ec44d6fb00b80abe03a819e/tenor.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media.tenor.com/images/2b92e1490ec44d6fb00b80abe03a819e/tenor.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 /* .container:hover{
   
   background-color:magenta;
 } */
 
-#jordanm-name:hover{
-animation-name:expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#jordanm-name:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 
 .live {
- background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/001/091/070/836.jpg); 
-  
+    background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/001/091/070/836.jpg);
+
 }
 
 .livs-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:5s;
-  transition:ease-in;
-background-image:url(https://media1.tenor.com/images/0c7c81d381a038fc3bf1c63634c918b7/tenor.gif?itemid=14192369); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 5s;
+    transition: ease-in;
+    background-image: url(https://media1.tenor.com/images/0c7c81d381a038fc3bf1c63634c918b7/tenor.gif?itemid=14192369);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .daisyQ {
- background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18658/images/hero_small/Medium_WW225660.jpg?1581456583); 
-  
+    background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18658/images/hero_small/Medium_WW225660.jpg?1581456583);
+
 }
 
 
 .daisyR-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetJY5oNmK8gjb6qy2H5geVCw3pewrkZDrBA&usqp=CAU); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetJY5oNmK8gjb6qy2H5geVCw3pewrkZDrBA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#daisyr-name:hover{
-animation-name:expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#daisyr-name:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
 
 .alecf {
- background-image: url(https://media.npr.org/assets/img/2019/01/02/gettyimages-1058306908-0b38ff8a90d7bf88fea3133d8b72498665f63e12.jpg); 
-  
+    background-image: url(https://media.npr.org/assets/img/2019/01/02/gettyimages-1058306908-0b38ff8a90d7bf88fea3133d8b72498665f63e12.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -514,56 +583,57 @@ animation-name:expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .alecm-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://thumbs.gfycat.com/UnfoldedUnsightlyAltiplanochinchillamouse-size_restricted.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://thumbs.gfycat.com/UnfoldedUnsightlyAltiplanochinchillamouse-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .paulinak {
- background-image: url(https://media1.tenor.com/images/7020f59d245c8e34e6842fd0324e719b/tenor.gif?itemid=13420292); 
-  
+    background-image: url(https://media1.tenor.com/images/7020f59d245c8e34e6842fd0324e719b/tenor.gif?itemid=13420292);
+
 }
 
 
 .paulinas-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in-out;1s;
-background-image:url(https://media4.giphy.com/media/35NGT2lm6mfHlNAkMu/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in-out;
+    1s;
+    background-image: url(https://media4.giphy.com/media/35NGT2lm6mfHlNAkMu/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .juliaz {
- background-image: url(https://image.freepik.com/free-vector/winter-neon-lettering-with-hands-mittens-holding-plastic-cups_74855-1444.jpg); 
-  
+    background-image: url(https://image.freepik.com/free-vector/winter-neon-lettering-with-hands-mittens-holding-plastic-cups_74855-1444.jpg);
+
 }
 
 
 .juliah-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://cdn1.vectorstock.com/i/1000x1000/36/55/glowing-neon-summer-sign-with-two-palms-and-text-vector-20473655.jpg); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/36/55/glowing-neon-summer-sign-with-two-palms-and-text-vector-20473655.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .miloM {
- background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24c6eb20-78cf-48a5-a91f-4e2ac6902f81/d3kpg53-01609e47-7259-4ed9-9af8-cfefb4854c53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjRjNmViMjAtNzhjZi00OGE1LWE5MWYtNGUyYWM2OTAyZjgxXC9kM2twZzUzLTAxNjA5ZTQ3LTcyNTktNGVkOS05YWY4LWNmZWZiNDg1NGM1My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.5-ALBKkQvqToNlctnWq2VsaYhpZzS8s3f3CJwIQ2gKk"); 
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24c6eb20-78cf-48a5-a91f-4e2ac6902f81/d3kpg53-01609e47-7259-4ed9-9af8-cfefb4854c53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjRjNmViMjAtNzhjZi00OGE1LWE5MWYtNGUyYWM2OTAyZjgxXC9kM2twZzUzLTAxNjA5ZTQ3LTcyNTktNGVkOS05YWY4LWNmZWZiNDg1NGM1My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.5-ALBKkQvqToNlctnWq2VsaYhpZzS8s3f3CJwIQ2gKk");
 
-  
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -571,19 +641,19 @@ background-image:url(https://cdn1.vectorstock.com/i/1000x1000/36/55/glowing-neon
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .miloP-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://media3.giphy.com/media/rtRflhLVzbNWU/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://media3.giphy.com/media/rtRflhLVzbNWU/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .diana {
- background-image: url("https://ih1.redbubble.net/image.1648906298.2934/fposter,small,wall_texture,product,750x1000.jpg"); 
-  
+    background-image: url("https://ih1.redbubble.net/image.1648906298.2934/fposter,small,wall_texture,product,750x1000.jpg");
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -592,59 +662,59 @@ background-image:url("https://media3.giphy.com/media/rtRflhLVzbNWU/giphy.gif");
 
 .dianac-effect:hover {
 
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://jcandy-weblinc.netdna-ssl.com/product_images/wr452293-starburst-all-pink-fruit-chews/5cdfc0ab61707045890134ca/zoom.jpg?c=1558167724); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    transform: rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://jcandy-weblinc.netdna-ssl.com/product_images/wr452293-starburst-all-pink-fruit-chews/5cdfc0ab61707045890134ca/zoom.jpg?c=1558167724);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .natel {
-  transition:ease-in-out 1s;
- background-image: url("https://i.pinimg.com/originals/98/7b/0b/987b0b6fcc6987ada88a448b2ddbe10a.jpg"); 
-  
+    transition: ease-in-out 1s;
+    background-image: url("https://i.pinimg.com/originals/98/7b/0b/987b0b6fcc6987ada88a448b2ddbe10a.jpg");
+
 }
 
 
 
 .nates-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://wallpaperaccess.com/full/1129467.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(720deg);
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://wallpaperaccess.com/full/1129467.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(720deg);
+
 }
 
 .jasperl {
-  transition: 1s;
- background-image: url(https://www.nicepng.com/png/detail/145-1451818_drawing-adventure-bmo-adventure-time-bmo-drawing.png); 
-  background-position: center;
-  
+    transition: 1s;
+    background-image: url(https://www.nicepng.com/png/detail/145-1451818_drawing-adventure-bmo-adventure-time-bmo-drawing.png);
+    background-position: center;
+
 }
 
 
 .jasperk-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in-out;
-background-image:url("https://media2.giphy.com/media/3c1Ueiz5h1Q8o/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform: rotate(720deg);
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in-out;
+    background-image: url("https://media2.giphy.com/media/3c1Ueiz5h1Q8o/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(720deg);
 }
 
 .sadier {
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBJkTXYB24pAdkQUTFmVK7y6wYqaGtmd6Xg&usqp=CAU); 
-background-position: right;
-  
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBJkTXYB24pAdkQUTFmVK7y6wYqaGtmd6Xg&usqp=CAU);
+    background-position: right;
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -652,77 +722,75 @@ background-position: right;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .sadieb-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://hackster.imgix.net/uploads/attachments/329387/cover_DRu7ncLkP5.gif?auto=compress&gifq=35&w=600&h=450&fit=min"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(360deg)
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://hackster.imgix.net/uploads/attachments/329387/cover_DRu7ncLkP5.gif?auto=compress&gifq=35&w=600&h=450&fit=min");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(360deg)
 }
 
 .sadier {
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBJkTXYB24pAdkQUTFmVK7y6wYqaGtmd6Xg&usqp=CAU); 
-backgroung-position: right;
-  
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBJkTXYB24pAdkQUTFmVK7y6wYqaGtmd6Xg&usqp=CAU);
+    backgroung-position: right;
+
 }
 
 
 
 .sadieb-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://hackster.imgix.net/uploads/attachments/329387/cover_DRu7ncLkP5.gif?auto=compress&gifq=35&w=600&h=450&fit=min"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(360deg)
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://hackster.imgix.net/uploads/attachments/329387/cover_DRu7ncLkP5.gif?auto=compress&gifq=35&w=600&h=450&fit=min");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(360deg)
 }
 
 
 .oliverw {
- background-image: url(https://www.vhv.rs/dpng/d/464-4640029_manchester-united-logo-200x200-png-transparent-png.png); 
-  
+    background-image: url(https://www.vhv.rs/dpng/d/464-4640029_manchester-united-logo-200x200-png-transparent-png.png);
+
 }
 
 
 .olivert-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("http://s3.amazonaws.com/br-cdn/temp_images/2014/06/13/d02534e8220430a49a56471ddac4c2c3.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(720deg);
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("http://s3.amazonaws.com/br-cdn/temp_images/2014/06/13/d02534e8220430a49a56471ddac4c2c3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(720deg);
+
 }
 
 .storiy {
- background-image: url(https://i.pinimg.com/564x/ee/0b/3e/ee0b3e6bf6b8e287f9037ffdced2a044.jpg); 
-  
+    background-image: url(https://i.pinimg.com/564x/ee/0b/3e/ee0b3e6bf6b8e287f9037ffdced2a044.jpg);
+
 }
 
 
 .storis-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media3.giphy.com/media/UUHUfrG6NsXzG/giphy.webp?cid=ecf05e473v47kxmsyd15atj2ok98bi5ususa70gq2brp3xfz&rid=giphy.webp); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media3.giphy.com/media/UUHUfrG6NsXzG/giphy.webp?cid=ecf05e473v47kxmsyd15atj2ok98bi5ususa70gq2brp3xfz&rid=giphy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .lenac {
- background-image: url(https://i.pinimg.com/474x/0d/18/65/0d1865e4a0f0110d418bec096aaceb97.jpg); 
-  
+    background-image: url(https://i.pinimg.com/474x/0d/18/65/0d1865e4a0f0110d418bec096aaceb97.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -730,29 +798,67 @@ background-image:url(https://media3.giphy.com/media/UUHUfrG6NsXzG/giphy.webp?cid
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .lenam-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in-out;
-background-image:url(https://i.pinimg.com/originals/98/96/10/98961053d37cab760e9a37b8355dd3d9.gif);
-  
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in-out;
+    background-image: url(https://i.pinimg.com/originals/98/96/10/98961053d37cab760e9a37b8355dd3d9.gif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.etienB {
+    background-image: url(https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-position: right;
+    animation-name: etien;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes etien {
+
+    0% {
+        border-radius: 0%;
+        background-color: black;
+
+
+    }
+
+    50% {
+        border-radius: 50%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMUZ3cXOVBlwh5UawL2VnqaZ0JNzB_PIpv4w&usqp=CAU);
+
+    }
+
+    100% {
+        border-radius: 0%;
+        background-color: black;
+    }
+}
+
+.etien-effect:hover {
+    transform: rotate(720deg);
+    transition: 1s;
+    background-image: url(https://sports.cbsimg.net/images/visual/whatshot/Clayton-Kershaw-Giants-Dodgers-2012-hammer.gif);
+    background-position: center;
 }
 
 
 .gusH {
- background-image: url(https://www.nps.gov/acad/images/Beaver-sits-in-water.jpg?maxwidth=1200&autorotate=false); 
-background-position:right;
+    background-image: url(https://www.nps.gov/acad/images/Beaver-sits-in-water.jpg?maxwidth=1200&autorotate=false);
+    background-position: right;
 
 }
 
-.gus-effect:hover{
-  transform:rotate(720deg);
-  transition:1s;
- background-image: url(https://sports.cbsimg.net/images/visual/whatshot/Clayton-Kershaw-Giants-Dodgers-2012-hammer.gif); 
-  background-position:center;
+.gus-effect:hover {
+    transform: rotate(720deg);
+    transition: 1s;
+    background-image: url(https://sports.cbsimg.net/images/visual/whatshot/Clayton-Kershaw-Giants-Dodgers-2012-hammer.gif);
+    background-position: center;
 }
 
 
@@ -760,52 +866,53 @@ background-position:right;
 
 
 .jaimiej {
- background-image: url(https://pbs.twimg.com/profile_images/944165979625611264/bhW_ocy5.jpg); 
-  
+    background-image: url(https://pbs.twimg.com/profile_images/944165979625611264/bhW_ocy5.jpg);
+
 }
 
 
 .jaimiel-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://steamuserimages-a.akamaihd.net/ugc/1028454670712574028/62F5CBF8EEF6BD43CC30BE0E35018BE9C90F3381/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1028454670712574028/62F5CBF8EEF6BD43CC30BE0E35018BE9C90F3381/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .emmettz {
- background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Louisville_Cardinals_logo.svg/250px-Louisville_Cardinals_logo.svg.png); 
-  
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Louisville_Cardinals_logo.svg/250px-Louisville_Cardinals_logo.svg.png);
+
 }
 
 .kareenak {
- background-image: url(https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif); 
-  
+    background-image: url(https://i.pinimg.com/originals/3a/76/20/3a762091c6d9fb10d75ed9793d3beb29.gif);
+
 }
 
 
 .kareenab-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media.tenor.com/images/34dfb55f51d006decda504cb49dbcbb1/tenor.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media.tenor.com/images/34dfb55f51d006decda504cb49dbcbb1/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 .emmettr-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://thumbs.gfycat.com/PolishedWideGadwall-max-14mb.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://thumbs.gfycat.com/PolishedWideGadwall-max-14mb.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -813,15 +920,15 @@ background-image:url("https://thumbs.gfycat.com/PolishedWideGadwall-max-14mb.gif
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .gush-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in-out .5s;
-background-image:url(http://assets.sbnation.com/assets/1208411/kershaw.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform:rotate(720deg);
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in-out .5s;
+    background-image: url(http://assets.sbnation.com/assets/1208411/kershaw.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(720deg);
+
 }
 
 
@@ -3068,20 +3175,20 @@ Below is the class name and styling we give to the description div when we click
 }
 
 .SashaRB {
- background-image: url(https://media0.giphy.com/media/5WJ09Mca4SzernO9ZV/giphy.gif); 
-  
+    background-image: url(https://media0.giphy.com/media/5WJ09Mca4SzernO9ZV/giphy.gif);
+
 }
 
 
 .SashaRB-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://images-na.ssl-images-amazon.com/images/I/61Jigwd1kKL._AC_SL1500_.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61Jigwd1kKL._AC_SL1500_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .williams-effect:hover {
@@ -3113,8 +3220,8 @@ background-image:url("https://images-na.ssl-images-amazon.com/images/I/61Jigwd1k
 }
 
 .jasonc {
- background-image: url(https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg); 
-  
+    background-image: url(https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3122,14 +3229,14 @@ background-image:url("https://images-na.ssl-images-amazon.com/images/I/61Jigwd1k
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .jasont-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://www.witf.io/wp-content/uploads/2019/12/cute-thirsty-little-asian-2-years-old-toddler-baby-boy-child-holding-picture-id1062571014-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .haeon {
@@ -3449,9 +3556,9 @@ background-image:url("https://www.witf.io/wp-content/uploads/2019/12/cute-thirst
 }
 
 .willL {
-  transition:1s;
- background-image: url(https://escapetheroom.com/south-park/wp-content/uploads/sites/24/2019/05/cartman.png); 
-  
+    transition: 1s;
+    background-image: url(https://escapetheroom.com/south-park/wp-content/uploads/sites/24/2019/05/cartman.png);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3459,23 +3566,23 @@ background-image:url("https://www.witf.io/wp-content/uploads/2019/12/cute-thirst
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .willL-effect:hover {
-  transform:rotateZ(360deg);
-  transition-duration:2s;
-  transition:ease-in-out;
-background-image:url(https://media1.giphy.com/media/3NtY188QaxDdC/giphy-downsized.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    transform: rotateZ(360deg);
+    transition-duration: 2s;
+    transition: ease-in-out;
+    background-image: url(https://media1.giphy.com/media/3NtY188QaxDdC/giphy-downsized.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .sachi {
- background-image: url(https://media1.giphy.com/media/3oz8xK0liGg1yTgcZq/giphy.gif); 
-  
+    background-image: url(https://media1.giphy.com/media/3oz8xK0liGg1yTgcZq/giphy.gif);
+
 }
 
 .joseI {
- background-image: url(https://www.rollingstone.com/wp-content/uploads/2019/04/GettyImages-1139774455-e1556478739612.jpg?resize=1800,1200&w=1800); 
-  
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2019/04/GettyImages-1139774455-e1556478739612.jpg?resize=1800,1200&w=1800);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3483,31 +3590,32 @@ background-image:url(https://media1.giphy.com/media/3NtY188QaxDdC/giphy-downsize
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .joseT-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 /* .container:hover{
   
   background-color:magenta;
 } */
 
-#joseT-name:hover{
-animation-name:expand; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#joseT-name:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 
 }
 
 .lilaS {
- background-image: url(https://data.whicdn.com/images/346138894/original.jpg?t=1593652053); 
-  
+    background-image: url(https://data.whicdn.com/images/346138894/original.jpg?t=1593652053);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3515,19 +3623,19 @@ animation-name:expand;
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .lilaS-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://www.asiaone.com/sites/default/files/original_images/Aug2015/26082015_amywinehouse_shaw.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}     
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://www.asiaone.com/sites/default/files/original_images/Aug2015/26082015_amywinehouse_shaw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 .rex {
- background-image: url(https://ih1.redbubble.net/image.510458174.9297/flat,750x1000,075,f.jpg); 
-  
+    background-image: url(https://ih1.redbubble.net/image.510458174.9297/flat,750x1000,075,f.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3535,24 +3643,25 @@ background-image:url("https://www.asiaone.com/sites/default/files/original_image
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .rexp-effect:hover {
-  animation-name:ease;
-  transition:1s ease;
-background-image:url(https://media.tenor.com/images/f25fe69ed06a8e66fe8b6aa9562c3d30/tenor.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name: ease;
+    transition: 1s ease;
+    background-image: url(https://media.tenor.com/images/f25fe69ed06a8e66fe8b6aa9562c3d30/tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 /* .container:hover{
   
   background-color:magenta;
 } */
 
-#rexp-name:hover{
-animation-name:rotate; 
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  transition:1s ease-in-out;
-  transform:rotate(-360deg)
+#rexp-name:hover {
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: 1s ease-in-out;
+    transform: rotate(-360deg)
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3560,19 +3669,19 @@ animation-name:rotate;
 1. First change beyoncek to your name and last initial (it should be the sam as your ID without the #)*/
 
 .sachir-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media1.tenor.com/images/467d353f7e2d43563ce13fddbb213709/tenor.gif?itemid=12136175); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media1.tenor.com/images/467d353f7e2d43563ce13fddbb213709/tenor.gif?itemid=12136175);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .adiak {
- background-image: url(https://i.pinimg.com/originals/4d/cd/1d/4dcd1d1a29c27986516cbe3d25279e52.jpg); 
-  
+    background-image: url(https://i.pinimg.com/originals/4d/cd/1d/4dcd1d1a29c27986516cbe3d25279e52.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3580,37 +3689,37 @@ background-image:url(https://media1.tenor.com/images/467d353f7e2d43563ce13fddbb2
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .adiac-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d27697445a4.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url("https://i.pinimg.com/564x/fe/ed/e5/feede562ac981329f6996d27697445a4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-.ellam{
- background-image: url(https://i.ytimg.com/vi/jKMh7Gueh1g/maxresdefault.jpg); 
-  
+.ellam {
+    background-image: url(https://i.ytimg.com/vi/jKMh7Gueh1g/maxresdefault.jpg);
+
 }
 
 .ellad-effect:hover {
-  animation-name:
-  transform:rotateZ(100rad);
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    animation-name:
+        transform:rotateZ(100rad);
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .samk {
- background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2014/10/GettyImages-521375354-a04d423.jpg?quality=45&resize=768,574); 
-  
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2014/10/GettyImages-521375354-a04d423.jpg?quality=45&resize=768,574);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -3618,11 +3727,11 @@ background-image:url(https://media.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif)
 1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .samw-effect:hover {
-  transition-duration:3s;
-  transition:ease-in;
-background-image:url(https://media1.giphy.com/media/1FZqAOn4hzGO4/giphy.gif); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transform: rotate(360deg);
-  
+    transition-duration: 3s;
+    transition: ease-in;
+    background-image: url(https://media1.giphy.com/media/1FZqAOn4hzGO4/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(360deg);
+
 }
