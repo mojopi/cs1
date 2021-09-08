@@ -146,8 +146,17 @@ td{
     height: 1000%;
 }
 
-#projectsSection {
+#projectSection {
+    left: 0%;
     height: 1000%;
+    width: 80%;
+   z-index: 1;
+     padding-left: 10%;
+     padding-right: 10%;
+    position: relative;
+    padding-top: 5%;
+    font-size: 1.5vw;
+
 }
 
 h2 {
