@@ -1,4 +1,18 @@
-/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
+.hannahX {
+ background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.hannahW-effect:hover {
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
 2. the links work on the descriptiona-apparent div*/
 
 body {
@@ -234,7 +248,158 @@ h2 {
     }
 }
 
+.hannahX {
+ background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg); 
+  
+}
 
+
+.hannahW-effect:hover {
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.MarcusD {
+ background-image: url(https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/08/W2A4541-1024x600.jpg); 
+  
+}
+
+.MarcusB-effect:hover {
+background-image:url("https://i.pinimg.com/originals/66/23/e7/6623e73500f43b8d20aaa35a46465641.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.daphnee {
+ background-image: url(https://cdn.shopify.com/s/files/1/0062/4309/0499/products/2039-60-seafoamgreen_2000x.png?v=1587087723); 
+  
+}
+
+.daphnel-effect:hover {
+background-image:url("https://64.media.tumblr.com/d64036a1539c29ab838410780672e2a6/61349deebe46b06a-36/s250x400/da798ab98277733e7e63cf28dbe5e995002ae37e.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transition: 5s;
+  
+}
+
+.ajai {
+ background-image: url(https://i.pinimg.com/originals/e7/d7/19/e7d7190f0b5b3abd4f6c17e2c7989ec3.jpg); 
+  
+}
+
+.ajaiS-effect:hover {
+background-image:url("https://c.tenor.com/fJjW0Q5fDUMAAAAi/football-soccer.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.ellal {
+ background-image: url(https://www.cardinallawns.com/wp-content/uploads/2018/10/Dandelion.jpg); 
+ 
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ellam-effect:hover {
+background-image:url("https://c.tenor.com/Ddhy-BalHD8AAAAM/dandelion.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+  
+
+.lizaE {
+ background-image: url(https://www.tennisworldusa.org/imge/94610/when-roger-federer-said-i-was-young-when-i-faced-agassi-in-basel-.jpg); 
+  
+}
+
+.lizaA-effect:hover {
+background-image:url("https://images.indianexpress.com/2021/06/federer-roland-garros.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.nelsonP {
+ background-image: url(https://i.pinimg.com/originals/68/a6/20/68a6202aaa8588418f73bafd2c3ba1e5.gif); 
+  
+}
+
+.nelsonL-effect:hover {
+background-image:url(https://i.pinimg.com/originals/cb/8c/cb/cb8ccb4cb181cd2ddefa8c6e604938db.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.benjaminm {
+ background-image: url(https://cdn.dribbble.com/users/604891/screenshots/14573805/media/014713cf3698fecd90e07ae4bd43fd6a.png?compress=1&resize=1600x1200); 
+  
+}
+
+.benjaminb-effect:hover {
+background-image:url("https://cdn.dribbble.com/users/604891/screenshots/14573805/shaka_mishax.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+
+.ryanG {
+ background-image: url(https://c.tenor.com/BKikl4_G04kAAAAM/lebron-james-jr-smith.gif); 
+  background-position: center;
+  background-size:cover;
+  
+}
+
+.ryanF-effect:hover{
+  background-image:  url("https://c.tenor.com/4rkexMzfJ_QAAAAC/eyeroll-james-harden.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+.mouhamed {
+ background-image: url("https://i.pinimg.com/736x/1a/b1/26/1ab12673ac4860da783930144d3197a1.jpg"); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.mouhamedT-effect:hover {
+background-image:url("http://southwestreview.com/wp-content/uploads/2021/02/giphy.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:black;
+  
+}
+
+.chimazaH {
+ background-image: url(https://pbs.twimg.com/media/Ez6W705WUAIPN8i?format=jpg&name=large); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.chimazaI-effect:hover {
+background-image:url("https://c.tenor.com/JN-B2I6zW4cAAAAd/one-piece-anime.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 
 
 .cooperE {
