@@ -273,6 +273,26 @@ background-image:url("https://i.pinimg.com/originals/66/23/e7/6623e73500f43b8d20
   
 }
 
+.shreya {
+  background-image:url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.shreyaS-effect:hover {
+background-image:   
+
+  
+url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
+
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .daphnee {
  background-image: url(https://cdn.shopify.com/s/files/1/0062/4309/0499/products/2039-60-seafoamgreen_2000x.png?v=1587087723); 
   
