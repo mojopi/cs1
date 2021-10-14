@@ -319,6 +319,84 @@ background-image:url("https://c.tenor.com/fJjW0Q5fDUMAAAAi/football-soccer.gif")
 }
 
 
+.maxA {
+ background-image:url("./imgs/maxmattola.png"); 
+  
+}
+
+.charlieJ {
+ background-image: url(https://i.insider.com/564cc42e2491f99d008b63b7?width=1136&format=jpeg); 
+  
+}
+
+
+.charlieW-effect:hover {
+background-image:url("https://c.tenor.com/yq9y9Afxm4IAAAAM/calvin-and-hobbes-dance.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.ellieC {
+ background-image: url(./imgs/ellie.png)
+
+}
+
+.ellieH-effect: {
+ background-image: url(./imgs/ellie2.gif);
+ background-repeat:no-repeat;
+  background-size:cover;
+
+}
+
+.shreya {
+  background-image:url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
+}
+
+.shreyaS-effect:hover {
+background-image:  url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alexY {
+ background-image: url(https://laurenslatest.com/wp-content/uploads/2020/08/vanilla-ice-cream-5-copy.jpg); 
+  
+}
+
+
+
+.alexK-effect:hover {
+background-image:url("https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/bryan4qmd4fnyeupsnjw.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.eashaT{
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbONqdyPMCG8Vw8IKTPRWdoUqXBDW7n7S-Q7_mMmggDFaBRlphvsOPYOQwAJ5AeCz3oA0&usqp=CAU); 
+  
+}
+
+
+.eashaF-effect:hover {
+background-image:url("https://i.pinimg.com/originals/0a/40/21/0a4021eed38151a1723dd893ca2bdc8e.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.maxM-effect:hover {
+background-image:url("https://media0.giphy.com/media/WwbmjTK5TS87e/giphy.gif"); 
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
 .ellal {
  background-image: url(https://www.cardinallawns.com/wp-content/uploads/2018/10/Dandelion.jpg); 
  
@@ -446,9 +524,67 @@ background-image:url("https://c.tenor.com/JN-B2I6zW4cAAAAd/one-piece-anime.gif")
 
 }
 
-/*FOR YOU TO DO: add some hover effects!
+.OllieG {
+ background-image: url("https://s.hdnux.com/photos/01/20/73/47/21215743/3/rawImage.jpg"); 
+  
+}
 
-1. First change beyonceK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.OllieF-effect:hover {
+background-image:url("https://c.tenor.com/oydst3POCfkAAAAC/avr-915.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform: rotate(720deg);
+  
+}
+
+
+
+.sophiaS {
+ background-image: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/01142724/Coton-de-Tulear-puppy-outdoors.jpg); 
+  
+}
+
+.sophiaS-effect:hover {
+background-image:url("https://www.mvtimes.com/mvt/uploads/2019/01/coton-de-tulear-chien-blanc-femelle-1496325326lJt.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.theoS {
+ background-image: url(https://i.pinimg.com/originals/8d/62/1f/8d621f66f551b6a39072473d52280ff0.gif); 
+  
+}
+
+.milesN {
+  background-size: contain;
+  background-image: url(https://c.tenor.com/svlEgR8JDGoAAAAC/einstein-math.gif);
+  
+  
+}
+
+.milesG-effect:hover {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://imgix.gizmodo.com.au/content/uploads/sites/2/2014/07/02/g8ali0gh3a9ucf5ruwhb.gif?ar=16%3A9&auto=format&fit=crop&q=65&w=720&nrs=40&fm=gif);
+}
+
+#milesG-name:hover{
+animation-name:expand; 
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  transition:.5s ease-in-out;
+}
+.theoC-effect:hover {
+background-image:url(https://c.tenor.com/Qvn4Wf54X6cAAAAM/tennis-dance.gif); 
+  border-radius: 35px;
+  transform: rotate(180deg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  transition: 2s;
+  
+}
 
 .CooperH-effect:hover {
     animation: shake 1.5s;
@@ -1860,7 +1996,7 @@ Below is the class name and styling we give to the description div when we click
     #faces {
         top: 0%;
         left: 0%;
-        height: 300%;
+        height: 800%;
         width: 96%;
         padding: 2%;
     }
