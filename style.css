@@ -1,6 +1,6 @@
 .hannahX {
- background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg); 
-  
+    background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -8,11 +8,13 @@
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .hannahW-effect:hover {
-background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
 2. the links work on the descriptiona-apparent div*/
 
 body {
@@ -79,7 +81,7 @@ section {
 
 #faces {
     top: 0%;
-    height: 850%;
+    height: 3000%;
     width: 96%;
     padding: 2%;
     left: 0%;
@@ -164,9 +166,9 @@ td{
     left: 0%;
     height: 1000%;
     width: 80%;
-   z-index: 1;
-     padding-left: 10%;
-     padding-right: 10%;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
     position: relative;
     padding-top: 5%;
     font-size: 1.5vw;
@@ -248,33 +250,98 @@ h2 {
     }
 }
 
+.avery {
+    background-image: url("./imgs/avery1.png");
+
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.averyL-effect:hover {
+    background-image: url("avery2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.nickr {
+    background-image: url(https://c.tenor.com/byGoO_I9lPsAAAAC/cyborg-dance.gif;)
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.nickb-effect:hover {
+    background-image: url("https://c.tenor.com/7qsplvQ3ZW4AAAAM/cyborg-teen-titans.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(540deg);
+
+}
+
+.charlieJ {
+    background-image: url(https://i.insider.com/564cc42e2491f99d008b63b7?width=1136&format=jpeg);
+
+}
+
+
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.charlieW-effect:hover {
+    background-image: url("https://c.tenor.com/yq9y9Afxm4IAAAAM/calvin-and-hobbes-dance.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.haydenC {
+    background-image: url(./imgs/hayden1.jpeg);
+
+}
+
+.haydenA-effect:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./imgs/hayden2.jpeg);
+
+}
+
 .hannahX {
- background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg); 
-  
+    background-image: url(https://uploads-ssl.webflow.com/5eb6c518ccd7e71d49519db8/5fbc31356dfee64003b5ae81_anders-jilden-AkUR27wtaxs-unsplash.jpg);
+
 }
 
 
 .hannahW-effect:hover {
-background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .MarcusD {
- background-image: url(https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/08/W2A4541-1024x600.jpg); 
-  
+    background-image: url(https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/08/W2A4541-1024x600.jpg);
+
 }
 
 .MarcusB-effect:hover {
-background-image:url("https://i.pinimg.com/originals/66/23/e7/6623e73500f43b8d20aaa35a46465641.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://i.pinimg.com/originals/66/23/e7/6623e73500f43b8d20aaa35a46465641.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .shreya {
-  background-image:url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
+    background-image: url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -282,113 +349,375 @@ background-image:url("https://i.pinimg.com/originals/66/23/e7/6623e73500f43b8d20
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .shreyaS-effect:hover {
-background-image:   
-
-  
-url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
+    background-image:
 
 
-  
-  background-repeat: no-repeat;
-  background-size: cover;
+        url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .daphnee {
- background-image: url(https://cdn.shopify.com/s/files/1/0062/4309/0499/products/2039-60-seafoamgreen_2000x.png?v=1587087723); 
-  
+    background-image: url(https://cdn.shopify.com/s/files/1/0062/4309/0499/products/2039-60-seafoamgreen_2000x.png?v=1587087723);
+
 }
 
 .daphnel-effect:hover {
-background-image:url("https://64.media.tumblr.com/d64036a1539c29ab838410780672e2a6/61349deebe46b06a-36/s250x400/da798ab98277733e7e63cf28dbe5e995002ae37e.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  transition: 5s;
-  
+    background-image: url("https://64.media.tumblr.com/d64036a1539c29ab838410780672e2a6/61349deebe46b06a-36/s250x400/da798ab98277733e7e63cf28dbe5e995002ae37e.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+
 }
 
 .ajai {
- background-image: url(https://i.pinimg.com/originals/e7/d7/19/e7d7190f0b5b3abd4f6c17e2c7989ec3.jpg); 
-  
+    background-image: url(https://i.pinimg.com/originals/e7/d7/19/e7d7190f0b5b3abd4f6c17e2c7989ec3.jpg);
+
 }
 
 .ajaiS-effect:hover {
-background-image:url("https://c.tenor.com/fJjW0Q5fDUMAAAAi/football-soccer.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://c.tenor.com/fJjW0Q5fDUMAAAAi/football-soccer.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .maxA {
- background-image:url("./imgs/maxmattola.png"); 
-  
+    background-image: url("./imgs/maxMattola1.jpg");
+
 }
 
 .charlieJ {
- background-image: url(https://i.insider.com/564cc42e2491f99d008b63b7?width=1136&format=jpeg); 
+    background-image: url(https://i.insider.com/564cc42e2491f99d008b63b7?width=1136&format=jpeg);
+
+}
+
+
+.alexJ {
+ background-image: url(https://m.media-amazon.com/images/I/715UYmexZdL._AC_SL1500_.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.alexKaren-effect:hover {
+background-image:url("https://discovery.sndimg.com/content/dam/images/discovery/editorial/shows/s/shark-week-/2021/shows/jaws-awakens-phred-vs-slash/37771_049.jpg.rend.hgtvcom.686.686.suffix/1624472016444.jpeg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
   
 }
 
 
 .charlieW-effect:hover {
-background-image:url("https://c.tenor.com/yq9y9Afxm4IAAAAM/calvin-and-hobbes-dance.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://c.tenor.com/yq9y9Afxm4IAAAAM/calvin-and-hobbes-dance.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .ellieC {
- background-image: url(./imgs/ellie.png)
-
+    background-image: url(./imgs/ellie.png)
 }
 
 .ellieH-effect: {
- background-image: url(./imgs/ellie2.gif);
- background-repeat:no-repeat;
-  background-size:cover;
+    background-image: url(./imgs/ellie2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .shreya {
-  background-image:url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
+    background-image: url(https://m.media-amazon.com/images/I/81d7wpJewCL.jpg);
 }
 
 .shreyaS-effect:hover {
-background-image:  url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
+    background-image: url("https://media3.giphy.com/media/ETE7u4tU2x6EBZnbBE/giphy.gif?cid=ecf05e47lpg3as87w79lecn64ml8r2yja6l43sywb798z85n&rid=giphy.gif&ct=g");
 
-  
-  background-repeat: no-repeat;
-  background-size: cover;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .alexY {
- background-image: url(https://laurenslatest.com/wp-content/uploads/2020/08/vanilla-ice-cream-5-copy.jpg); 
-  
+    background-image: url(https://laurenslatest.com/wp-content/uploads/2020/08/vanilla-ice-cream-5-copy.jpg);
+
 }
 
 
 
 .alexK-effect:hover {
-background-image:url("https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/bryan4qmd4fnyeupsnjw.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/bryan4qmd4fnyeupsnjw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.eashaT{
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbONqdyPMCG8Vw8IKTPRWdoUqXBDW7n7S-Q7_mMmggDFaBRlphvsOPYOQwAJ5AeCz3oA0&usqp=CAU); 
-  
+.eashaT {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbONqdyPMCG8Vw8IKTPRWdoUqXBDW7n7S-Q7_mMmggDFaBRlphvsOPYOQwAJ5AeCz3oA0&usqp=CAU);
+
 }
 
 
 .eashaF-effect:hover {
-background-image:url("https://i.pinimg.com/originals/0a/40/21/0a4021eed38151a1723dd893ca2bdc8e.gif"); 
+    background-image: url("https://i.pinimg.com/originals/0a/40/21/0a4021eed38151a1723dd893ca2bdc8e.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.maxM-effect:hover {
+    background-image: url("https://media0.giphy.com/media/WwbmjTK5TS87e/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.ellal {
+    background-image: url(https://www.cardinallawns.com/wp-content/uploads/2018/10/Dandelion.jpg);
+
+}
+
+
+.drewC {
+ background-image: url(https://images.squarespace-cdn.com/content/v1/5c2d2d10b27e398709a72eb2/1589136385966-J3QKIEHAL8918AMAHF4Q/beginner_sourdough_bread_recipe.jpg); 
+  
+}
+
+.drewC-effect:hover {
+background-image:url("https://www.jsausa.com/wp-content/uploads/2019/11/Master-Chef-Kid-Flambe.gif"); 
   background-repeat:no-repeat;
   background-size:cover;
   
 }
 
-.maxM-effect:hover {
+
+.danielE {
+ background-image: url(https://i.pinimg.com/750x/8c/6a/0e/8c6a0e32604108ef8c47a3de81e66430.jpg); 
+  
+}
+
+
+.danielK-effect:hover {
+background-image:url("https://i.pinimg.com/originals/8f/1a/e2/8f1ae22659821f35498eda82677545a8.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.samiu {
+ background-image: url(./imgs/samiu.jpeg)}
+
+ .samiu-effect:hover {
+background-image:url(https://pbs.twimg.com/media/ExibM0SWQAI2Xd_.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.rohanR {
+ background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/190312170857-elephant-2-full-169.jpg); 
+  
+}
+
+.rohanS-effect:hover {
+background-image:url("https://c.tenor.com/80dB8WpCJ4sAAAAC/goal-score.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform: rotate(720deg);
+  
+}
+
+
+.avij {
+ background-image: url(https://images.unsplash.com/photo-1614632537190-23e4146777db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80); 
+  
+}
+
+.montanar {
+ background-image: url(https://i.pinimg.com/originals/1c/1c/0f/1c1c0f8f2770f849a7651d6821226f0d.jpg); 
+   transition:1s ease-in-out;
+  background-size:contain;
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.Montanao-effect:hover {
+background-image:url("https://www.guinnessworldrecords.com/Images/the-simpsons-the-longest-running-animated-sitcom-by-episode-count_tcm25-630576.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform: rotate(360deg);
+  
+  
+}
+
+
+.jhansiD {
+ background-image: url(https://images.squarespace-cdn.com/content/v1/549367d9e4b0b0a3e2543543/1579885243320-XSLCLCDJACKF409DCIRS/NYC+Bagels.jpg?format=1500w); 
+  
+}
+
+
+.jhansiB-effect:hover {
+background-image:url(https://www.distancecme.com/wp-content/uploads/2018/05/Lightening_strike_3.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.avig-effect:hover {
+background-image:url("./imgs/aviGulati.png");
+background-repeat:no-repeat;
+  background-size:cover;
+  }
+
+.DanielA {
+ background-image: url(https://pbs.twimg.com/media/EpKge6VW4AEzhGu.jpg); 
+  
+}
+
+
+.DanielR-effect:hover {
+background-image:url("https://pbs.twimg.com/media/EpKge6VWEAA4_vn.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.ellam-effect:hover {
+    background-image: url("https://c.tenor.com/Ddhy-BalHD8AAAAM/dandelion.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.lizaE {
+    background-image: url(https://www.tennisworldusa.org/imge/94610/when-roger-federer-said-i-was-young-when-i-faced-agassi-in-basel-.jpg);
+
+}
+
+.lizaA-effect:hover {
+    background-image: url("https://images.indianexpress.com/2021/06/federer-roland-garros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nelsonP {
+    background-image: url(https://i.pinimg.com/originals/68/a6/20/68a6202aaa8588418f73bafd2c3ba1e5.gif);
+
+}
+
+.nelsonL-effect:hover {
+    background-image: url(https://i.pinimg.com/originals/cb/8c/cb/cb8ccb4cb181cd2ddefa8c6e604938db.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.benjaminm {
+    background-image: url(https://cdn.dribbble.com/users/604891/screenshots/14573805/media/014713cf3698fecd90e07ae4bd43fd6a.png?compress=1&resize=1600x1200);
+
+}
+
+.benjaminb-effect:hover {
+    background-image: url("./imgs/benB2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.priesterC {
+ background-image: url(./imgs/priester1.jpg)
+}
+
+
+.priesterD-effect:hover {
+background-image: url(./imgs/priester2.jpg);
+background-repeat:no-repeat;
+  background-size:contain;
+
+}
+
+
+.jonathann {
+ background-image: url(http://d21gd0ap5v1ndt.cloudfront.net/web02/unoh/images/mug_shots/2020-21/cristian_godsell_1332_mb2s1.jpg?v6e518c5488a8cb342688479a59312edd90f64a39); 
+  
+}
+
+.jonathanh-effect:hover {
+background-image:url(https://c.tenor.com/I-fbb5QUEe8AAAAM/luka-doncic-dallas-mavericks.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.vihaanv {
+ background-image: url(https://i.pinimg.com/originals/a5/54/07/a55407271c07272083e1d673f8e4cf39.jpg  ); 
+  
+}
+
+
+.OllieG {
+ background-image: url("https://s.hdnux.com/photos/01/20/73/47/21215743/3/rawImage.jpg"); 
+  
+}
+
+
+.OllieF-effect:hover {
+background-image:url("https://c.tenor.com/oydst3POCfkAAAAC/avr-915.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform: rotate(720deg);
+  
+}
+
+.vihaanv {
+ background-image: url(https://i.pinimg.com/originals/a5/54/07/a55407271c07272083e1d673f8e4cf39.jpg  ); 
+  
+}
+
+.vihaank-effect:hover {
+background-image:url("http://www.catersnews.com/wp-content/uploads/2018/05/STORMYNEWYORK.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.MaxR {
+ background-image:url("https://i.pinimg.com/originals/31/3f/74/313f74e79d6ec8728e71b43a3405b195.gif"); 
+  
+}
+
+
+.MaxS-effect:hover {
+background-image:url("https://c.tenor.com/1WWCaxdilKgAAAAM/kyrie-kyrie-wink.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.maxMattola-effect:hover {
 background-image:url("https://media0.giphy.com/media/WwbmjTK5TS87e/giphy.gif"); 
   background-position:center;
   background-repeat:no-repeat;
@@ -397,78 +726,61 @@ background-image:url("https://media0.giphy.com/media/WwbmjTK5TS87e/giphy.gif");
 }
 
 
-.ellal {
- background-image: url(https://www.cardinallawns.com/wp-content/uploads/2018/10/Dandelion.jpg); 
- 
+.maxMattola {
+ background-image: url(./imgs/maxMattola1.png); 
+  
+}
+
+.lucasc {
+ background-image: url("http://24.media.tumblr.com/c61d76a7d12d3558eeaeed17d88e28b1/tumblr_mri1npQHfq1s91wtgo1_500.gif"); 
+  
 }
 
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
-.ellam-effect:hover {
-background-image:url("https://c.tenor.com/Ddhy-BalHD8AAAAM/dandelion.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
-  
-
-.lizaE {
- background-image: url(https://www.tennisworldusa.org/imge/94610/when-roger-federer-said-i-was-young-when-i-faced-agassi-in-basel-.jpg); 
-  
-}
-
-.lizaA-effect:hover {
-background-image:url("https://images.indianexpress.com/2021/06/federer-roland-garros.jpg"); 
+.lucasC-effect:hover {
+background-image:url("./imgs/lucasC.gif"); 
   background-repeat:no-repeat;
   background-size:cover;
   
 }
 
-.nelsonP {
- background-image: url(https://i.pinimg.com/originals/68/a6/20/68a6202aaa8588418f73bafd2c3ba1e5.gif); 
+
+.alexL {
+ background-image: url(https://cdn.britannica.com/q:60/70/191970-050-1EC34EBE/Color-wheel-light-color-spectrum.jpg); 
   
 }
 
-.nelsonL-effect:hover {
-background-image:url(https://i.pinimg.com/originals/cb/8c/cb/cb8ccb4cb181cd2ddefa8c6e604938db.gif); 
+
+.alexW-effect:hover {
+background-image:url("https://cdn.mos.cms.futurecdn.net/avTLCtcQNAwjqqFji9uXAL.gif"); 
   background-repeat:no-repeat;
   background-size:cover;
   
 }
 
-.benjaminm {
- background-image: url(https://cdn.dribbble.com/users/604891/screenshots/14573805/media/014713cf3698fecd90e07ae4bd43fd6a.png?compress=1&resize=1600x1200); 
-  
-}
-
-.benjaminb-effect:hover {
-background-image:url("https://cdn.dribbble.com/users/604891/screenshots/14573805/shaka_mishax.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-}
 
 
 
 .ryanG {
- background-image: url(https://c.tenor.com/BKikl4_G04kAAAAM/lebron-james-jr-smith.gif); 
-  background-position: center;
-  background-size:cover;
-  
+    background-image: url(https://c.tenor.com/BKikl4_G04kAAAAM/lebron-james-jr-smith.gif);
+    background-position: center;
+    background-size: cover;
+
 }
 
-.ryanF-effect:hover{
-  background-image:  url("https://c.tenor.com/4rkexMzfJ_QAAAAC/eyeroll-james-harden.gif");
-  background-repeat: no-repeat;
-  background-size:cover;
+.ryanF-effect:hover {
+    background-image: url("https://c.tenor.com/4rkexMzfJ_QAAAAC/eyeroll-james-harden.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 .mouhamed {
- background-image: url("https://i.pinimg.com/736x/1a/b1/26/1ab12673ac4860da783930144d3197a1.jpg"); 
-  
+    background-image: url("https://i.pinimg.com/736x/1a/b1/26/1ab12673ac4860da783930144d3197a1.jpg");
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -476,16 +788,16 @@ background-image:url("https://cdn.dribbble.com/users/604891/screenshots/14573805
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .mouhamedT-effect:hover {
-background-image:url("http://southwestreview.com/wp-content/uploads/2021/02/giphy.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-color:black;
-  
+    background-image: url("http://southwestreview.com/wp-content/uploads/2021/02/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
 }
 
 .chimazaH {
- background-image: url(https://pbs.twimg.com/media/Ez6W705WUAIPN8i?format=jpg&name=large); 
-  
+    background-image: url(https://pbs.twimg.com/media/Ez6W705WUAIPN8i?format=jpg&name=large);
+
 }
 
 /*FOR YOU TO DO: add some hover effects!
@@ -493,10 +805,10 @@ background-image:url("http://southwestreview.com/wp-content/uploads/2021/02/giph
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .chimazaI-effect:hover {
-background-image:url("https://c.tenor.com/JN-B2I6zW4cAAAAd/one-piece-anime.gif"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://c.tenor.com/JN-B2I6zW4cAAAAd/one-piece-anime.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -525,65 +837,78 @@ background-image:url("https://c.tenor.com/JN-B2I6zW4cAAAAd/one-piece-anime.gif")
 }
 
 .OllieG {
- background-image: url("https://s.hdnux.com/photos/01/20/73/47/21215743/3/rawImage.jpg"); 
-  
+    background-image: url("https://s.hdnux.com/photos/01/20/73/47/21215743/3/rawImage.jpg");
+
 }
 
 
 .OllieF-effect:hover {
-background-image:url("https://c.tenor.com/oydst3POCfkAAAAC/avr-915.gif"); 
+    background-image: url("https://c.tenor.com/oydst3POCfkAAAAC/avr-915.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(720deg);
+
+}
+
+.anysaL {
+ background-image: url("https://cdn.crispedge.com/e5f4d5.webp"); 
+  
+}
+
+.anysaB-effect:hover {
+background-image:url("https://c.tenor.com/0R2rlxWb_R4AAAAd/philandmore-tiktok.gif"); 
   background-repeat:no-repeat;
   background-size:cover;
-  transform: rotate(720deg);
   
 }
 
 
 
 .sophiaS {
- background-image: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/01142724/Coton-de-Tulear-puppy-outdoors.jpg); 
-  
+    background-image: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/01142724/Coton-de-Tulear-puppy-outdoors.jpg);
+
 }
 
 .sophiaS-effect:hover {
-background-image:url("https://www.mvtimes.com/mvt/uploads/2019/01/coton-de-tulear-chien-blanc-femelle-1496325326lJt.jpg"); 
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+    background-image: url("https://www.mvtimes.com/mvt/uploads/2019/01/coton-de-tulear-chien-blanc-femelle-1496325326lJt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .theoS {
- background-image: url(https://i.pinimg.com/originals/8d/62/1f/8d621f66f551b6a39072473d52280ff0.gif); 
-  
+    background-image: url(https://i.pinimg.com/originals/8d/62/1f/8d621f66f551b6a39072473d52280ff0.gif);
+
 }
 
 .milesN {
-  background-size: contain;
-  background-image: url(https://c.tenor.com/svlEgR8JDGoAAAAC/einstein-math.gif);
-  
-  
+    background-size: contain;
+    background-image: url(https://c.tenor.com/svlEgR8JDGoAAAAC/einstein-math.gif);
+
+
 }
 
 .milesG-effect:hover {
-  background-size: cover;
-  background-position: center;
-  background-image: url(https://imgix.gizmodo.com.au/content/uploads/sites/2/2014/07/02/g8ali0gh3a9ucf5ruwhb.gif?ar=16%3A9&auto=format&fit=crop&q=65&w=720&nrs=40&fm=gif);
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://imgix.gizmodo.com.au/content/uploads/sites/2/2014/07/02/g8ali0gh3a9ucf5ruwhb.gif?ar=16%3A9&auto=format&fit=crop&q=65&w=720&nrs=40&fm=gif);
 }
 
-#milesG-name:hover{
-animation-name:expand; 
-  animation-duration:3s;
-  animation-iteration-count:infinite;
-  transition:.5s ease-in-out;
+#milesG-name:hover {
+    animation-name: expand;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: .5s ease-in-out;
 }
+
 .theoC-effect:hover {
-background-image:url(https://c.tenor.com/Qvn4Wf54X6cAAAAM/tennis-dance.gif); 
-  border-radius: 35px;
-  transform: rotate(180deg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  transition: 2s;
-  
+    background-image: url(https://c.tenor.com/Qvn4Wf54X6cAAAAM/tennis-dance.gif);
+    border-radius: 35px;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+
 }
 
 .CooperH-effect:hover {
@@ -1996,7 +2321,7 @@ Below is the class name and styling we give to the description div when we click
     #faces {
         top: 0%;
         left: 0%;
-        height: 800%;
+        height: 2000%;
         width: 96%;
         padding: 2%;
     }
