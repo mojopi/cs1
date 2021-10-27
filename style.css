@@ -3,9 +3,7 @@
 
 }
 
-/*FOR YOU TO DO: add some hover effects!
 
-1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .hannahW-effect:hover {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwS6O7HTmVWdV4JdAW7b7n5i-oZl7poXw-2Q&usqp=CAU);
@@ -14,9 +12,45 @@
 
 }
 
-/*1. Things I need to fix: when you hover after it flips, it doesn't do hover effect
-2. the links work on the descriptiona-apparent div*/
+.jacksonW {
+ background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/n-y-yankees-logo-white-on-blue-allen-beatty.jpg); 
+  
+}
 
+.jacksonH-effect:hover{
+background-image:url("https://c.tenor.com/jQb_V7J0jZEAAAAM/aaron-judge-yankees.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.justinK {
+ background-image: url(https://lawliberty.org/app/uploads/2020/01/Congress-at-night.jpg); 
+  
+}
+
+
+
+
+.justinK-effect:hover {
+background-image:url("https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM1ODY3OTc3/hith-white-house-attacks.jpg"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
+.ary{
+ background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2016/12/dog-fails-86-584e936101776__605.jpg"); 
+  
+}
+
+.aryT-effect:hover {
+background-image:url("https://64.media.tumblr.com/9349974fb9a13871013fa9b9937e78dd/tumblr_odbp5zQl6I1umqln3o1_400.gifv"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 body {
     margin: 0;
 }
@@ -736,12 +770,21 @@ background-image:url("https://media0.giphy.com/media/WwbmjTK5TS87e/giphy.gif");
   
 }
 
-/*FOR YOU TO DO: add some hover effects!
-
-1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
 
 .lucasC-effect:hover {
 background-image:url("./imgs/lucasC.gif"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.CeceA {
+ background-image: url(https://www.nationalgeographicexpeditions.eu/wp-content/uploads/2019/06/Banff-Canadian-Rockies-shutterstock_290034365-750x400.jpg); 
+  
+}
+
+.CeceC-effect:hover {
+background-image:url(https://www.nationalgeographicexpeditions.eu/wp-content/uploads/2019/06/Banff-Canadian-Rockies-shutterstock_290034365-750x400.jpg); 
   background-repeat:no-repeat;
   background-size:cover;
   
