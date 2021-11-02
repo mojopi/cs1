@@ -25,6 +25,23 @@ background-image:url("https://c.tenor.com/jQb_V7J0jZEAAAAM/aaron-judge-yankees.g
 }
 
 
+.sebastianJ {
+ background-image: url("https://assets.manutd.com/AssetPicker/images/0/0/15/38/993023/Edinson_Cavani_UEFA_photoshoot_4_11621862801341_large.jpg"); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.sebastianY-effect:hover {
+background-image:url("https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/blt8a04ac6adb7adc4a/613c6729151543336bcb99e8/8f6f9988449819a5a9001dc1d44254a7256f41a6.jpg?auto=webp&fit=crop&format=jpg&quality=100"); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
 .aravA {
  background-image: url(https://c.tenor.com/Jzyk7LaBJMYAAAAM/foster-home-yoko-and-his-friends.gif); 
   
@@ -1549,6 +1566,15 @@ background-image:url("https://c.tenor.com/0R2rlxWb_R4AAAAd/philandmore-tiktok.gi
         border-radius: 0%;
         background-color: black;
     }
+}
+
+.maxwellS {
+ background-image: url(./imgs/maxwellM.png);}
+
+
+.maxwellM-effect:hover {
+background-image:url(./imgs/maxwellM2.png);
+
 }
 
 .etien-effect:hover {
