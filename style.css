@@ -12,7 +12,7 @@
 
 }
 
-.jacksonW {
+.jacksonW { 
  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/n-y-yankees-logo-white-on-blue-allen-beatty.jpg); 
   
 }
@@ -127,7 +127,7 @@ section {
 
 #expectations {
     top: 350%;
-    height: 250%;
+    height: 350%;
 
 }
 
@@ -197,7 +197,7 @@ td{
     left: 25%;
     position: relative;
     padding-top: 5%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 
 }
 
