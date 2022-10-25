@@ -14,6 +14,23 @@ background-image:url(https://media.giphy.com/media/hryis7A55UXZNCUTNA/giphy.gif)
   
 }
 
+#HoldenM {
+ background-image: url(http://www.reactiongifs.com/r/2012/06/homer_lurking.gif); 
+transform:scale(1.0);
+transition-duration:1.5s;
+}
+
+
+#HoldenM:hover{
+  transition-duration:1.5s;
+  transform:scale(.5);
+  background-image:
+url(https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .haydenJ{
             background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUE62YiMutxP9RGaNnIKsQBPS2hqTJTx9uTw&usqp=CAU);
 
@@ -588,7 +605,7 @@ background-image:url(https://c.tenor.com/xF24EJ3pmX8AAAAd/hololive-egg-dance.gif
 
 
 .nilomia {
- background-image: url(https://cdn2-www.musicfeeds.com.au/assets/uploads/5ef110492736930be544e681f53b9242.gif); 
+ background-image: url(http://31.media.tumblr.com/tumblr_m0h86ssNfr1qmbs7jo1_500.gif); 
   
 }
 
