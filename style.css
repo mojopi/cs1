@@ -1018,6 +1018,22 @@ animation-name:expand;
   transition:.5s ease-in-out;
 }
 
+
+.lucaS {
+ background-image: url(https://imageio.forbes.com/specials-images/imageserve/62af107cfb61140c4b0ae103/starr/960x0.jpg?format=jpg&width=960); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.lucaB-effect:hover {
+background-image:url(https://i.pinimg.com/originals/c8/9e/6e/c89e6ee9daee3b72d690b370e36d58c1.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
