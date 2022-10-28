@@ -1024,6 +1024,22 @@ animation-name:expand;
   
 }
 
+.spencers {
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOB65YPAp6Ji4OgqqNqtR7O1jTy_VqGOmTg&usqp=CAU); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.spencery-effect:hover {
+background-image:url(https://myhusker.com/wp-content/uploads/2021/03/lexi_sun_spike.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 /*FOR YOU TO DO: add some hover effects!
 
 1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
@@ -2989,7 +3005,7 @@ Below is the class name and styling we give to the description div when we click
 }
 
 
-.spencers {
+.spencerH {
     background-image: url("https://cdn.newsday.com/polopoly_fs/1.21112683.1537337322!/httpImage/image.jpg_gen/derivatives/landscape_768/image.jpg");
 }
 
