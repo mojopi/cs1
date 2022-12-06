@@ -57,6 +57,36 @@ url(https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif);
   
 }
 
+
+.kieranL {
+ background-image: url(https://images.squarespace-cdn.com/content/v1/5b32d8c6da02bc297794deca/1590132774931-Q30I9ZQCJN4LYVVXA0RN/penny+hardaway); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.kieranL-effect:hover {
+background-image:url(https://c.tenor.com/xF24EJ3pmX8AAAAd/hololive-egg-dance.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.arabella {
+ background-image: url(https://cdn2.hubspot.net/hubfs/4307338/bigstock-Sailboat-in-the-sea-in-the-eve-206103793.jpg); 
+  
+}
+
+
+.arabellam-effect:hover {
+background-image:url(https://i.etsystatic.com/24165179/r/il/5ad328/2864582046/il_570xN.2864582046_3rqv.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .angelinap {
  background-image: url(https://arteascuola.com/it/wp-content/uploads/2014/01/10nov13_7.jpg); 
   
