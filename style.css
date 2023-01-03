@@ -14,6 +14,19 @@ background-image:url(https://media.giphy.com/media/hryis7A55UXZNCUTNA/giphy.gif)
   
 }
 
+.mack{
+  background-image:url(./imgs/mackenzie1.png); 
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+.mack-effect:hover {
+background-image:url(./imgs/mackenzie2.png); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 #HoldenM {
  background-image: url(http://www.reactiongifs.com/r/2012/06/homer_lurking.gif); 
 transform:scale(1.0);
