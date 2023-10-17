@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		#frog{
+			width:100px;
+			height:100px;
+			background-color:green;
+			position:absolute;
+
+
+			animation-name:jump;
+			animation-iteration-count: infinite;
+			animation-duration:4s;
+
+		}
+
+		@keyframes jump{
+
+			0%{
+				top:0px;
+				left:0px;
+				border:5px dotted purple;
+
+			}
+
+			50%{
+				top:400px;
+				left:400px;
+				transform:rotate(730deg);
+				border:10px solid magenta;
+			}
+
+			100%{
+				top:0px;
+				left:800px;
+				border:5px dotted purple;
+
+			}
+
+		}
+	</style>
+</head>
+<body>
+
+	<div id="frog"></div>
+
+</body>
+</html>
