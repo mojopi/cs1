@@ -14,6 +14,17 @@ background-image:url(https://media.giphy.com/media/hryis7A55UXZNCUTNA/giphy.gif)
   
 }
 
+.juliahale {
+ background-image: url(https://i.pinimg.com/564x/ca/5d/bc/ca5dbc08f46bf7ce04013cd3b726ed51.jpg); 
+  
+}
+
+.juliahale-effect:hover{
+background-image:url(https://i.pinimg.com/originals/f4/bb/d4/f4bbd4c1937454abc28e97a368fd0833.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 
 .cecilial {
  background-image: url(https://i.pinimg.com/564x/91/60/bc/9160bc56ff6d3d76c96281944396b651.jpg); 
