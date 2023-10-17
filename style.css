@@ -19,6 +19,45 @@ background-image:url(https://media.giphy.com/media/hryis7A55UXZNCUTNA/giphy.gif)
   
 }
 
+.tigerp {
+ background-image: url(https://lukeroberts.tv/blog/wp-content/uploads/2019/05/gif1.gif); 
+  
+}
+
+
+.tigerp-effect:hover {
+background-image:url(https://i.kym-cdn.com/photos/images/newsfeed/000/700/878/8e3.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.jakep {
+ background-image: url(https://usila.org/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2023/5/25/mlax_duke_michigan_ledonne_20230519_128.jpg); 
+  
+}
+
+
+.jakek-effect:hover {
+background-image:url(https://i.pinimg.com/originals/f3/45/6d/f3456d17ae3706c25ae881d10f5b6db9.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.LukeM {
+ background-image: url(https://i.pinimg.com/474x/95/03/2a/95032a2fd7cfa3130c1f3b7dca8fb026.jpg); 
+  
+}
+
+
+.LukeM-effect:hover {
+background-image:url(https://i.pinimg.com/564x/a4/70/27/a470279d6ed838886a6314c2ffa90fcb.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .juliahale-effect:hover{
 background-image:url(https://i.pinimg.com/originals/f4/bb/d4/f4bbd4c1937454abc28e97a368fd0833.gif); 
   background-repeat:no-repeat;
