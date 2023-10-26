@@ -14,11 +14,52 @@ background-image:url(https://media.giphy.com/media/hryis7A55UXZNCUTNA/giphy.gif)
   
 }
 
+.amandag {
+ background-image: url(https://i.pinimg.com/564x/89/f9/1d/89f91da2414c67a2c9dbd3ab6cccbea6.jpg); 
+  
+}
+
+
+.amandag-effect:hover {
+background-image:url(https://i.pinimg.com/564x/a9/ae/5c/a9ae5c3a43e367dbf52ada2795ae7288.jpg); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+.JulianM {
+ background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2abaa30-1464-49db-aff5-f8a38372adbf/dfkez5p-acaca1a5-bd62-40a9-a331-a2a427a620b1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyYWJhYTMwLTE0NjQtNDlkYi1hZmY1LWY4YTM4MzcyYWRiZlwvZGZrZXo1cC1hY2FjYTFhNS1iZDYyLTQwYTktYTMzMS1hMmE0MjdhNjIwYjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1dV8yWao7wde9xOV4WXXj71eQ8q9Y8W5VWmjFumLZuY); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.JulianM-effect:hover {
+background-image:url(https://64.media.tumblr.com/158784f7e50986f550cf5e024f238655/tumblr_mweaahLWLF1qcmnsoo2_r1_400.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .ChristianB{
  background-image: url(https://singersroom.com/wp-content/uploads/2023/04/Michael-Jackson-Songs.jpg); 
   
 }
 
+.caroliney {
+ background-image: url(https://images.squarespace-cdn.com/content/v1/51be3e56e4b09edc5f81e74c/1551795556726-AYCIRFK3Z8SAZQ11RRF5/SciFi_LoaderBlue.gif); 
+  
+}
+
+
+.carolinel-effect:hover {
+background-image:url(https://c.tenor.com/xF24EJ3pmX8AAAAd/hololive-egg-dance.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 
 .ChristianA-effect:hover {
 background-image:url(https://api.time.com/wp-content/uploads/2014/03/unnamed1.jpg?quality=85&w=600); 
