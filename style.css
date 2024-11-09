@@ -324,6 +324,23 @@ background-image:url(https://i.makeagif.com/media/9-03-2019/q9ob_9.gif);
   background-size:cover;
   
 }
+
+
+.mahids {
+ background-image: url(https://pub-1de51ae1e68144d78f7c582e1dda3ab1.r2.dev/Profile_-_Patrick_Star.webp); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.mahids-effect:hover {
+background-image:url(https://i.pinimg.com/originals/20/58/21/2058212e2a36aa766efc3562862c5698.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 .ninag-effect:hover {
 background-image:url(https://i.redd.it/gplnbxbmt0qd1.jpeg); 
   background-repeat:no-repeat;
