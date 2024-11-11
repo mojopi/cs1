@@ -357,6 +357,24 @@ background-image:url(https://pbs.twimg.com/media/FhAikmQXEAE2-Oy?format=jpg&name
   background-size:cover;
   
 }
+
+.nater {
+ background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/74/Mangos_-_single_and_halved.jpg); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.nates-effect:hover {
+background-image:url(https://i.pinimg.com/originals/0e/f9/1c/0ef91c9116da12b3228b5c97768be380.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
 .ninag-effect:hover {
 background-image:url(https://i.redd.it/gplnbxbmt0qd1.jpeg); 
   background-repeat:no-repeat;
