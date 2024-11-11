@@ -341,6 +341,22 @@ background-image:url(https://i.pinimg.com/originals/20/58/21/2058212e2a36aa766ef
   background-size:cover;
   
 }
+
+.MaxD {
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfb9l16lIGs7GTCZUG4gdBzwbqI34tclf-Rg&s); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.MaxD-effect:hover {
+background-image:url(https://pbs.twimg.com/media/FhAikmQXEAE2-Oy?format=jpg&name=4096x4096); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 .ninag-effect:hover {
 background-image:url(https://i.redd.it/gplnbxbmt0qd1.jpeg); 
   background-repeat:no-repeat;
