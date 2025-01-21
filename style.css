@@ -13,6 +13,23 @@ background-image:url(https://attic.sh/udtqyhw74s1x2iqata1v04jt9wz4);
 }
 
 
+.hunterj {
+ background-image:url(https://www.speakingspanglish.com/wp-content/uploads/2020/05/spongebob_reading.gif); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.hunterm-effect:hover {
+background-image:url(https://media0.giphy.com/media/Y8AeLA5ZRSREY/giphy.gif?cid=6c09b952j9ivh2lh8o4slllmmniso05odzx5q5qjljlpo8ll&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+
 .alecw {
  background-image: url(https://media.giphy.com/media/fnGW68IaBf6MsWepNS/giphy.gif); 
   
