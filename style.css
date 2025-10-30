@@ -12,6 +12,17 @@ background-image:url(https://attic.sh/udtqyhw74s1x2iqata1v04jt9wz4);
   
 }
 
+.lilym {
+ background-image: url(./imgs/lilyFlower.png);
+
+}
+
+.lilyd-effect:hover {
+background-image:url(https://media2.giphy.com/media/xckpvtJhGi3TpQKRrW/200w.gif?cid=6c09b952c4fcsajbx93jnp4lm3q4w9svo6zlclyyta868mcz&ep=v1_gifs_search&rid=200w.gif&ct=g); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 
 .hunterj {
  background-image:url(https://www.speakingspanglish.com/wp-content/uploads/2020/05/spongebob_reading.gif); 
