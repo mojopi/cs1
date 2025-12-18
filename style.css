@@ -682,6 +682,22 @@ background-image:url(https://media1.giphy.com/media/ehEeaIWs7AoE6cWNlh/giphy.gif
  background-image: url(https://art.pixilart.com/thumb/sr2bfbc72dbdfaws3.png); 
 }
 
+.gias {
+ background-image: url(https://glittergirlc.com/wp-content/uploads/2011/11/glitter-hearts.gif); 
+  
+}
+
+/*FOR YOU TO DO: add some hover effects!
+
+1. First change mollyK to your name and last initial (it should be the sam as your ID without the #)*/
+
+.gias-effect:hover {
+background-image:url(https://lh5.googleusercontent.com/proxy/xIlyEE8BpkLP6lmBiJK-JIRNxx64Wpp9irUWERu9xZK6UB4F7QNkgYw2Ak7MjyMSIjRfllhFzEQLOFDbm_HyFgczmlXrY34bqbIo1l4); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .tenzinl-effect:hover {
 background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c697eb31-50ec-4af7-9fad-d44401a23b31/d7tkgit-84de8bed-767e-486f-af94-8eb545d275b3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M2OTdlYjMxLTUwZWMtNGFmNy05ZmFkLWQ0NDQwMWEyM2IzMVwvZDd0a2dpdC04NGRlOGJlZC03NjdlLTQ4NmYtYWY5NC04ZWI1NDVkMjc1YjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EjFyKmN6keT7qm4al_lCHtTmu2jrlGXXhBGMEOfsOm4); 
   background-repeat:no-repeat;
