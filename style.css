@@ -320,13 +320,13 @@ background-image:url(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUycDFuNzV5b
 
 
 .alexh {
- background-image: url(https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyenh6cmhpOHdvcHhkdndoajA4d3U1dDZvZzJ3aHF6ZTZrMWV0YTFwayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/B1CrvUCoMxhy8/giphy.gif); 
+ background-image: url(./imgs/car1.jpeg); 
   
 }
 
 
 .alexl-effect:hover {
-background-image:url(https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyaHdzbzhiYmthcGJqbXh2eWg2YTIwMmVpaDV2d2FsbWRsajJybjVhNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/nqYXNf3aK6EvK/source.gif); 
+background-image:url(cars2.jpeg); 
   background-repeat:no-repeat;
   background-size:cover;
   
