@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		.littles{
+			width: 85px;
+			height: 67px;
+			border: 1px solid black;
+			display: inline-block;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+	<script type="text/javascript">
+
+
+
+		function makeConfetti (){
+
+			let confetti = document.createElement("div")
+			confetti.classList.add("littles")
+			document.body.appendChild(confetti)
+
+
+			let r= Math.round(Math.random()*255)
+			let g= Math.round(Math.random()*255)
+			let b= Math.round(Math.random()*255)
+
+			confetti.style.backgroundColor ="rgb("+ r + "," + g +","+ b+")"
+
+		}
+
+
+setInterval(makeConfetti, 1000)
+
+
+
+
+		
+		// make a div
+
+		// Styling the div
+		// make that div a random color
+		// make it have a random location (left and top)
+		// add random rotation
+
+		// within the make confetti function make another function that moves it down (make it rain)
+
+		// run this function 5000 times
+
+
+</script>
+
+
+
+</body>
+</html>
