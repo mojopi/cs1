@@ -12,6 +12,19 @@ background-image:url(https://i0.wp.com/teamjimmyjoe.com/wp-content/uploads/2019/
   
 }
 
+.mariogk {
+ background-image: url(https://raw.githubusercontent.com/gist/dumbmoron/ea9b6264e6b6183fd590e322d1afab51/raw/bc064a9116403eab89e5b8200b1aa0890419ec0e/cat.gif); 
+  
+}
+
+
+.mariogk-effect:hover {
+background-image:url(https://media1.tenor.com/m/RZzU2_IbHDEAAAAd/cat-side-eye.gif); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
 .kobig {
  background-image: url(https://media.tenor.com/dd2Yi9VVjIoAAAAM/gdfactory-gdfactory-gif.gif); 
   
